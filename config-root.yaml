@@ -10,6 +10,7 @@ dotfiles:
   d_etc_zsh:
     src: etc/zsh
     dst: /etc/zsh
+    chmod: '755'
 profiles:
   meta_base:
     dotfiles:

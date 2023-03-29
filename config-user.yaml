@@ -10,9 +10,11 @@ dotfiles:
   d_config_zsh:
     src: config/zsh
     dst: ~/.config/zsh
+    chmod: '755'
   d_local_state_zsh:
     src: local/state/zsh
     dst: ~/.local/state/zsh
+    chmod: '755'
 profiles:
   meta_base:
     dotfiles:

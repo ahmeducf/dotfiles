@@ -79,7 +79,7 @@ plugins=(
 	history
 	zsh-autosuggestions
 	zsh-syntax-highlighting
-	# z
+	z
 	sudo
 	vscode
 	node

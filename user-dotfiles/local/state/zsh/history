@@ -4100,3 +4100,22 @@ npx husky add .husky/pre-commit "npx lint-staged"
 : 1680090280:0;git commit -m "Init dotfiles"
 : 1680090290:0;sudo dotdrop import -c config-root.yaml -p meta_base /etc/zsh
 : 1680090356:0;dotdrop import -c config-user.yaml -p meta_base $XDG_CONFIG_HOME/zsh $XDG_STATE_HOME/zsh
+: 1680090487:0;git add .
+: 1680090492:0;git commit
+: 1680090560:0;git remote add origin git@github.com:ahmeducf/dotfiles.git
+: 1680090562:0;git push -u origin main
+: 1680113550:0;code $XDG_CONFIG_HOME/zsh/.zshrc
+: 1680113622:0;z /media/data/lectures/lvl_4/term_2/embedded2/lec
+: 1680113626:0;ls 
+: 1680113635:0;mpv Lec\ 3\ \[bs2AUFnpQnc\].mp4
+: 1680113667:0;dotdrop --help
+: 1680114407:0;mv .dotfiles /media/data/
+: 1680114412:0;sudo mv .dotfiles /media/data/
+: 1680114481:0;rm -rf /media/data/.dotfiles
+: 1680114486:0;rm -rf .dotfiles
+: 1680114493:0;sudo rm -rf .dotfiles
+: 1680114538:0;z data
+: 1680114546:0;git clone git@github.com:ahmeducf/dotfiles .dotfiles
+: 1680114557:0;code .dotfiles
+: 1680114585:0;dotdrop update config-user.yaml
+: 1680114627:0;dotdrop update -c config-user.yaml
