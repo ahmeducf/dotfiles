@@ -1,0 +1,4102 @@
+: 1664931668:0;sudo pacman -S the_silver_searcher
+: 1664931704:0;nvim .zshrc
+: 1664932093:0;cd .scripts
+: 1664932102:0;cd ..
+: 1664932116:0;nvim .zshrc
+: 1664932141:0;cd /
+: 1664932148:0;cd ~
+: 1664932159:0;git
+: 1664932165:0;git status
+: 1664932194:0;mkdir test
+: 1664932196:0;cd test
+: 1664932198:0;git init
+: 1664932215:0;ls
+: 1664932218:0;cd 
+: 1664932230:0;ag
+: 1664932274:0;nvim .zshrc
+: 1664932304:0;theme
+: 1664932329:0;cd test
+: 1664932333:0;theme
+: 1664932630:0;lstheme
+: 1664932641:0;lstheme | grep ru
+: 1664932676:0;theme robbyrussell
+: 1664932680:0;cd test
+: 1664932788:0;cd ../Downloads
+: 1664932793:0;# clone\
+git clone https://github.com/powerline/fonts.git --depth=1\
+# install\
+cd fonts\
+./install.sh\
+# clean-up a bit\
+cd ..\
+rm -rf fonts
+: 1664932988:0;yay -S nerd-fonts-complete
+: 1664933064:0;theme agnoster
+: 1664933069:0;ls
+: 1664933072:0;cd test
+: 1664933360:0;cd ..
+: 1664933581:0;lstheme
+: 1664933591:0;lstheme | grep russ
+: 1664933599:0;theme
+: 1664933629:0;nvim .zshrc
+: 1664933645:0;theme
+: 1664933647:0;them
+: 1664933649:0;theme
+: 1664933653:0;cd test
+: 1664933763:0;sudo pacman -S nerd-fonts-git
+: 1664933769:0;yay -S nerd-fonts-git
+: 1664934139:0;yay -Rs nerd-fonts-git
+: 1664934169:0;nvim .config/kitty/kitty.conf 
+: 1664934286:0;cd
+: 1664934294:0;yay -S nerd-fonts-git
+: 1664934389:0;yay -Rs nerd-fonts-complete
+: 1664934499:0;cd ..
+: 1664934500:0;ls
+: 1664934506:0;cd .cache
+: 1664934507:0;ls
+: 1664934509:0;cd yay
+: 1664934510:0;ls
+: 1664934535:0;cd nerd-fonts-complete
+: 1664934537:0;ls
+: 1664934546:0;cd ..
+: 1664934547:0;ls
+: 1664934564:0;rm -r nerd-fonts-complete
+: 1664934590:0;sudo rm -r nerd-fonts-complete
+: 1664934592:0;ls
+: 1664934749:0;cd test
+: 1664935083:0;cd ..
+: 1664935134:0;nvim .# Delete the completion cache\
+rm "$ZSH_COMPDUMP"\
+# Restart the zsh session\
+exec zsh
+: 1664935156:0;ls /
+: 1664935167:0;nvim .zshrc
+: 1664935197:0;ls /
+: 1664935204:0;# Delete the completion cache\
+rm "$ZSH_COMPDUMP"\
+# Restart the zsh session\
+exec zsh
+: 1664935232:0;rm $ZSH_COMPDUMP
+: 1664935235:0;exec zsh
+: 1664935246:0;ls 
+: 1664935296:0;compinit
+: 1664935300:0;ls /
+: 1664935402:0;theme
+: 1664935408:0;cd test
+: 1664935431:0;nvim ~/.config/kitty
+: 1664935439:0;nvim ~/.config/kitty/kitty.conf
+: 1664935480:0;theme
+: 1664935486:0;them
+: 1664935488:0;theme
+: 1664935494:0;cd test
+: 1664935502:0;ls
+: 1664935506:0;cd ..
+: 1664935507:0;ls
+: 1664935687:0;pacin gnome-calculator
+: 1664935840:0;omz --help
+: 1664935867:0;update
+: 1664935873:0;omz update
+: 1664935916:0;zsh_stats
+: 1664936075:0;omz plugin list
+: 1664936089:0;omz
+: 1664936118:0;nvim .zshrc
+: 1664936157:0;h
+: 1664936175:0;nvim .config/kitty/kitty.conf
+: 1664936234:0;theme
+: 1664936653:0;sudo rm -r .cache/yay/nerd-fonts-git
+: 1664936675:0;yay -S zsh-autosuggestions
+: 1664936785:0;yay -S antigen
+: 1664936817:0;nvim .zshrc
+: 1664936866:0;yay -S antigen
+: 1664936886:0;antigen
+: 1664936902:0;sudo pacman -S antigen
+: 1664936933:0;nvim .zshrc
+: 1664936969:0;git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+: 1664937000:0;nvim .zsh
+: 1664937006:0;nvim .zshrc
+: 1664937135:0;theme
+: 1664937141:0;cd test
+: 1664937145:0;ls
+: 1664937147:0;cd ..
+: 1664937149:0;ls
+: 1664937153:0;theme
+: 1664937158:0;cd test
+: 1664937214:0;nvim /etc/i3blocks.conf
+: 1664937404:0;nvim .zshrc
+: 1664937410:0;cd ..
+: 1664937424:0;nvim .zshrc
+: 1664938062:0;bindkey -l
+: 1664938368:0;ls -al
+: 1664938376:0;ls -al | grep zsh
+: 1664938471:0;mkdir .config/zsh
+: 1664938487:0;nvim bindkey.zsh
+: 1664938496:0;nvim .zshrc
+: 1664938678:0;bindkey
+: 1664938700:0;bindkey | grep autosuggest-execute
+: 1664938715:0;bindkey
+: 1664938787:0;man bindkey
+: 1664939053:0;cd /media/data/cs/codescallers/ahmed-salah-ucf-fuse
+: 1664939061:0;ls
+: 1664939069:0;ls -al
+: 1664939076:0;git
+: 1664939095:0;ls
+: 1664939097:0;cd ..
+: 1664939098:0;ls
+: 1664939106:0;cd salah-url-shortner
+: 1664939107:0;ls
+: 1664939139:0;git switch development
+: 1664939148:0;ls
+: 1664939162:0;ls -al
+: 1664939169:0;cd ..
+: 1664939170:0;ls
+: 1664939176:0;cd ahmed-salah-ucf-inigo
+: 1664939177:0;ls
+: 1664939179:0;ls -al
+: 1664939188:0;git switch development
+: 1664939201:0;git config --global --add safe.directory /media/data/cs/codescallers/ahmed-salah-ucf-inigo
+: 1664939206:0;ls
+: 1664939218:0;git switch main
+: 1664939221:0;ls
+: 1664939236:0;git switch development
+: 1664939237:0;ls
+: 1664939432:0;git clone https://github.com/powerline/fonts.git --depth=1
+: 1664939538:0;cd fonts/
+: 1664939545:0;./install.sh
+: 1664939555:0;cd ..
+: 1664939567:0;rm -rf fonts
+: 1664939589:0;cd
+: 1664939740:0;nvim .config/kitty/kitty.conf
+: 1664939770:0;cd test
+: 1664939774:0;nvim .config/kitty/kitty.conf
+: 1664939783:0;nvim ~/.config/kitty/kitty.conf
+: 1664939805:0;cd te
+: 1664939808:0;cd test
+: 1664939822:0;nvim ~/.config/kitty/kitty.conf
+: 1664940045:0;ls /usr/share/fonts/liberation
+: 1664940055:0;ls /usr/share/fonts/util
+: 1664940074:0;git clone https://github.com/powerline/fonts.git --depth=1
+: 1664940081:0;cd fonts
+: 1664940085:0;./install.sh
+: 1664940102:0;ls /home/salah/.local/share/fonts/
+: 1664940164:0;cd test
+: 1664940174:0;nvim ~/.config/kitty/kitty.conf
+: 1664940300:0;cp UbuntuMono/Ubuntu\ Mono\ derivative\ Powerline.ttf ~/.fonts/
+: 1664940314:0;cd test
+: 1664940330:0;ls
+: 1664940343:0;cd /home/salah/.local/share/fonts/
+: 1664940345:0;ls
+: 1664940389:0;cd test
+: 1664940393:0;nvim ~/.config/kitty/kitty.conf
+: 1664940529:0;nvim ~/.oh-my-zsh/themes/emoji.zsh-theme
+: 1664940554:0;nvim .zshrc
+: 1664940561:0;nvim ~/.zshrc
+: 1664940610:0;source ~/.zshrc
+: 1664940643:0;theme
+: 1664940657:0;nvim ~/.zshrc
+: 1664940697:0;ls ~/.oh-my-zsh/themes
+: 1664940879:0;random
+: 1664940883:0;theme
+: 1664940890:0;cd test
+: 1664940904:0;touch file
+: 1664940912:0;theme agnoster
+: 1664940938:0;nvim .config/kitty/kitty.conf
+: 1664940951:0;nvim ~/.config/kitty/kitty.conf
+: 1664940974:0;cd test
+: 1664940985:0;nvim ~/.config/kitty/kitty.conf
+: 1664941044:0;cd test
+: 1664941053:0;theme robbyrussell
+: 1664941069:0;nvim ~/.config/kitty/kitty.conf
+: 1664941104:0;cd test
+: 1664941109:0;theme robbyrussell
+: 1664941138:0;rm ~/.oh-my-zsh/themes/emoji.zsh-theme
+: 1664941146:0;cd
+: 1664941157:0;ls 
+: 1664941180:0;ls .local/share/fonts/ | grep cascadia
+: 1664941188:0;ls .local/share/fonts
+: 1664941219:0;nvim ~/.config/kitty/kitty.conf
+: 1664941266:0;nvim .zshrc
+: 1664941343:0;cd test
+: 1664941349:0;git status
+: 1664941353:0;git add file
+: 1664941355:0;ls
+: 1664941366:0;git commit -m "added fiel"
+: 1664941415:0;git config --global user.email "ahmedsalah.yousuf@gmail.com"
+: 1664941439:0;git config --global user.name "Ahmed Salah"
+: 1664941442:0;git commit -m "added fiel"
+: 1664941453:0;touch another
+: 1664941462:0;nvim ~/.config/kitty/kitty.conf
+: 1664941491:0;ls
+: 1664941494:0;cd test
+: 1664941500:0;nvim ~/.config/kitty/kitty.conf
+: 1664941550:0;cd test
+: 1664941559:0;theme agnoster
+: 1664941573:0;ls
+: 1664941580:0;git status
+: 1664941943:0;git commit -m "added fiel"
+: 1664941960:0;git add .
+: 1664941978:0;git status
+: 1664941986:0;git commit -m "added fiel"
+: 1664941996:0;touch f
+: 1664942022:0;echo "slalah" > f
+: 1664942027:0;git status
+: 1664942035:0;git add .
+: 1664942044:0;git commit
+: 1664942070:0;theme robbyrussell
+: 1664942128:0;nvim ~/.zshrc
+: 1664942236:0;theme agnoster
+: 1664942396:0;theme robbyrussell
+: 1664942401:0;nvim ~/.zshrc
+: 1664942467:0;theme agnoster
+: 1664942471:0;nvim ~/.zshrc
+: 1664942497:0;theme agnoster
+: 1664942593:0;echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"
+: 1664942648:0;su
+: 1664942661:0;sudo pacman -S antigen
+: 1664942682:0;sudo -s
+: 1664942792:0;cd Downloads
+: 1664942793:0;ls
+: 1664942798:0;unzip menlo-cufonfonts.zip
+: 1664942811:0;cp Menlo-Regular.ttf ~/.fonts
+: 1664942831:0;nvim ~/.config/kitty/kitty.conf
+: 1664942854:0;cd test
+: 1664942860:0;theme agnoster
+: 1664942870:0;su
+: 1664942887:0;root
+: 1664942890:0;sudo
+: 1664942915:0;cd test
+: 1664942918:0;theme agnoster
+: 1664942924:0;echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"
+: 1664943163:0;nvim ~/.zshrc
+: 1664943198:0;theme agnoster
+: 1664943202:0;nvim ~/.zshrc
+: 1664943240:0;theme agnoster
+: 1664943252:0;cd test
+: 1664943256:0;ls
+: 1664943258:0;git com
+: 1664943271:0;ls
+: 1664943280:0;nvim ~/.zshrc
+: 1664943308:0;theme agnoster
+: 1664943311:0;nvim ~/.zshrc
+: 1664943357:0;theme agnoster
+: 1664943478:0;nvim ~/.oh-my-zsh/themes/passion.zsh-theme
+: 1664943515:0;nvim ~/.zshrc
+: 1664943605:0;nvim ~/.config/kitty/kitty.conf
+: 1664943632:0;theme passion
+: 1664943647:0;nvim ~/.config/kitty/kitty.conf
+: 1664943665:0;theme passion
+: 1664943687:0;nvim ~/.config/kitty/kitty.conf
+: 1664943702:0;theme passion
+: 1664944064:0;cd Downloads
+: 1664944067:0;$ wget https://raw.githubusercontent.com/moarram/headline/main/headline.zsh-theme
+: 1664944071:0;wget https://raw.githubusercontent.com/moarram/headline/main/headline.zsh-theme
+: 1664944083:0;pacin wget
+: 1664944092:0;wget https://raw.githubusercontent.com/moarram/headline/main/headline.zsh-theme
+: 1664944132:0;ls
+: 1664944169:0;mv headline.zsh-theme ~/.oh-my-zsh/themes/headline.zsh-theme
+: 1664944194:0;ls ~/.oh-my-zsh/themes/headline.zsh-theme
+: 1664944231:0;pacin bc
+: 1664944237:0;ls ~/.oh-my-zsh/themes/headline.zsh-theme
+: 1664944264:0;theme headline
+: 1664944270:0;cd ..
+: 1664944275:0;cd test
+: 1664944288:0;git status
+: 1664944306:0;git commit -m "added fiel"
+: 1664944344:0;touch ff
+: 1664944356:0;cdd
+: 1664944363:0;git commm
+: 1664945134:0;nvim .zshrc
+: 1664945165:0;z sal
+: 1664945192:0;z
+: 1664945198:0;z -h
+: 1664945208:0;cd /etc/
+: 1664945213:0;z etc
+: 1664945217:0;cd
+: 1664945223:0;z etc
+: 1664945233:0;z home
+: 1664945244:0;cd /home/salah/Desktop
+: 1664945247:0;z home
+: 1664945250:0;cd
+: 1664945256:0;z Desktop
+: 1664945279:0;theme agnoster
+: 1664945294:0;cd ..
+: 1664945297:0;cd test
+: 1664945313:0;rm .
+: 1664945318:0;rm *
+: 1664945452:0;nvim ~/.zshrc
+: 1664945644:0;echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"
+: 1664945738:0;theme agnoster
+: 1664945742:0;ls -al
+: 1664945782:0;cd test
+: 1664945786:0;ls -al
+: 1664945828:0;cd /media/data/cs
+: 1664945835:0;cd codescallers
+: 1664945844:0;cd salah-url-shortner
+: 1664945847:0;ls
+: 1664945885:0;git switch development
+: 1664945897:0;ls -al
+: 1664945920:0;cd salah-url-shortner
+: 1664945921:0;ls
+: 1664945926:0;ls -al
+: 1664945934:0;cd ..
+: 1664945935:0;ls
+: 1664945937:0;cd url_shortner
+: 1664945939:0;ls
+: 1664945951:0;cd ..
+: 1664945955:0;ls
+: 1664946020:0;mv salah-url-shortner tmp
+: 1664946036:0;git clone https://github.com/codescalersinternships/salah-url-shortner.git
+: 1664946041:0;ls
+: 1664946043:0;cd salah-url-shortner
+: 1664946044:0;ls
+: 1664946048:0;git switch development
+: 1664946059:0;git config --global --add safe.directory /media/data/cs/codescallers/salah-url-shortner
+: 1664946069:0;ls
+: 1664946074:0;git switch development
+: 1664946077:0;ls
+: 1664946086:0;theme robbyrussell
+: 1664946107:0;ls
+: 1664946112:0;touch file
+: 1664946147:0;git add file
+: 1664946150:0;git status
+: 1664946167:0;git restore --staged file
+: 1664946171:0;rm file
+: 1664946310:0;pacin terminator 
+: 1664946385:0;theme agnoster
+: 1664946390:0;cd test
+: 1664946410:0;ls
+: 1664946413:0;git status
+: 1664946420:0;sudo -s
+: 1664946530:0;theme agnoster
+: 1664946532:0;echo "${(F)AGNOSTER_PROMPT_SEGMENTS[@]}" | cat -n
+: 1664946715:0;nvim .oh-my-zsh/themes/agnoster.zsh-theme
+: 1664946747:0;nvim .oh-my-zsh/themes/test.zsh-theme
+: 1664946769:0;theme test
+: 1664946777:0;theme robbyrussell
+: 1664946805:0;theme agnoster
+: 1664946813:0;theme robbyrussell
+: 1664946818:0;theme test
+: 1664946820:0;cd test
+: 1664946824:0;ls
+: 1664946836:0;echo "${(F)AGNOSTER_PROMPT_SEGMENTS[@]}" | cat -n
+: 1664946843:0;cvadf
+: 1664946845:0;sudo -s
+: 1664946973:0;echo "${(F)AGNOSTER_PROMPT_SEGMENTS[@]}" | cat -n
+: 1664946987:0;ls -al
+: 1664946996:0;echo
+: 1664947002:0;su
+: 1664947029:0;theme test
+: 1664947034:0;ls
+: 1664947037:0;ls -al
+: 1664947045:0;echo "${(F)AGNOSTER_PROMPT_SEGMENTS[@]}" | cat -n
+: 1664947072:0;touch ffffff
+: 1664947084:0;cd test
+: 1664947089:0;theme test
+: 1664947094:0;touch gd
+: 1664947099:0;ls -al 
+: 1664947101:0;dfsadf
+: 1664947235:0;theme test
+: 1664947237:0;cd test
+: 1664947261:0;pacrem -h
+: 1664947282:0;sudo pacman -Rs terminator
+: 1664947305:0;rm .oh-my-zsh/themes/test.zsh-theme
+: 1664947310:0;sudo rm .oh-my-zsh/themes/test.zsh-theme
+: 1664947332:0;sudo rm ~/.oh-my-zsh/themes/test.zsh-theme
+: 1664947343:0;theme agnoster
+: 1664947348:0;cd
+: 1664947352:0;ls
+: 1664947359:0;rm -rf test
+: 1664947373:0;cd Downloads/
+: 1664947375:0;ls
+: 1664947392:0;unzip Fira_Code_v6.2.zip
+: 1664947404:0;mv Fira_code ~
+: 1664947415:0;mv Fira_Code_v6.2.zip ~
+: 1664947417:0;ls
+: 1664947441:0;rm *
+: 1664947446:0;rm -r *
+: 1664947449:0;ls
+: 1664947464:0;mv ~/Fira_Code_v6.2.zip ~/Downloads
+: 1664947466:0;ls
+: 1664947468:0;unzip Fira_Code_v6.2.zip
+: 1664947471:0;ls
+: 1664947486:0;cd ttf
+: 1664947487:0;ls
+: 1664947508:0;cp * ~/.fonts
+: 1664947516:0;cd ..
+: 1664947517:0;ls
+: 1664947534:0;rm * && rm -rf *
+: 1664947538:0;ls
+: 1664947543:0;rm -r *
+: 1664947546:0;ls
+: 1664947547:0;cd
+: 1664947549:0;ls
+: 1664947572:0;ls fonts
+: 1664947591:0;rm -rf fonts
+: 1664947593:0;ls
+: 1664947664:0;nvim ~/.zshrc
+: 1664947870:0;shutdown
+: 1664986121:0;pacman -S noto-fonts-emoji --needed
+: 1664986128:0;sudo pacman -S noto-fonts-emoji --needed
+: 1664986194:0;fc-cache -v -f
+: 1664986874:0;mkdir test
+: 1664986878:0;cd test
+: 1664986880:0;git init
+: 1664986888:0;touch file
+: 1664986922:0;theme passion
+: 1664986948:0;nvim ~/.config/kitty/kitty.conf
+: 1664987022:0;theme agnoster
+: 1664987030:0;ls
+: 1664987077:0;theme agnoster
+: 1664987079:0;ls
+: 1664987082:0;cd test
+: 1664987084:0;ls
+: 1664987090:0;git status
+: 1664987095:0;git add .
+: 1664987101:0;theme passion
+: 1664987107:0;ls
+: 1664987124:0;nvim ~/.oh-my-zsh/themes/passion.zsh-theme
+: 1664987427:0;theme agnoster
+: 1664987435:0;ls
+: 1664987463:0;rm -r .config/zsh
+: 1664987490:0;nvim .config/gtk-3.0/settings.ini
+: 1664987673:0;ls .config
+: 1664987677:0;ls .config -al
+: 1664987694:0;ls -al
+: 1664987707:0;nvim .gtkrc-2.0 
+: 1664987746:0;nvim .gtkrc-2.0
+: 1664987945:0;cd test
+: 1664988217:0;���������������������������
+: 1664988260:0;theme cloud
+: 1664988310:0;ls
+: 1664988315:0;touch f
+: 1664988330:0;nvim .zshrc
+: 1664988339:0;nvim ~/.zshrc
+: 1664988357:0;theme
+: 1664988396:0;ls
+: 1664988398:0;cd test
+: 1664988405:0;git add .
+: 1664988412:0;git commit -m "added fiel"
+: 1664988418:0;theme
+: 1664992292:0;nvim /etc/fonts/fonts.conf
+: 1664992668:0;cd ~/Downloads
+: 1664992669:0;ls
+: 1664992724:0;mv *.otf ~/.local/share/fonts/
+: 1664992725:0;ls
+: 1664992730:0;fc-cache -v -f
+: 1664992807:0;fc-cache -v -f | awk $(print $1)
+: 1664992822:0;fc-cache -v -f | awk '{print $1}'
+: 1664992853:0;fc-cache -v -f | awk '{print $1}' | grep c
+: 1664992901:0;yay -S fontmatrix
+: 1664993161:0;nvim ~/.config/kitty/kitty.conf
+: 1664993233:0;theme agnoster
+: 1664993240:0;ls
+: 1664993252:0;nvim ~/.config/kitty/kitty.conf
+: 1664993285:0;theme
+: 1664993889:0;theme agnoster
+: 1664993897:0;nvim ~/.config/i3/config
+: 1664993904:0;nvim ~/.config/kitty/kitty.conf
+: 1664994025:0;z cs
+: 1664994028:0;..
+: 1664994029:0;ls
+: 1664994033:0;ls -al
+: 1664994047:0;cd
+: 1664994078:0;nvim /etc/i3blocks.conf
+: 1664994190:0;sudo nvim /etc/i3blocks.conf
+: 1664994772:0;nvim .scripts/get_mic_level.sh
+: 1664994791:0;nvim .scripts/get_volume_level.sh
+: 1664995597:0;� 
+: 1664996095:0;nvim .config/i3/config
+: 1664996767:0;nvim /etc/i3blocks.conf
+: 1664996791:0;sudo nvim /etc/i3blocks.conf
+: 1664996887:0;nvim /etc/i3blocks.conf
+: 1664996903:0;nvim .config/i3/config
+: 1664997238:0;:studio_microphone:
+: 1664997299:0;nvim .scripts/get_mic_level.sh
+: 1664997541:0;nvim .scripts/get_keyboard_layout.sh
+: 1664998334:0;������
+: 1664998450:0;sudo pacman -S code
+: 1664998780:0;yay -S visual-studio-code-bin
+: 1665000263:0;sudo pacman -S gnome-keyring libsecret libgnome-keyring
+: 1665000545:0;theme agnoster
+: 1665000829:0;cd test
+: 1665000838:0;lss
+: 1665000859:0;theme robbyrussell
+: 1665001102:0;theme agnoster
+: 1665001164:0;ls
+: 1665001171:0;sudo
+: 1665001174:0;su
+: 1665001543:0;lsss
+: 1665001573:0;nvim .zshrc
+: 1665001583:0;nvim ~/.zshrc
+: 1665001844:0;lsss
+: 1665001934:0;ls
+: 1665001942:0;lsss
+: 1665001944:0;ls
+: 1665002197:0;xprop
+: 1665002214:0;xprop WM_CLASS
+: 1665002234:0;nvim ~/.config/i3/config
+: 1665002345:0;ls
+: 1665002351:0;theme agnoster
+: 1665002354:0;cd test
+: 1665002359:0;sl
+: 1665002360:0;ls
+: 1665002368:0;touch fi
+: 1665002373:0;git add .
+: 1665002388:0;theme
+: 1665002398:0;theme passion
+: 1665002404:0;ls
+: 1665002412:0;exit
+: 1665002418:0;ls
+: 1665012523:0;nvim ~/.config/picom/picom.conf
+: 1665012619:0;xprop WM_CLASS
+: 1665012873:0;nvim ~/.config/picom/picom.conf
+: 1665013228:0;nvim ~/.config/i3
+: 1665013233:0;nvim ~/.config/i3/config
+: 1665014290:0;nmcli device wifi list
+: 1665014508:0;nmcli device wifi connect ME password Aa18121999 hidden yes 
+: 1665014566:0;sudo nmcli device wifi connect ME password Aa18121999 hidden yes 
+: 1665014948:0;sudo pacman -S network-manager-applet
+: 1665015015:0;NetworkManager
+: 1665015065:0;nm-applet
+: 1665015890:0;yay -S notification-daemon
+: 1665015900:0;sudo pacman -S dunst
+: 1665015934:0;notify-send "Ahmed Salah" "test"
+: 1665016083:0;cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc
+: 1665016098:0;mkdir .config/dunsnt
+: 1665016100:0;cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc
+: 1665016114:0;sudo cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc
+: 1665016168:0;rm -r .config/dunsnt
+: 1665016178:0;mkdir .config/dunst
+: 1665016185:0;sudo cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc
+: 1665016192:0;nvim .config/dunst/dunstrc
+: 1665016423:0;killall dunst; notify-send "salah"
+: 1665016964:0;ranger
+: 1665017368:0;xdg-open
+: 1665017404:0;xdg-open ~/Pictures/wallpapers/arch_black.png
+: 1665017425:0;touch ~/index.html
+: 1665017431:0;xdg-open ~/index.html
+: 1665017848:0;killall dunst; notify-send "salah"
+: 1665017870:0;killall dunst; notify-send "salah" -u normal
+: 1665017874:0;killall dunst; notify-send "salah" -u critical
+: 1665018190:0;man pamixer
+: 1665018194:0;tlder pamixer
+: 1665018197:0;tldr pamixer
+: 1665018905:0;notify-send "Ahmed Salah" "test"
+: 1665018923:0;sudo pacman -S notification-daemon
+: 1665018928:0;notify-send "Ahmed Salah" "test"
+: 1665019062:0;sudo  nvim /usr/share/dbus-1/services/org.freedesktop.Notifications.service
+: 1665019085:0;notify-send "Ahmed Salah" "test"
+: 1665019121:0;/usr/lib/notification-daemon-1.0/notification-daemon 
+: 1665019127:0;notify-send "Ahmed Salah" "test"
+: 1665019155:0;dunstctl
+: 1665019160:0;dunstctl -h
+: 1665019170:0;dunst -h
+: 1665019208:0;/usr/lib/notification-daemon-1.0/notification-daemon
+: 1665019212:0;notify-send "Ahmed Salah" "test"
+: 1665019244:0;cp ~/.config/dunst/dunstrc ~/dunstrc
+: 1665019254:0;sudo pacman -Rs dunst
+: 1665019265:0;notify-send "Ahmed Salah" "test"
+: 1665019285:0;dunstify "salah"
+: 1665019290:0;dunst
+: 1665019294:0;notify-send "Ahmed Salah" "test"
+: 1665020698:0;yay -S deadd-notification-center
+: 1665020831:0;notify-send "Ahmed Salah" "test"
+: 1665020852:0;yay -Syu
+: 1665021391:0;yay -S deadd-notification-center-bin
+: 1665021446:0;deadd-notification-center
+: 1665021455:0;notify-send "Ahmed Salah" "test"
+: 1665021600:0;kill -s USR1 $(pidof deadd-notification-center)
+: 1665021620:0;notify-send "Ahmed Salah" "test"
+: 1665023606:0;kill -s USR1 $(pidof deadd-notification-center)
+: 1665023655:0;sudo nvim .config/i3/config
+: 1665023751:0;kill -s USR1 $(pidof deadd-notification-center)
+: 1665023780:0;nvim .config/dunst/dunstrc
+: 1665023800:0;kill -s USR1 $(pidof deadd-notification-center)
+: 1665023804:0;sudo nvim .config/i3/config
+: 1665023834:0;kill -s USR1 $(pidof deadd-notification-center)
+: 1665023924:0;sudo nvim .config/i3/config
+: 1665024389:0;nvim .config/picom/picom.conf
+: 1665024435:0;xprop WM_CLASS
+: 1665024538:0;kill -s USR1 $(pidof deadd-notification-center)
+: 1665024606:0;where dead
+: 1665024609:0;which dead
+: 1665024749:0;yay -Rs deadd-notification-center-bin
+: 1665024754:0;notify-send "Ahmed Salah" "test"
+: 1665024837:0;pacman -Qdtq
+: 1665024856:0;sudo pacman -R $(pacman -Qdtq)
+: 1665025319:0;ls -al .config
+: 1665025399:0;notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information
+: 1665025660:0;services
+: 1665025710:0;rm /usr/share/dbus-1/services/org.freedesktop.Notifications.service
+: 1665025721:0;sudo rm /usr/share/dbus-1/services/org.freedesktop.Notifications.service
+: 1665026132:0;shutdown -r
+: 1665026141:0;shutdown -h
+: 1665026157:0;shutdown -c
+: 1665026169:0;shutdown -help
+: 1665026184:0;shutdown --help
+: 1665026215:0;shutdown -r
+: 1665026954:0;nvim /etc/i3blocks.conf
+: 1665027098:0;sudo nvim /etc/i3blocks.conf
+: 1665027182:0;su
+: 1665027241:0;nvim /etc/NetworkManager/conf.d
+: 1665027255:0;nvim /etc/NetworkManager/NetworkManager.conf
+: 1665027268:0;man 5 NetworkManager.conf
+: 1665027831:0;yay -S mictraydeadd-notification-center-bin
+: 1665027841:0;yay -S mictray
+: 1665028151:0;mictray
+: 1665028254:0;mictray -h
+: 1665028270:0;mictray --help-all
+: 1665028326:0;yay -Rs mictray
+: 1665028354:0;sudo pacman -R $(pacman -Qdtq)
+: 1665028512:0;sudo rm -r .cache/yay/mictray .cache/yay/usbmount .cache/yay/deadd-notification-center .cache/yay/deadd-notification-center-bin
+: 1665028532:0;ls
+: 1665028547:0;rm dunstrc index.html
+: 1665028551:0;rm -rf zaher1307-urlshortner
+: 1665028584:0;ls
+: 1665028668:0;nvim .config/nautilus/search-metadata
+: 1665028685:0;xprop WM_CLASS
+: 1665028704:0;nvim .config/nautilus/search-metadata 
+: 1665029120:0;gcc --version
+: 1665029277:0;g++ --version
+: 1665029425:0;gdb --version
+: 1665029522:0;sudo pacman -S --needed base-devel mingw-w64-x86_64-toolchain
+: 1665029570:0;sudo pacman -S debugedit
+: 1665029577:0;sudo pacman -S --needed base-devel mingw-w64-x86_64-toolchain
+: 1665029723:0;sudo pacman -Syu
+: 1665029792:0;sudo apt-get install build-essential gdb
+: 1665029824:0;sudo pacman -S build-essential gdb
+: 1665029876:0;sudo pacman -S gcc gdb
+: 1665029886:0;sudo pacman -S gcc
+: 1665029905:0;sudo pacman -S gdb
+: 1665029927:0;gdb --version
+: 1665032724:0;sudo nvim /etc/i3blocks.conf
+: 1665032776:0;sudo nvim ~/.scripts/get_keyboard_layout.sh
+: 1665032855:0;sudo nvim /etc/i3blocks.conf
+: 1665043342:0;cd Downloads/
+: 1665043343:0;ls
+: 1665043653:0;mv *.otf *.tff ~/.local/share/fonts/
+: 1665043666:0;mv *.otf *.ttf ~/.local/share/fonts/
+: 1665043670:0;ls
+: 1665044532:0;ls ~/.local/share/fonts | grep code
+: 1665044540:0;ls ~/.local/share/fonts
+: 1665044546:0;ls ~/.local/share/fonts | grep Code
+: 1665100257:0;sudo nvim /etc/i3blocks.conf
+: 1665100291:0;sudo nvim .zshrc
+: 1665100335:0;sudo rm .oh-my-zsh/themes/passion.zsh-theme
+: 1665100338:0;theme
+: 1665100345:0;cd test
+: 1665100356:0;git status
+: 1665100374:0;git add .
+: 1665100381:0;git status
+: 1665100390:0;theme
+: 1665100419:0;sudo nvim ~/.config/kitty/kitty.conf
+: 1665100455:0;theme
+: 1665100469:0;cd ..
+: 1665100487:0;cd test
+: 1665100494:0;git branch development
+: 1665100501:0;git switch development
+: 1665100509:0;theme
+: 1665100537:0;git switch master
+: 1665100554:0;touch newfile
+: 1665100559:0;theme
+: 1665100599:0;touch newfile
+: 1665100608:0;theme
+: 1665100625:0;touch newfile
+: 1665100627:0;theme
+: 1665100663:0;omz
+: 1665100697:0;theme
+: 1665100821:0;theme agnoster
+: 1665100825:0;cd test
+: 1665100827:0;cd ..
+: 1665102553:0;lss
+: 1665102555:0;ls
+: 1665102895:0;sudo pacman -S virt-manager
+: 1665103050:0;pacman -S qemu
+: 1665103060:0;qemu
+: 1665103272:0;yay -S qemu
+: 1665103285:0;sudo pacman -S qemu
+: 1665103523:0;sudo systemctl status libvirtd
+: 1665103556:0;sudo systemctl enable libvirtd
+: 1665103560:0;sudo systemctl status libvirtd
+: 1665103824:0;sudo pacman -S dnsmasq dmidecode
+: 1665103847:0;man dnsmasq
+: 1665103923:0;man dmidecode
+: 1665104000:0;sudo systemctl status libvirtd
+: 1665104007:0;shutdown -r
+: 1665104193:0;sudo systemctl status libvirtd
+: 1665104411:0;journalctl -u libvirtd.service
+: 1665104570:0;sudo virsh net-start default
+: 1665104616:0;journalctl -u libvirtd.service
+: 1665104675:0;man journalctl
+: 1665104704:0;man jouranl
+: 1665104743:0;sudo nvim ~/.config/picom/picom.conf
+: 1665104798:0;xprop WM_CLASS
+: 1665104809:0;sudo nvim ~/.config/picom/picom.conf
+: 1665104937:0;uname -a
+: 1665105055:0;sudo pacman -S linux-headers-5.19.13-arch1-1
+: 1665105061:0;yay -S linux-headers-5.19.13-arch1-1
+: 1665105068:0;sudo pacman -S linux-headers
+: 1665105345:0;sudo usermod -a -G libvirt salah
+: 1665132254:0;ls
+: 1665132259:0;cd
+: 1665132261:0;.
+: 1665132264:0;..
+: 1665132267:0;ls
+: 1665132278:0;/home/salah/
+: 1665132290:0;google-chrome-stable www.google.com
+: 1665132656:0;sudo pacman -S lightdm-webkit2-greeter 
+: 1665132864:0;sudo pacman -Rs lightdm-webkit2-greeter 
+: 1665133117:0;sudo nvim /etc/lightdm/lightdm.conf
+: 1665133141:0;sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1665133210:0;sudo nvim .config/i3/config
+: 1665133382:0;dm-tool switch-to-greeter
+: 1665133653:0;cp /home/$USER/Pictures/wallpapers/jpg/mountains.jpg /etc/lightdm/
+: 1665133657:0;sudo cp /home/$USER/Pictures/wallpapers/jpg/mountains.jpg /etc/lightdm/
+: 1665133696:0;dm-tool switch-to-greeter
+: 1665134640:0;sudo pacman -S lightdm-webkit2-greeter 
+: 1665134769:0;sudo systemctl enable lightdm
+: 1665134794:0;sudo systemctl enable lightdd-webkit2
+: 1665134802:0;dm-tool switch-to-greeter
+: 1665134857:0;sudo nvim /etc/lightdm/lightdm-webkit2-greeter.conf
+: 1665134944:0;lightdm-webkit2-greeter
+: 1665135204:0;sudo pacman -Rs lightdm-webkit2-greeter 
+: 1665135347:0;sudo pacman -S lightdm-gtk-greeter-settings
+: 1665135356:0;lightdm-gtk-greeter-settings
+: 1665135369:0;sudo lightdm-gtk-greeter-settings
+: 1665135498:0;cp ~/.local/share/fonts/Caskaydia\ Cove\ Nerd\ Font\ Complete\ * ~/.fonts/
+: 1665135506:0;sudo lightdm-gtk-greeter-settings
+: 1665135907:0;dm-tool switch-to-greeter
+: 1665135935:0;sudo lightdm-gtk-greeter-settings
+: 1665135956:0;dm-tool switch-to-greeter
+: 1665136064:0;/bin/i3blocks 
+: 1665136083:0;dm-tool switch-to-greeter
+: 1665136261:0;sudo pacman -S lightdm-webkit-theme-litarvan
+: 1665136331:0;sudo pacman -S lightdm-slick-greeter
+: 1665136336:0;dm-tool switch-to-greeter
+: 1665136347:0;sudo lightdm-gtk-greeter-settings
+: 1665136561:0;lightdm
+: 1665136565:0;sudo lightdm
+: 1665136573:0;sudo lightdm-gtk-greeter
+: 1665136582:0;lightdm-gtk-greeter
+: 1665136593:0;dm-tool switch-to-greeter
+: 1665136629:0;sudo pacman -Rs lightdm-slick-greeter
+: 1665136689:0;dm-tool switch-to-greeter
+: 1665136654:135;sudo lightdm-gtk-greeter-settings
+: 1665138963:0;sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1665138994:0;sudo nvim .config/i3/config
+: 1665139034:0;dm-tool switch-to-greeter
+: 1665139081:0;dm-tool -h
+: 1665140200:0;sudo pacman -Rs lightdm
+: 1665140269:0;sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1665140399:0;sudo systemctl disable gdm
+: 1665140403:0;sudo systemctl disable ssdm
+: 1665140548:0;ls /usr/share/xsessions/*.desktop
+: 1665140608:0;sudo pacman -S lightdm-slick-greeter
+: 1665140693:0;sudo systemctl restart lightdm.service
+: 1665140753:0;sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1665140773:0;sudo pacman -Rs lightdm-slick-greeter
+: 1665140794:0;sudo pacman -S lightdm-webkit-theme-litarvan
+: 1665140832:0;sudo pacman -S lightdm-webkit2-greeter
+: 1665140852:0;sudo systemctl restart lightdm.service
+: 1665140875:0;sudo nvim /etc/lightdm/lightdm-webkit2-greeter.conf
+: 1665140908:0;sudo systemctl restart lightdm.service
+: 1665140926:0;sudo pacman -Rs lightdm-gtk-greeter-settings
+: 1665140932:0;sudo nvim /etc/lightdm/lightdm-webkit2-greeter.conf
+: 1665140943:0;sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1665140954:0;dm-tool switch-to-greeter
+: 1665141109:0;sudo systemctl enable lightdm-webkit2
+: 1665141111:0;sudo systemctl enable lightdm
+: 1665141115:0;dm-tool switch-to-greeter
+: 1665141146:0;sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1665141249:0;sudo nvim /etc/lightdm/lightdm.conf
+: 1665141493:0;dm-tool switch-to-greeter
+: 1665141507:0;sudo pacman -S lightdm-gtk-greeter-settings
+: 1665141518:0;lightdm-gtk-greeter-settings
+: 1665141535:0;sudo lightdm-gtk-greeter-settings
+: 1665141615:0;dm-tool switch-to-greeter
+: 1665141646:0;sudo systemctl restart lightdm.service
+: 1665143093:0;~ls
+: 1665143107:0;nvim
+: 1665143116:0;:wq
+: 1665143130:0;i3
+: 1665143204:0;nvim /etc/lightdm/lightdm.conf
+: 1665143299:0;sudo nvim /etc/lightdm/lightdm.conf
+: 1665143318:0;shutdown -r
+: 1665143553:0;A
+: 1665143560:0;sudo nvim /etc/lightdm/lightdm.conf
+: 1665143581:0;shutdown -r
+: 1665144152:0;ls
+: 1665144157:0;sudo nvim /etc/lightdm/lightdm.conf
+: 1665144201:0;sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1665144533:0;sudo nvim /etc/lightdm/lightdm.conf
+: 1665144578:0;sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1665144954:0;sudo systemctl disable lightdm.service
+: 1665145019:0;sudo systemctl status lightdm.service
+: 1665145160:0;ls
+: 1665145192:0;sudo pacman -Rs lightdm 
+: 1665145245:0;sudo pacman -Rs lightdm-gtk-greeter-settings lightdm-gtk-greeter lightdm-webkit2-greeter lightdm-webkit-theme-litarvan
+: 1665145269:0;sudo pacman -Rs lightdm 
+: 1665145280:0;yay -S lightdm
+: 1665145288:0;sudo systemctl status lightdm.service
+: 1665145304:0;sudo systemctl enable lightdm.service
+: 1665145307:0;sudo systemctl status lightdm.service
+: 1665145323:0;sudo systemctl restart lightdm.service
+: 1665145466:0;sudo systemctl status lightdm.service
+: 1665145507:0;sudo systemctl enable lightdm.service
+: 1665145509:0;sudo systemctl status lightdm.service
+: 1665145539:0;i3
+: 1665145545:0;sudo i3
+: 1665145553:0;/bin/i3
+: 1665145711:0;lightdm --test-mode --debug
+: 1665145743:0;sudo pacman -S lightdm-gtk-greeter
+: 1665145754:0;yay -S lightdm-gtk-greeter
+: 1665145769:0;sudo systemctl enable lightdm.service
+: 1665145776:0;sudo systemctl status lightdm.service
+: 1665145784:0;lightdm --test-mode --debug
+: 1665145841:0;systemctl reboot
+: 1665146319:0;yay -S lightdm-webkit2-greeter
+: 1665146376:0;yay -Syu
+: 1665146789:0;yay -S lightdm-webkit2-greeter
+: 1665146805:0;lightdm-webkit2-greeter
+: 1665147016:0;sudo journalctl /usr/bin/lightdm
+: 1665147111:0;downgrade webkit2gtk
+: 1665147133:0;sudo pacman -S downgrade
+: 1665147153:0;yay -S downgrade
+: 1665147169:0;downgrade webkit2gtk
+: 1665147172:0;sudo downgrade webkit2gtk
+: 1665147309:0;lightdm-webkit2-greeter
+: 1665147563:0;sudo pacman -S lightdm-slick-greeter
+: 1665147582:0;sudo pacman -Rs lightdm-webkit2-greeter
+: 1665147607:0;sudo nvim /etc/lightdm/lightdm.conf
+: 1665147776:0;dm-tool switch-to-greeter
+: 1665147828:0;sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1665147969:0;rip
+: 1665148021:0;tolightdm
+: 1665148174:0;sudo nvim /etc/lightdm/slick-greeter.conf
+: 1665148506:0;dm-tool switch-to-greeter
+: 1665148596:0;rm /etc/lightdm/*.pacsave
+: 1665148605:0;sudo rm /etc/lightdm/*.pacsave
+: 1665148619:0;sudo nvim /etc/lightdm/lightdm
+: 1665148626:0;sudo nvim /etc/lightdm/lightdm.conf
+: 1665148749:0;sudo nvim /etc/lightdm/slick-greeter.conf
+: 1665148770:0;sudo systemctl restart lightdm.service
+: 1665148819:0;dm-tool switch-to-greeter
+: 1665148910:0;sudo nvim /etc/lightdm/lightdm.conf
+: 1665148925:0;sudo nvim /etc/lightdm/slick-greeter.conf
+: 1665148959:0;sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf
+: 1665148989:0;sudo nvim /etc/lightdm/slick-greeter.conf
+: 1665149107:0;sudo systemctl restart lightdm.service
+: 1665149135:0;sudo nvim /etc/lightdm/slick-greeter.conf
+: 1665149150:0;dm-tool switch-to-greeter
+: 1665149205:0;sudo pacman -S lightdm-gtk-greeter-settings 
+: 1665149241:0;lightdm-gtk-greeter-settings
+: 1665149253:0;sudo lightdm-gtk-greeter-settings
+: 1665149333:0;dm-tool switch-to-greeter
+: 1665149388:0;ranger
+: 1665149456:0;yay -S lightdm-settings\
+
+: 1665149475:0;lightdm-settings
+: 1665149481:0;sudo lightdm-settings
+: 1665149557:0;nvim /etc/i3blocks.conf
+: 1665149766:0;dm-tool switch-to-greeter
+: 1665149791:0;sudo lightdm-settings
+: 1665149805:0;dm-tool switch-to-greeter
+: 1665149891:0;sudo nvim /etc/lightdm/slick-greeter.conf
+: 1665149938:0;dm-tool switch-to-greeter
+: 1665149959:0;lightdm-settings
+: 1665149962:0;sudo lightdm-settings
+: 1665150008:0;sudo systemctl restart lightdm.service
+: 1665150036:0;sudo lightdm-settings
+: 1665150054:0;dm-tool switch-to-greeter
+: 1665150079:0;lightdm-gtk-greeter-settings
+: 1665150214:0;sudo nvim /etc/lightdm/slick-greeter.conf
+: 1665150249:0;dm-tool switch-to-greeter
+: 1665150302:0;sudo systemctl restart lightdm.service
+: 1665154345:0;lsblk
+: 1665154371:0;pumount
+: 1665154411:0;tldr pumount
+: 1665154421:0;tldr pmount
+: 1665154439:0;pmount
+: 1665154647:0;eject
+: 1665156159:0;lsblk
+: 1665156164:0;lsblk -f
+: 1665156206:0;sudo nvim /etc/fstab 
+: 1665156336:0;lsblk -f
+: 1665156533:0;sudo pacman -S gnome-disk-utility
+: 1665156792:0;lsblk -f
+: 1665207311:0;lightdm-settings
+: 1665207315:0;sudo lightdm-settings
+: 1665209248:0;z codescallers
+: 1665209265:0;git clone https://github.com/codescalersinternships/home.git
+: 1665209271:0;ls
+: 1665209278:0;rm -r home
+: 1665209281:0;git clone https://github.com/codescalersinternships/home.git
+: 1665227570:0;systemctl reboot
+: 1665227671:0;shutdown
+: 1665288710:0;theme agnoster
+: 1665320593:0;cd test
+: 1665320596:0;code .
+: 1665330193:0;sudo nvim /etc/resolv.conf
+: 1665330260:0;dig google.com
+: 1665387741:0;cd test
+: 1665387743:0;code .
+: 1665388484:0;sudo nvim /etc/resolv.conf
+: 1665388503:0;dig google.com
+: 1665397327:0;sudo nvim .config/i3/config
+: 1665397638:0;bashtop
+: 1665397685:0;systemctl reboot
+: 1665397795:0;bashtop
+: 1665414157:0;shutdown
+: 1665414175:0;bashtop
+: 1665473750:0;sudo nvim /etc/resolv.conf
+: 1665473832:0;dig codeforcess.com
+: 1665473851:0;dig https://codeforces.com/
+: 1665473868:0;dig codeforces.com
+: 1665488175:0;sudo nvim /etc/resolv.conf
+: 1665495359:0;cd "/media/data/cs/Problem Solving/VSCode-workspace"
+: 1665495359:0;./"main" 
+: 1665495362:0;cd "/media/data/cs/Problem Solving/VSCode-workspace"
+: 1665495362:0;./"main" 
+: 1665495362:0;cd "/media/data/cs/Problem Solving/VSCode-workspace"
+: 1665495362:0;./"main" undefined
+: 1665495376:0;~cd "/media/data/cs/Problem Solving/VSCode-workspace"
+: 1665495376:0;./"main" 
+: 1665500661:0;theme agnoster
+: 1665642423:0;sudo nvim ~/.config/picom/picom.conf
+: 1665643069:0;xprop
+: 1665643156:0;xprop WM_CLASS
+: 1665643174:0;sudo nvim ~/.config/picom/picom.conf
+: 1665643210:0;xprop
+: 1665643370:0;sudo nvim ~/.config/picom/picom.conf
+: 1665643517:0;xprop
+: 1665643690:0;sudo nvim /etc/resolv.conf
+: 1665643772:0;bashtop
+: 1665647728:0;pkill code
+: 1665649718:0;bashtop
+: 1665682831:0;nmap -O -A 127.0.0.1
+: 1665768836:0;google-chrome-stable --version
+: 1665852624:0;whois ahmedsalah.me
+: 1665852630:0;sudo pacman -S whois
+: 1665852646:0;whois ahmedsalah.me
+: 1665852849:0;whois ahmedabdelfattah.com
+: 1665852878:0;whois ahmedhossam.me
+: 1665915393:0;nvim .config/mpv/mpv.conf
+: 1665915404:0;nvim .config/mpv/input.conf
+: 1665918919:0;acpi | cut -d ' ' -f 4 | tr -d '%,'
+: 1665918942:0;sudo pacman -S acpi
+: 1665918959:0;acpi | cut -d ' ' -f 4 | tr -d '%,'
+: 1665918979:0;nvim .scripts/battery.sh
+: 1665919015:0;sudo chmod 755 .scripts/battery.sh
+: 1665919027:0;.scripts/battery.sh
+: 1665919047:0;nvim /etc/i3blocks.conf
+: 1665919109:0;sudo nvim /etc/i3blocks.conf
+: 1665919181:0;nvim .scripts/battery.sh
+: 1665919295:0;dm-tool -h
+: 1665919666:0;path
+: 1665924030:0;whoami
+: 1665924947:0;cd Downloads/
+: 1665924955:0;unzip shell-lesson-data.zip
+: 1665924959:0;ls
+: 1665924967:0;cd shell-lesson-data
+: 1665924970:0;ls
+: 1665925970:0;ls north-pacific-gyre
+: 1665926911:0;pwd
+: 1665927273:0;cd
+: 1665927277:0;ls -f
+: 1665927292:0;ls -F
+: 1665927300:0;ls -aF
+: 1665927360:0;ls -F
+: 1665927381:0;ls .scripts -F
+: 1665927523:0;man ls
+: 1665928033:0;ls -l
+: 1665928037:0;ls -lh
+: 1665928133:0;ls
+: 1665928135:0;ks -r
+: 1665928142:0;ls -r
+: 1665928146:0;ls -t
+: 1665928150:0;ks -tr
+: 1665928155:0;ls -tr
+: 1665928569:0;arandr
+: 1665928997:0;pulseaudio
+: 1665929002:0;sudo pulseaudio
+: 1665929021:0;amixer
+: 1665930556:0;pavucontrol
+: 1665930600:0;arandr
+: 1666011015:0;ls
+: 1666011038:0;cd Downloads/shell-lesson-data/
+: 1666011041:0;cd -
+: 1666011350:0;ls -lh
+: 1666011375:0;ls -s
+: 1666011381:0;cd -
+: 1666011382:0;ls -s
+: 1666011388:0;cd -
+: 1666011389:0;ls
+: 1666011392:0;cd exercise-data
+: 1666011394:0;ls -s
+: 1666011491:0;cd ..
+: 1666011491:0;ls
+: 1666011516:0;cd north-pacific-gyre
+: 1666011517:0;ls -s
+: 1666011648:0;cd ..
+: 1666012053:0;cd exercise-data/writing
+: 1666012055:0;ls
+: 1666012182:0;mkdir -p project/data project/results
+: 1666012203:0;ls -FR project
+: 1666012528:0;nano draft.txt
+: 1666012534:0;sudo pacman -S nano
+: 1666012555:0;nano draft.txt
+: 1666012655:0;ls -l
+: 1666012666:0;ls -lh
+: 1666012683:0;touch myfile.txt
+: 1666012685:0;ls -lh
+: 1666013219:0;mkdir thesis
+: 1666013232:0;mv draft.txt thesis
+: 1666013244:0;cp thesis quotes
+: 1666013255:0;cp -r thesis quotes
+: 1666013263:0;ls thesis quotes
+: 1666013842:0;ls .pdf
+: 1666013851:0;ls *.pdf
+: 1666013855:0;wc *.pdf
+: 1666014114:0;.
+: 1666015167:0;cd ..
+: 1666015170:0;cd proteins
+: 1666015170:0;ls
+: 1666015173:0;cat cubane.pdb
+: 1666015432:0;ls
+: 1666015439:0;wc 
+: 1666015629:0;wc *pdb > len.txt
+: 1666015633:0;less len.txt
+: 1666015833:0;ls
+: 1666015850:0;sort -n len.txt > sorted-len.txt
+: 1666015855:0;head -n 1 sorted-len.txt 
+: 1666015878:0;wc -l *.pdb > len.txt
+: 1666015882:0;sort -n len.txt > sorted-len.txt
+: 1666015884:0;head -n 1 sorted-len.txt 
+: 1666016007:0;echo hello > testfile01.txt
+: 1666016014:0;echo hello >> testfile02.txt
+: 1666016024:0;cat testfile01.txt
+: 1666016028:0;cat testfile02.txt
+: 1666016033:0;echo hello > testfile01.txt
+: 1666016038:0;cat testfile01.txt
+: 1666016041:0;echo hello >> testfile02.txt
+: 1666016044:0;cat testfile02.txt
+: 1666016144:0;cd ../animal-counts
+: 1666016145:0;ls
+: 1666016159:0;less animals.csv
+: 1666021088:0;wc -l *.pdb | sort -n 3
+: 1666021095:0;cd -
+: 1666021099:0;ls
+: 1666021100:0;wc -l *.pdb | sort -n 3
+: 1666021116:0;wc -l *.pdb
+: 1666021131:0;wc -l *.pdb | sort -n 3
+: 1666021151:0;wc -l *.pdb | sort -n
+: 1666021160:0;wc -l *.pdb | sort -n | head -n 3
+: 1666021582:0;ls
+: 1666021589:0;cd -
+: 1666021591:0;ls
+: 1666021635:0;cut -d , -f 2 animals.csv | sort | uniq
+: 1666021665:0;cut -d , -f 1 animals.csv | sort | uniq
+: 1666021724:0;cut -d , -f 2 animals.csv | sort | uniq -c
+: 1666021813:0;pwd
+: 1666021824:0;cd ../../north-pacific-gyre
+: 1666021825:0;ls
+: 1666021831:0;wc -l *.txt
+: 1666021846:0;wc -l *.txt | wc -l
+: 1666023157:0;df
+: 1666023899:0;git config --get user.name
+: 1666023906:0;git config --get user.email
+: 1666023997:0;git config --global init.defaultBranch main
+: 1666024062:0;git config color.ui auto
+: 1666024072:0;git config --global color.ui auto
+: 1666024203:0;echo .vscode >> ~/.gitignore_global
+: 1666024225:0;git config --global core.excludesfile ~/.gitignore_global
+: 1666024354:0;ls ~/.ssh
+: 1666024495:0;ssh-keygen -t ed25519 -C ahmedsalah.yousuf@gmail.com
+: 1666024546:0;cd
+: 1666024775:0;cat ~/.ssh/id_ed25519.pub 
+: 1666024969:0;ssh -T git@github.com
+: 1666027066:0;cat ~/.ssh/id_ed25519
+: 1666088758:0;omz update
+: 1666088812:0;sudo nvim /etc/passwd
+: 1666088889:0;sudo nvim /etc/shadow
+: 1666089026:0;sudo nvim /etc/passwd
+: 1666089057:0;sudo nvim /etc/group
+: 1666089132:0;sudo nvim /etc/passwd
+: 1666089295:0;git --version
+: 1666089564:0;cd data
+: 1666089569:0;cd /media/data/cs
+: 1666089585:0;mkdir top
+: 1666089587:0;cd top
+: 1666089594:0;mkdir repos
+: 1666089596:0;cd repos
+: 1666089679:0;git clone git@github.com:ahmeducf/git-test.git
+: 1666089686:0;ls
+: 1666089732:0;git remote -v
+: 1666089739:0;cd git-test
+: 1666089741:0;git remote -v
+: 1666089853:0;cd
+: 1666089857:0;mkdir repos
+: 1666089859:0;cd repos
+: 1666089862:0;git clone git@github.com:ahmeducf/git-test.git
+: 1666089866:0;cd git-test
+: 1666089877:0;git remote -v
+: 1666089881:0;cd data
+: 1666089888:0;z data
+: 1666089893:0;z
+: 1666089898:0;z cs
+: 1666089905:0;z repos
+: 1666089908:0;cd git-test
+: 1666089910:0;ls
+: 1666089920:0;git remote -v
+: 1666089958:0;git
+: 1666089962:0;git --version
+: 1666089969:0;git remote -v
+: 1666089975:0;git config --global --add safe.directory /media/data/cs/top/repos/git-test
+: 1666089978:0;git remote -v
+: 1666090046:0;cd
+: 1666090049:0;cd repos
+: 1666090051:0;cd git-test
+: 1666090087:0;touch hello-world.txt
+: 1666090095:0;git status
+: 1666090232:0;git add hello-world.txt
+: 1666090244:0;git commit -m "Add hello-world.txt"
+: 1666090254:0;git status
+: 1666090330:0;git log
+: 1666090398:0;code .
+: 1666090461:0;git status
+: 1666090545:0;git add README.md
+: 1666090555:0;git status
+: 1666090561:0;git add .
+: 1666090576:0;git commit -m "Edit README.md and hello-world.txt"
+: 1666090581:0;git log
+: 1666090671:0;git push origin main
+: 1666090676:0;git log
+: 1666090680:0;git status
+: 1666090712:0;ls
+: 1666090716:0;ls -aF
+: 1666090722:0;cd .git
+: 1666090723:0;ls
+: 1666090726:0;ls -aF
+: 1666090735:0;cd ..
+: 1666091313:0;git status
+: 1666091316:0;git add .
+: 1666091318:0;git commit
+: 1666091332:0;git status
+: 1666091335:0;git commit
+: 1666091392:0;git config --global core.editor "code --wait"
+: 1666091436:0;git commit
+: 1666095462:0;cd ..
+: 1666095500:0;z top
+: 1666095525:0;cd /media/data/cs/top
+: 1666095534:0;mkdir html-boilerplate
+: 1666095538:0;cd html-boilerplate
+: 1666095549:0;touch index.html
+: 1666095553:0;code index.html
+: 1666096129:0;google-chrome-stable index.html
+: 1666102555:0;touch about.html
+: 1666102558:0;code about.html
+: 1666102590:0;google-chrome-stable index.html
+: 1666102644:0;mkdir pages
+: 1666102648:0;mv about.html pages
+: 1666103042:0;mkdir images
+: 1666103061:0;mv ~/Downloads/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg ./images/dog.jpg
+: 1666107210:0;unzip --help
+: 1666107303:0;unzip ~/Downloads/images-4149f7.zip 
+: 1666107323:0;ls
+: 1666107333:0;ls images
+: 1666110741:0;git show
+: 1666110750:0;git log -p
+: 1666110763:0;git diff
+: 1666119973:0;cd top
+: 1666119978:0;cd cs
+: 1666119981:0;z top
+: 1666119985:0;cd ..
+: 1666119991:0;mv top odin
+: 1666119994:0;cd odin
+: 1666119995:0;ls
+: 1666120025:0;cd repos; git clone git@github.com:ahmeducf/odin-recipes.git
+: 1666120030:0;ls
+: 1666120034:0;cd odin-recipes
+: 1666120035:0;ls
+: 1666120039:0;code .
+: 1666120068:0;git status
+: 1666120087:0;git config --global --add safe.directory /media/data/cs/top/repos/
+: 1666120106:0;git config --global --add safe.directory /media/data/cs/top/repos/odin-recipes
+: 1666120134:0;git config --global --add safe.directory /media/data/cs/odin/repos
+: 1666120141:0;git config --global --add safe.directory /media/data/cs/odin/repos/odin-recipes
+: 1666120335:0;git status
+: 1666120342:0;git add index.html
+: 1666120403:0;git commit -m "Create initial structure"
+: 1666120751:0;git status
+: 1666120759:0;git add .
+: 1666120762:0;git commit
+: 1666121408:0;git log
+: 1666173656:0;git status
+: 1666173659:0;git add .
+: 1666173739:0;git commit -m "Add rutabaga recipe's description, ingredients, and steps content"
+: 1666175097:0;git status
+: 1666175104:0;git add .
+: 1666175106:0;git commit
+: 1666175573:0;git push origin main
+: 1666175937:0;z odin
+: 1666175938:0;ls
+: 1666175941:0;cd repos
+: 1666175942:0;ls
+: 1666175950:0;mv odin-recipes recipes
+: 1666175951:0;ls
+: 1666175957:0;code recipes
+: 1666175967:0;cd recipes
+: 1666175971:0;git status
+: 1666176801:0;git config --global --add safe.directory *
+: 1666176824:0;git config --global --add safe.directory '*'
+: 1666176833:0;nvim ~/.gitconfig
+: 1666182863:0;cd ..
+: 1666182864:0;ls
+: 1666182870:0;git clone git@github.com:TheOdinProject/css-exercises.git
+: 1666182887:0;ls -F
+: 1666182899:0;code css-exercises
+: 1666183846:0;cd ..
+: 1666183847:0;ls
+: 1666183862:0;rm -r html-boilerplate
+: 1666183863:0;ls
+: 1666183866:0;git clone git@github.com:ahmeducf/css-exercises.git
+: 1666183907:0;mv -r repos/css-exercises/foundations css-exercises
+: 1666183914:0;mv repos/css-exercises/foundations css-exercises
+: 1666183928:0;mv -r repos/css-exercises/foundations css-exercises
+: 1666183937:0;mv --help
+: 1666184048:0;mv repos/css-exercises/foundations/* css-exercises/foundations
+: 1666184086:0;rm repos/css-exercises/foundations/*
+: 1666184119:0;rm -r repos/css-exercises
+: 1666184124:0;mv css-exercises repos
+: 1666184126:0;cd repos
+: 1666184127:0;ls
+: 1666184139:0;code css-exercises
+: 1666184327:0;git add .
+: 1666184360:0;git commit -m "Solve foundations/01"
+: 1666184626:0;git add .
+: 1666184629:0;git commit -m "Solve foundations/02"
+: 1666184952:0;git add .
+: 1666184957:0;git commit -m "Solve foundations/03"
+: 1666185007:0;git log
+: 1666185407:0;git add .
+: 1666185410:0;git commit -m "Solve foundations/04"
+: 1666185550:0;git add .
+: 1666185554:0;git commit -m "Solve foundations/05"
+: 1666186164:0;git add .
+: 1666186176:0;git commit -m "Solve foundations/06"
+: 1666186194:0;git push origin main
+: 1666269505:0;z odin
+: 1666269506:0;ls
+: 1666269511:0;code test.html
+: 1666283437:0;git add .
+: 1666283471:0;git commit -m "Solve margin-and-padding/01"
+: 1666285562:0;git add .
+: 1666285565:0;git commit -m "Solve margin-and-padding/02"
+: 1666285572:0;git push origin main
+: 1666285655:0;git add .
+: 1666285686:0;git commit -m "fix border-width in  margin-and-padding/02 exercise"
+: 1666285690:0;git push origin main
+: 1666295573:0;ls
+: 1666295576:0;code .
+: 1666458764:0;git add .
+: 1666458822:0;git commit -m "Solve flex/01 exercise"
+: 1666460038:0;git add .
+: 1666460046:0;git commit -m "Solve flex/02 exercise"
+: 1666466270:0;git add .
+: 1666466276:0;git commit -m "Solve flex/03 exercise"
+: 1666467693:0;git add .
+: 1666467698:0;git commit -m "Solve flex/04 exercise"
+: 1666471534:0;git add .
+: 1666471538:0;git commit -m "Solve flex/05 exercise"
+: 1666478617:0;git add .
+: 1666478624:0;git commit -m "Solve flex/06 exercise"
+: 1666478628:0;git push origin main
+: 1666537946:0;git add .
+: 1666537956:0;git commit -m "Solve flex/07 exercise"
+: 1666537960:0;git push origin main
+: 1666537977:0;yay -Syu
+: 1666554362:0;z odin
+: 1666554364:0;ls
+: 1666554366:0;cd repos
+: 1666554388:0;git clone git@github.com:ahmeducf/landing-page.git
+: 1666554394:0;ls
+: 1666554400:0;cd landing-page
+: 1666554403:0;code .
+: 1666556362:0;git status
+: 1666556542:0;git add .
+: 1666556651:0;git commit -m "Create initial html structure and design header html"
+: 1666563037:0;git status
+: 1666563044:0;git add .
+: 1666563047:0;git commit
+: 1666563938:0;mv ../css-exercises/flex/04-flex-information/images/* ./images/
+: 1666566269:0;git add .
+: 1666566275:0;git commit 
+: 1666569554:0;git add .
+: 1666569582:0;git commit -m "Create quote section html structrue and add sytle to it"
+: 1666571425:0;git add .
+: 1666571456:0;git commit -m "Create call-to-action section html structrue and add sytle to it and add padding to footer"
+: 1666571535:0;git status
+: 1666571550:0;git add .
+: 1666571565:0;git commit -m "Fix format in the css file"
+: 1666571577:0;git push origin main
+: 1666611610:0;git add .
+: 1666611629:0;git commit -m "Update README"
+: 1666611634:0;git push
+: 1666611888:0;git add .
+: 1666611891:0;git commit -m "Update README"
+: 1666611893:0;git push
+: 1666611944:0;git add .
+: 1666611946:0;git commit -m "Update README"
+: 1666611948:0;git push
+: 1666889876:0;z odin
+: 1666889878:0;ls
+: 1666889881:0;cd repos
+: 1666889882:0;ls
+: 1666889887:0;git clone git@github.com:ahmeducf/rock-paper-scissors.git
+: 1666889895:0;cd rock-paper-scissors
+: 1666889907:0;code .
+: 1666892315:0;git status
+: 1666892319:0;git add .
+: 1666892386:0;git status
+: 1666892391:0;git commit 
+: 1666892559:0;git add .
+: 1666892572:0;git commit -m "Add playRound function"
+: 1666892586:0;git add .
+: 1666892595:0;git commit -m "Fix indentation"
+: 1666893822:0;git add .
+: 1666893839:0;git commit
+: 1666897259:0;git push
+: 1666906276:0;sudo pacman -S curl
+: 1666906298:0;curl
+: 1666906348:0;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash\
+
+: 1666906519:0;nvim ~/.zshrc
+: 1666907535:0;command -v nvm
+: 1666907551:0;command
+: 1666907559:0;man command
+: 1666907604:0;command -v nvm
+: 1666907631:0;cd .nvm
+: 1666907633:0;ls
+: 1666907650:0;nvim bash_completion
+: 1666907923:0;cd
+: 1666907930:0;nvm install --lts
+: 1666908338:0;nvm use --lts
+: 1666908441:0;node -v
+: 1666908449:0;nvm use --lts
+: 1666908536:0;node
+: 1666908678:0;nvim .nvm/bash_completion
+: 1666908857:0;nvm -h
+: 1666909022:0;bash
+: 1666910858:0;nvim .nvm/bash_completion
+: 1666911185:0;nvim .zshrc
+: 1666911318:0;autoload -U bashcompinit
+: 1666911327:0;bashcompinit
+: 1666911550:0;sudo pacman -S zsh-completions
+: 1666911726:0;nvim .zshrc
+: 1666911907:0;touch .skills.txt
+: 1666911911:0;nvim .skills.txt 
+: 1666920918:0;npm --version
+: 1666921229:0;z repos
+: 1666921230:0;ls
+: 1666921233:0;cd ..
+: 1666921234:0;ls
+: 1666921238:0;git clone git@github.com:ahmeducf/javascript-exercises.git
+: 1666921250:0;cd javascript-exercises
+: 1666921258:0;code .
+: 1666921337:0;npm --version
+: 1666921371:0;npm install
+: 1666921466:0;cd 01_helloWorld
+: 1666921488:0;ls
+: 1666921517:0;npm test helloWorld.spec.js
+: 1666921632:0;npm test helloWorld.spec.js --silent
+: 1666922039:0;npm test helloWorld.spec.js
+: 1666922310:0;npx browserslist@latest --update-db
+: 1666922327:0;npm test helloWorld.spec.js
+: 1666923660:0;git add .
+: 1666923679:0;git commit -m "Solve 01 exercise"
+: 1666923871:0;npm test repeatString.spec.js
+: 1666924241:0;git add .
+: 1666924246:0;git commit -m "Solve 02 exercise"
+: 1666924262:0;cd ..
+: 1666924277:0;git add .
+: 1666924281:0;git commit -m "Solve 02 exercise"
+: 1666924782:0;npm test reverseString.spec.sj
+: 1666924786:0;npm test reverseString.spec.js
+: 1666924816:0;git add .
+: 1666924822:0;git commit -m "Solve 03 exercise"
+: 1666926153:0;npm test removeFromArray.spec.js
+: 1666927137:0;git add .
+: 1666927144:0;git commit -m "Solve 04 exercise"
+: 1666927285:0;npm test removeFromArray.spec.js
+: 1666927298:0;git add .
+: 1666927317:0;git commit -m "Improve 04 exercise solution"
+: 1666927546:0;npm test removeFromArray.spec.js
+: 1666927561:0;npm test sumAll.spec.js
+: 1666927866:0;git add .
+: 1666927871:0;git commit -m "Solve 05 exercise"
+: 1666928264:0;npm test leapYears.spec.js
+: 1666928331:0;git add .
+: 1666928336:0;git commit -m "Solve 06 exercise"
+: 1666928341:0;git push origin main
+: 1666929954:0;npm tempConversion.spec.js
+: 1666929960:0;npm test tempConversion.spec.js
+: 1666930016:0;git add .
+: 1666930022:0;git commit -m "Solve 07 exercise"
+: 1666940377:0;lsblk -f
+: 1666940506:0;lsblk
+: 1666940746:0;sudo pacman -S mtpfs
+: 1666940849:0;paru jmtpfs
+: 1666940868:0;yay -S jmtpfs
+: 1666940927:0;sudo pacman -S gvfs-mtp
+: 1666940952:0;sudo pacman -Sy gvfs-gphoto2
+: 1666940992:0;sudo pacman -S gvfs-gphoto2
+: 1666941126:0;reboot
+: 1666941367:0;lsblk
+: 1666941436:0;theme agnoster
+: 1666941444:0;node
+: 1666941580:0;node -v
+: 1666941584:0;node --help
+: 1666941650:0;nvim .zsh
+: 1666941657:0;nvim .zshrc
+: 1666941788:0;z repos
+: 1666941791:0;cd
+: 1666941924:0;reboot
+: 1666942102:0;nvim .zshrc
+: 1666942144:0;zsh
+: 1666942158:0;update
+: 1666942178:0;upgrade_oh_my_zsh
+: 1666942187:0;omz update
+: 1666942255:0;shutdown
+: 1667005314:0;z repos
+: 1667005317:0;cd ..
+: 1667005320:0;git clone git@github.com:wesbos/JavaScript30.git
+: 1667005486:0;rm -r JavaScript30
+: 1667005498:0;git clone git@github.com:ahmeducf/JavaScript30.git
+: 1667005677:0;cd JavaScript30
+: 1667005681:0;code .
+: 1667010399:0;git add .
+: 1667010449:0;git commit -m "Code 01 - drum kit"
+: 1667010454:0;git push origin main
+: 1667010460:0;git push
+: 1667012463:0;git add .
+: 1667012486:0;git commit -m "Code 25 - Event capture, propagation, and bubbling"
+: 1667012490:0;git push
+: 1667071245:0;z /media/data/cs/odin/repos/rock-paper-scissors
+: 1667071251:0;code .
+: 1667071377:0;git checkout -b rps-ui
+: 1667071439:0;git push origin rps-ui
+: 1667071499:0;git branch
+: 1667083352:0;git add .
+: 1667083377:0;git commit -m "Create UI structure and style"
+: 1667091924:0;git push origin rps-ui
+: 1667091957:0;git add .
+: 1667092027:0;git commit -m "Add event Listeners to weapons buttons"
+: 1667092070:0;git push origin rps-ui
+: 1667092475:0;git status
+: 1667093136:0;git checkout main
+: 1667093155:0;git merge rps-ui
+: 1667093182:0;git log
+: 1667093203:0;git push origin main
+: 1667093243:0;git push
+: 1667093296:0;git push origin main
+: 1667093328:0;git branch -d rps-ui
+: 1667093331:0;git branch
+: 1667093361:0;git push --delete origin rps-ui
+: 1667093918:0;git add .
+: 1667093926:0;git commit -m "Update README"
+: 1667093929:0;git push
+: 1667093981:0;git add .
+: 1667093982:0;git commit -m "Update README"
+: 1667093984:0;git push
+: 1667094128:0;git add .
+: 1667094130:0;git commit -m "Update README"
+: 1667094131:0;git push
+: 1667094347:0;git add .
+: 1667094349:0;git commit -m "Update README"
+: 1667094351:0;git push
+: 1667110057:0;git add .
+: 1667110082:0;git commit -m "Code 04 Array Cardio Day 1"
+: 1667110087:0;git push
+: 1667112860:0;git add .
+: 1667112867:0;git commit -m "Code 07 Array Cardio Day 2"
+: 1667112869:0;git push
+: 1667114123:0;npm test calculator.spec.js
+: 1667114358:0;git add .
+: 1667114371:0;git commit -m "Solve 08 exercise"
+: 1667114485:0;npm test palindromes.spec.js
+: 1667114913:0;git add .
+: 1667114917:0;git commit -m "Solve 09 exercise"
+: 1667115102:0;npm test fibonacci.spec.js
+: 1667115188:0;git add .
+: 1667115193:0;git commit -m "Solve 10 exercise"
+: 1667115277:0;npm test getTheTitles.spec.js
+: 1667115296:0;git add .
+: 1667115301:0;git commit -m "Solve 11 exercise"
+: 1667116091:0;npm test findTheOldest.spec.js
+: 1667116338:0;git add .
+: 1667116342:0;git commit -m "Solve 12 exercise"
+: 1667116352:0;git push
+: 1667171941:0;z /media/data/cs/odin/repos
+: 1667171946:0;git clone git@github.com:ahmeducf/etch-a-sketch.git
+: 1667171953:0;ls
+: 1667171957:0;cd etch-a-sketch
+: 1667171959:0;code .
+: 1667173838:0;git add .
+: 1667173855:0;git commit -m "Create markup structure"
+: 1667184193:0;git add .
+: 1667184217:0;git commit -m "Add style to the page"
+: 1667187688:0;git status
+: 1667189875:0;git add .
+: 1667189896:0;git commit
+: 1667190028:0;git log
+: 1667191823:0;git status
+: 1667191826:0;git add .
+: 1667191895:0;git commit -m "Add event listeners to color, rainbow, eraser, clear buttons"
+: 1667192928:0;git add .
+: 1667192951:0;git commit -m "Add onChange event listent to sizeSlider"
+: 1667195711:0;git add .
+: 1667195714:0;git commit
+: 1667196636:0;git status
+: 1667196649:0;git push
+: 1667197464:0;git add .
+: 1667197481:0;git commit -m "Fix indentation and Update README"
+: 1667197485:0;git push
+: 1667198261:0;git add .
+: 1667198271:0;git commit -m "Update README"
+: 1667198298:0;git push
+: 1667199201:0;git add .
+: 1667199202:0;git commit -m "Update README"
+: 1667199204:0;git push
+: 1667212503:0;cd ..
+: 1667212506:0;git clone git@github.com:tastejs/awesome-app-ideas.git
+: 1667267306:0;z /media/data/cs/odin/repos
+: 1667267310:0;git clone git@github.com:ahmeducf/calculator.git
+: 1667267316:0;code calculator
+: 1667270434:0;git add .
+: 1667270443:0;git commit -m "Create markup structure"
+: 1667286582:0;git add .
+: 1667286596:0;git commit -m "Add styles"
+: 1667291117:0;git add .
+: 1667291131:0;git commit -m "Add functions for math operations"
+: 1667293007:0;git add .
+: 1667293010:0;git commit
+: 1667295396:0;git add .
+: 1667295412:0;git commit -m "Add event listeners to operators"
+: 1667295969:0;git add .
+: 1667295971:0;git commit
+: 1667297316:0;git add .
+: 1667297359:0;git commit -m "Add onClick event listener to clear button"
+: 1667297763:0;git add .
+: 1667297785:0;git commit -m "Add onClick event listener to AC button"
+: 1667301594:0;git add .
+: 1667301595:0;git commit
+: 1667304340:0;git checkout a5eab7e
+: 1667312383:0;git commit -m "Refactor and fix decimal point problems"
+: 1667312403:0;git checkout main
+: 1667312417:0;git switch main
+: 1667312440:0;git checkout HEAD
+: 1667312451:0;git status
+: 1667312457:0;git add .
+: 1667312460:0;git status
+: 1667312463:0;git commit -m "Refactor and fix decimal point problems"
+: 1667312488:0;git push
+: 1667313564:0;git add .
+: 1667313591:0;git commit -m "Fix appendDigit and setOperation functions"
+: 1667313593:0;git push
+: 1667313646:0;git add .
+: 1667313653:0;git commit -m "Fix appendDigit function"
+: 1667313655:0;git push
+: 1667357084:0;git checkout -b enhancement
+: 1667359348:0;git checkout main
+: 1667359482:0;git branch -d enhancement
+: 1667359488:0;git branch
+: 1667360906:0;git add .
+: 1667361013:0;git commit -m "Refactor and add enhancements"
+: 1667361139:0;git checkout calc-keyboard
+: 1667361143:0;git checkout -b calc-keyboard
+: 1667364688:0;git status
+: 1667364694:0;git add .
+: 1667364721:0;git commit -m "Add keyboard inputs support"
+: 1667364743:0;git checkout main
+: 1667364760:0;git merge calc-keyboard
+: 1667364795:0;git log
+: 1667364836:0;git branch -d calc-keyboard
+: 1667364842:0;git push
+: 1667364983:0;git add .
+: 1667365026:0;git commit -m "Remove unnecessary console.log line"
+: 1667367505:0;git add .
+: 1667367519:0;git commit -m "Update README"
+: 1667367525:0;git push
+: 1667369712:0;git add .
+: 1667369834:0;git commit -m "Fix buttons background when touch on them on mobiles"
+: 1667369844:0;git push
+: 1667370135:0;git add .
+: 1667370236:0;git commit
+: 1667370400:0;git push
+: 1667371488:0;git commit
+: 1667371490:0;git add .
+: 1667371493:0;git commit
+: 1667371874:0;git add .
+: 1667371900:0;git commit -m "Assert on returned result from operate function"
+: 1667371902:0;git push
+: 1667406608:0;pacaur -S input-remapper-git
+: 1667406648:0;yay -S input-remapper-git
+: 1667406750:0;input-remapper
+: 1667406789:0;sudo systemctl enable input-remapper
+: 1667406801:0;input-remapper
+: 1667406815:0;input
+: 1667406823:0;input-remapper-gtk
+: 1667406849:0;sudo input-remapper-
+: 1667406856:0;sudo input-remapper-control
+: 1667406874:0;sudo input-remapper-gtk
+: 1667407037:0;yay -Rs input-remapper-git
+: 1667453594:0;git add .
+: 1667453601:0;git commit
+: 1667453904:0;git push
+: 1667465110:0;tldr youtube-dl
+: 1667465284:0;tldr yف-ك�ك�ح
+: 1667465292:0;tldr yt-dlp
+: 1667465494:0;ya -S yt-dlp
+: 1667465500:0;yay -S yt-dlp
+: 1667465526:0;tldr youtube-dl
+: 1667465694:0;z /media/data/cs
+: 1667465695:0;cd ..
+: 1667465696:0;ls
+: 1667465708:0;cd ك�حاضرات/ls
+: 1667465710:0;ls
+: 1667465742:0;cd ك�حاضرات/ls
+: 1667465760:0;cd ك�حاضرات
+: 1667465762:0;ls
+: 1667465777:0;mkdir lvl_4
+: 1667465782:0;cd lvl_4
+: 1667465784:0;ls
+: 1667465788:0;yt-dlp -o "lec_%(playlist_index)s-%(title)s_%(playlist)s.%(ext)s" ''https://www.youtube.com/playlist\?list\=PL1YWN9bMt3ODSO9n0xqlGai4sl5faMVTP''
+: 1667465816:0;ls
+: 1667465821:0;rm *
+: 1667465824:0;ls
+: 1667465834:0;cd ..
+: 1667465856:0;cd lvl_4
+: 1667465863:0;mkdir term_1
+: 1667465866:0;cd term_1
+: 1667465871:0;tldr youtube-dl
+: 1667465888:0;yt-dlp --format mp4 -o "lec_%(playlist_index)s-%(title)s_%(playlist)s.%(ext)s" ''https://www.youtube.com/playlist\?list\=PL1YWN9bMt3ODSO9n0xqlGai4sl5faMVTP''
+: 1667467334:0;ls
+: 1667467363:0;mkdir FPGA
+: 1667467373:0;mv *.mp4 FPGA
+: 1667467374:0;ls
+: 1667467517:0;yt-dlp --format mp4 -o "lec_%(playlist_index)s-%(playlist)s.%(ext)s" ''https://www.youtube.com/playlist?list=PL1YWN9bMt3ODEzGlmYEv2pM56CEcUH2sx''
+: 1667467536:0;yt-dlp --format mp4 -o "lec_%(playlist_index)s-%(playlist)s.%(ext)s" 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODEzGlmYEv2pM56CEcUH2sx'
+: 1667486462:0;mkdir internetworking
+: 1667486488:0;mv *.mp4 internetworking
+: 1667494386:0;cd ~/Documents
+: 1667494388:0;ls
+: 1667494431:0;mv Sheet_1_-_sol.docx Ahmed_Salah__SEC1__Shee1_Solution.docx
+: 1667552305:0;cd /media/data/cs/databases/stanford/02-databases-relational-databases-and-sql
+: 1667552308:0;cd ..
+: 1667552311:0;cd 01-databases-modeling-and-theory
+: 1667552312:0;ls
+: 1667552326:0;cd 02-relational-algebra
+: 1667552327:0;ls
+: 1667552336:0;mpv -h
+: 1667552390:0;ls *.mp4
+: 1667552402:0;ls *.mp4 -l
+: 1667561430:0;git add .
+: 1667561431:0;git commit
+: 1667561703:0;git add .
+: 1667561735:0;git commit -m "Reduce number of significant digits"
+: 1667561739:0;git push
+: 1667561805:0;z cs
+: 1667561808:0;cd ..
+: 1667561810:0;cd lectures
+: 1667561818:0;cd lvl_4
+: 1667561821:0;ls
+: 1667561824:0;cd term_1
+: 1667561825:0;ls
+: 1667561831:0;cd internetworking
+: 1667561832:0;ls
+: 1667561839:0;ls -F
+: 1667561841:0;ls -f
+: 1667561845:0;ls -l
+: 1667561848:0;ls -lh
+: 1667561871:0;mpv lec_1-CSE\ Level\ 4\ \(2022\)＃�\ Internetworking\ \(DR.Asmaa\ Hamdy\).mp4
+: 1667564428:0;mpv lec_2-CSE\ Level\ 4\ \(2022\)＃�\ Internetworking\ \(DR.Asmaa\ Hamdy\).mp4&
+: 1667564484:0;mpv lec_2-CSE\ Level\ 4\ \(2022\)＃�\ Internetworking\ \(DR.Asmaa\ Hamdy\).mp4
+: 1667564637:0;z /media/data/lectures/lvl_4/term_1/internetworking
+: 1667564642:0;mpv lec_2-CSE\ Level\ 4\ \(2022\)＃�\ Internetworking\ \(DR.Asmaa\ Hamdy\).mp4&
+: 1667572626:0;mpv lec_3-CSE\ Level\ 4\ \(2022\)＃�\ Internetworking\ \(DR.Asmaa\ Hamdy\).mp4&
+: 1667632644:0;z /media/data/lectures/lvl_4/term_1/internetworking
+: 1667632648:0;ls
+: 1667632682:0;z /media/data/cs/databases/stanford/01-databases-modeling-and-theory
+: 1667632685:0;ls
+: 1667632697:0;cd 02-relational-algebra
+: 1667632699:0;ls
+: 1667632717:0;mpv 01-select-project-join.mp4
+: 1667633158:0;mpv 02-select-project-join.mp4
+: 1667633482:0;mpv 03-select-project-join.mp4 04-select-project-join.mp4
+: 1667634119:0;ls
+: 1667634182:0;mpv 05-set-operators-and-renaming-and-notation.mp4 06-set-operators-and-renaming-and-notation.mp4 07-set-operators-and-renaming-and-notation.mp4 
+: 1667649112:0;cd ~/Downloads
+: 1667649114:0;ls
+: 1667649130:0;unzip sqlite-tools-linux-x86-3390400.zip
+: 1667649150:0;cd sqlite-tools-linux-x86-3390400
+: 1667649151:0;ls
+: 1667649170:0;sqlite3
+: 1667649194:0;ls
+: 1667649256:0;sudo pacman -S sqlite
+: 1667649279:0;cd
+: 1667649283:0;sqlite3
+: 1667649306:0;which sqlite3
+: 1667649316:0;which --h
+: 1667649319:0;which -h
+: 1667649327:0;which --help
+: 1667649336:0;which -help
+: 1667649339:0;which
+: 1667649344:0;tldr which
+: 1667649368:0;which -a sqlite
+: 1667649375:0;which -a sqlite3
+: 1667649400:0;rm -r ~/Downloads/sqlite-tools-linux-x86-3390400
+: 1667649411:0;rm  ~/Downloads/sqlite-tools-linux-x86-3390400.zip
+: 1667650032:0;sudo pacman -S mysql
+: 1667650073:0;sudo pacman -S mysql++
+: 1667650641:0;sudo pacman -S postgresql
+: 1667650727:0;sudo pacman -Syu
+: 1667651351:0;cd Downloads/stanford
+: 1667651356:0;cat Schema.sql
+: 1667651400:0;cat Data.sql
+: 1667653700:11;sudo pacman -S postgresql
+: 1667653837:0;postgres
+: 1667653925:0;sudo -iu postgres
+: 1667654418:0;createuser --interactive
+: 1667654425:0;id
+: 1667654478:0;sudo -iu postgres
+: 1667654569:0;createuser --interactive
+: 1667654623:0;[200~pg_ctl -D /var/lib/postgres/data -l logfile start~
+: 1667654625:0;pg_ctl -D /var/lib/postgres/data -l logfile start
+: 1667654636:0;sudo -iu postgres
+: 1667654760:0;cat /etc/passwd
+: 1667654895:0;su - postgres
+: 1667654913:0;su
+: 1667654927:0;su - postgres
+: 1667654965:0;sudo -iu postgres
+: 1667655028:0;sudo systemctl enable postgresql.service
+: 1667655046:0;sudo -iu postgres
+: 1667655078:0;sudo systemctl start postgresql.service
+: 1667655084:0;createuser --interactive
+: 1667655102:0;sudo -iu postgres
+: 1667655549:0;cd Downloads/stanford
+: 1667655555:0;cat Schema.sql
+: 1667655664:0;cat Data.sql
+: 1667655750:0;cd Downloads/stanford
+: 1667655753:0;cat Data.sql
+: 1667659115:0;z lvl_4
+: 1667659118:0;ls
+: 1667659120:0;cd term_1
+: 1667659121:0;ls
+: 1667659124:0;cd internetworking
+: 1667659125:0;ls
+: 1667659139:0;mpv lec_4-CSE\ Level\ 4\ \(2022\)＃�\ Internetworking\ \(DR.Asmaa\ Hamdy\).mp4 lec_5-CSE\ Level\ 4\ \(2022\)＃�\ Internetworking\ \(DR.Asmaa\ Hamdy\).mp4
+: 1667675287:0;cd ..
+: 1667675289:0;ls
+: 1667675330:0;mkdir arch2
+: 1667675335:0;cd arch2
+: 1667675393:0;yt-dlp --format mp4 -o "lec_%(playlist_index)s.%(ext)s" 'https://www.youtube.com/playlist?list=PL1YWN9bMt3OCbor3HXRgQwooO0_8yZ5_7'
+: 1667675477:0;z lvl_4
+: 1667675482:0;cd term_1
+: 1667675485:0;cd FPGA
+: 1667675493:0;mpv lec_1-FPGA\ \(DR.\ Hesham\ Helmy\).mp4
+: 1667717398:0;cd Downloads/stanford
+: 1667717399:0;ls
+: 1667717494:0;ls /var/lib/postgres/data
+: 1667717499:0;sudo ls /var/lib/postgres/data
+: 1667717513:0;cd ..
+: 1667717514:0;ls
+: 1667717519:0;cd -
+: 1667717534:0;sudo ls /var/lib/postgres
+: 1667717698:0;sqlite3 demo.db
+: 1667717707:0;cd Downloads/stanford
+: 1667717718:0;cat Schema.sql
+: 1667717788:0;cat Data.sql
+: 1667719463:0;ls
+: 1667719493:0;sudo pacman -S sqlectron
+: 1667719501:0;yay -S sqlectron
+: 1667719553:0;yay -S sqlectron-gui
+: 1667719595:0;yay -S sqlectron-gui-git
+: 1667719615:0;yay -S sqlectron-gui
+: 1667719723:0;yay -S sqlectron-gui-git
+: 1667720300:0;sqlite3 demo.db
+: 1667720689:0;yay -S sqlitebrowser
+: 1667721214:0;sudo pacman -Rs sqlectron
+: 1667721218:0;sudo pacman -Rs sqlectron-gui
+: 1667744140:0;z /media/data/lectures/lvl_4/term_1/FPGA
+: 1667744142:0;ls
+: 1667744206:0;mpv lec_2-FPGA\ \(DR.\ Hesham\ Helmy\).mp4 lec_3-FPGA\ \(DR.\ Hesham\ Helmy\).mp4 lec_4-FPGA\ \(DR.\ Hesham\ Helmy\).mp4 lec_5-FPGA\ \(DR.\ Hesham\ Helmy\).mp4
+: 1667768891:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1667768907:0;npm install sqlite3@5.1.1 && exit 0
+: 1667769094:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1667769131:0;cd ~/Downloads/stanford
+: 1667769131:0;ls
+: 1667769133:0;code .
+: 1667769140:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1667770054:0;npm install -g eslint
+: 1667770086:0;eslint
+: 1667770101:0;ls -al
+: 1667770128:0;eslint --init
+: 1667770308:0;npm init @eslint/config,
+: 1667770335:0;npm init
+: 1667770359:0;npm init @eslint/config,
+: 1667770395:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1667770781:0;eslint
+: 1667770811:0;npx javascript.js
+: 1667770820:0;npx eslint javascript.js
+: 1667770858:0;npm init
+: 1667770917:0;npm init @eslint/config,
+: 1667770934:0;npx eslint javascript.js
+: 1667770947:0;npm init @eslint/config
+: 1667771069:0;npx eslint javascript.js
+: 1667771497:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1667828594:0;z /media/data/lectures/lvl_4/term_1/FPGA
+: 1667828596:0;ls
+: 1667828618:0;mpv lec_4-FPGA\ \(DR.\ Hesham\ Helmy\).mp4 lec_5-FPGA\ \(DR.\ Hesham\ Helmy\).mp4
+: 1667896493:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1667912167:0;z term1
+: 1667912175:0;z /media/data/lectures/lvl_4/term_1
+: 1667912177:0;ls
+: 1667912181:0;cd arch2
+: 1667912184:0;ls
+: 1667912257:0;yt-dlp --playlist-start 5 --playlist-end 5 --format mp4 -o "lec_%(playlist_index)s.%(ext)s" 'https://www.youtube.com/playlist?list=PL1YWN9bMt3OCbor3HXRgQwooO0_8yZ5_7'
+: 1667912318:0;ls
+: 1667912359:0;mpv lec_1.mp4 lec_2.mp4 lec_3.mp4 lec_4.mp4 lec_5.mp4
+: 1667912372:0;mpv lec_1.mp4 lec_2.mp4 lec_3.mp4 lec_4.mp4 lec_5.mp4&
+: 1667994111:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1668163423:0;omz update
+: 1668163587:0;z /media/data/lectures/lvl_4/term_1/arch2
+: 1668163590:0;ls
+: 1668163603:0;mpv lec_3.mp4 lec_4.mp4 lec_5.mp4&
+: 1668177268:0;yt-dlp --playlist-start 6 --playlist-end 6 --format mp4 -o "lec_%(playlist_index)s.%(ext)s" 'https://www.youtube.com/playlist?list=PL1YWN9bMt3OCbor3HXRgQwooO0_8yZ5_7'
+: 1668177640:0;ls
+: 1668177673:0;mv lec_6.mp4 /media/data/lectures/lvl_4/term_1/arch2
+: 1668177682:0;z /media/data/lectures/lvl_4/term_1/
+: 1668177685:0;ls
+: 1668177700:0;mkdir ML
+: 1668177703:0;cd ML
+: 1668177705:0;ls
+: 1668177747:0;yt-dlp --playlist-start 1 --playlist-end 2 --format mp4 -o "lec_%(playlist_index)s.%(ext)s" 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODJnCNW1WqJ46tXVMCgdwTI'
+: 1668184389:0;mpv lec_6.mp4
+: 1668189274:0;ls
+: 1668189289:0;rm *shot
+: 1668189293:0;rm *shot*
+: 1668189295:0;ls
+: 1668252665:0;z /media/data/lectures/lvl_4/term_1
+: 1668252667:0;ls
+: 1668252774:0;z /media/data/lectures/lvl_4/term_1
+: 1668252779:0;cd NLP
+: 1668252781:0;ls
+: 1668252792:0;unzip NLP-optional3.zip
+: 1668252805:0;unzip Sections.zip
+: 1668252846:0;ls
+: 1668252865:0;mv NLP
+: 1668252893:0;ls NLP\ -\ اختك�ارك�\ 3 NLP-optional3
+: 1668252905:0;mv NLP\ -\ اختك�ارك�\ 3 NLP-optional3
+: 1668252907:0;ls
+: 1668252927:0;rm NLP-optional3.zip Sections.zip
+: 1668252928:0;ls
+: 1668252940:0;mv -r sec NLP-optional3
+: 1668252952:0;mv -r sec NLP-optional3/
+: 1668252958:0;ls
+: 1668252976:0;mv sec NLP-optional3
+: 1668252977:0;ls
+: 1668259836:0;z /media/data/lectures/lvl_4/term_1/NLP
+: 1668259852:0;cd NLP-optional3/ك�ك�خصات
+: 1668259853:0;ls
+: 1668259872:0;mv Lec\ 1.jfif Lec 1.pdf
+: 1668259894:0;mv 'Lec\ 1.jfif' Lec 1.pdf
+: 1668259921:0;mv "Lec\ 1.jfif" Lec 1.pdf
+: 1668259949:0;mv *1.pdf "Lec 1.pdf"
+: 1668259956:0;mv "Lec\ 1.jfif" "Lec 1.pdf"
+: 1668259961:0;ls
+: 1668259981:0;mv "Lec 1.jfif" "Lec 1.pdf"
+: 1668259982:0;ls
+: 1668260023:0;z /media/data/lectures/lvl_4/term_1/NLP
+: 1668260025:0;ls
+: 1668260031:0;cd NLP-optional3
+: 1668260032:0;ls
+: 1668260038:0;cd ك�ك�خصات
+: 1668260040:0;ls
+: 1668260056:0;mv "Lec 1.pdf" "Lec 1.jpg"
+: 1668270217:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1668270371:0;cd ..
+: 1668270374:0;ls
+: 1668270378:0;cd ..
+: 1668270381:0;cd lab
+: 1668270383:0;python -m pip install --upgrade pip
+: 1668270394:0;python3 -m pip install --upgrade pip
+: 1668270491:0;yay -S jupyter-notebook
+: 1668270680:0;yay -Syu jupyter-notebook
+: 1668270812:0;pip
+: 1668270859:0;sudo pacman -S python-pip 
+: 1668271639:0;jupyter notebook
+: 1668271764:0;sudo pacman -S python-pip 
+: 1668271918:0;pip install wheel\
+pip install pandas
+: 1668272225:0;pip install nltk
+: 1668272296:0;pip install spicy
+: 1668272678:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1668272907:0;pip install spacy
+: 1668273203:0;python3 -m spacy download en_core_web_sm
+: 1668275277:0;jupyter notebook
+: 1668275309:0;z /media/data/lectures/lvl_4/term_1/NLP/lab
+: 1668275311:0;jupyter notebook
+: 1668285914:0;z /media/data/lectures/lvl_4/term_1/NLP/lab
+: 1668285915:0;jupyter notebook
+: 1668287276:0;z /media/data/cs
+: 1668287277:0;ls
+: 1668287284:0;mkdir roadmap.sh
+: 1668287287:0;cd roadmap.sh
+: 1668287293:0;mkdir backend
+: 1668287295:0;cd backend
+: 1668287341:0;tldr yt-dlp
+: 1668287359:0;cd backend
+: 1668287362:0;tldr yt-dlp
+: 1668287465:0;yt-dlp "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]"  'https://www.youtube.com/watch?v=1piAu0IfJdA'
+: 1668287491:0;ls
+: 1668287495:0;rm *
+: 1668287497:0;ls
+: 1668287523:0;yt-dlp --format mp4  'https://www.youtube.com/watch?v=1piAu0IfJdA'
+: 1668293221:0;z /home/salah/Downloads/stanford
+: 1668293229:0;ls
+: 1668293249:0;z /media/data/cs/databases/stanford
+: 1668293254:0;cd 03-semistructred-data
+: 1668293256:0;ls
+: 1668293259:0;cd 01-XML-data
+: 1668293260:0;ls
+: 1668293283:0;xmllint Bookstore-IDREFs.xml Bookstore-DTD.xml
+: 1668293314:0;nvim Bookstore-DTD.xml
+: 1668293340:0;xmllint Bookstore-DTD.xml
+: 1668293390:0;xmllint --valid --noout Bookstore-DTD.xml
+: 1668293412:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1668339378:0;z /media/data/lectures/lvl_4/term_1/arch2
+: 1668339380:0;ls
+: 1668339388:0;unzip arch2.zip
+: 1668339391:0;ls
+: 1668339404:0;mv 'Computer Architecture 2  /' arch2
+: 1668339405:0;ls
+: 1668339418:0;cd arch2
+: 1668339420:0;ls
+: 1668339454:0;mv 'اك�ك�تاب\ \(ك�ك�\ اك�ك�\ شابتر\ 8\).pdf' book.pdf
+: 1668339473:0;ls -f
+: 1668339477:0;ls -al
+: 1668339498:0;cd ..
+: 1668339503:0;rm arch2.zip
+: 1668371465:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1668440876:0;z term1
+: 1668440889:0;z /media/data/lectures/lvl_4/term_1/ML
+: 1668440891:0;ls
+: 1668440910:0;mpv lec_1.mp4 lec_2.mp4
+: 1668446649:0;z /media/data/lectures/lvl_4/term_1/ML
+: 1668446716:0;yt-dlp --playlist-start 3 --playlist-end 3 --format mp4 -o "lec_%(playlist_index)s.%(ext)s" 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODJnCNW1WqJ46tXVMCgdwTI'
+: 1668447405:0;ls
+: 1668447411:0;unzip ML.zip
+: 1668447414:0;sl
+: 1668447415:0;ls
+: 1668447448:0;ls Machine\ Learning
+: 1668447453:0;ls
+: 1668447465:0;mv 'Machine Learning' ML
+: 1668447466:0;ls
+: 1668447470:0;cd ML
+: 1668447471:0;ls
+: 1668552107:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1668552946:0;yay -S saxon
+: 1668552982:0;yay -S saxon-he
+: 1668553078:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1668553119:0;which saxon
+: 1668553291:0;yay -S saxon-6
+: 1668553312:0;sudo pacman -S saxon-6
+: 1668553522:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1668603872:0;yay -S basex
+: 1668604523:0;ls basex
+: 1668604555:0;mv 'basex/BookstoreQ .xml' basex/BookstoreQ.xml
+: 1668619932:0;z /media/data/lectures/lvl_4/term_1/ML
+: 1668628811:0;z /media/data/lectures/lvl_4/term_1/FPGA
+: 1668628812:0;ls
+: 1668628818:0;unzip FPGA-optional4.zip
+: 1668639326:0;mv Documents/Assignment2_Chapter1-Solutions.docx.pdf Documents/Assignment2_Chapter1-Solutions.pdf
+: 1668650780:0;z /media/data/lectures/lvl_4/term_1/ML
+: 1668650781:0;ls
+: 1668650804:0;yt-dlp --playlist-start 4 --playlist-end 4 --format mp4 -o "lec_%(playlist_index)s.%(ext)s" 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODJnCNW1WqJ46tXVMCgdwTI'
+: 1668650940:0;ls
+: 1668650959:0;rm ML.zip
+: 1668650960:0;ls
+: 1668650967:0;tree ML
+: 1668650972:0;yay -S tree
+: 1668650978:0;tree ML
+: 1668650983:0;cd ..
+: 1668650986:0;tree .
+: 1668650995:0;cd ..
+: 1668650999:0;tree .
+: 1668651014:0;ls
+: 1668874206:0;z /media/data/lectures/lvl_4/term_1/internetworking
+: 1668874216:0;unzip Internetworking.zip
+: 1668880771:0;z /media/data/lectures/lvl_4/term_1/internetworking
+: 1668880773:0;ls
+: 1668880813:0;yt-dlp --playlist-start 6 --playlist-end 7 --format mp4 -o "lec_%(playlist_index)s.%(ext)s" 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODEzGlmYEv2pM56CEcUH2sx'
+: 1668972616:0;z /media/data/lectures/lvl_4/term_1/arch2
+: 1668972618:0;ls
+: 1668976616:0;cd arch2
+: 1668976617:0;ls
+: 1668976625:0;unzip Arch\ 2-20221120T192825Z-001.zip
+: 1668976627:0;ls
+: 1668976646:0;rm Arch\ 2-20221120T192825Z-001.zip
+: 1668976648:0;ls
+: 1668976665:0;cd Arch\ 2
+: 1668976666:0;ls
+: 1668976671:0;cd ..
+: 1668976679:0;mv Arch\ 2 sections
+: 1668976681:0;ls
+: 1669122341:0;z /media/data/lectures/lvl_4/term_1/FPGA
+: 1669122343:0;ls
+: 1669122427:0;yt-dlp --playlist-start 6 --playlist-end 7 --format mp4 -o "lec_%(playlist_index)s.%(ext)s" 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODSO9n0xqlGai4sl5faMVTP'
+: 1669126157:0;ls
+: 1669142695:0;z /media/data/lectures/lvl_4/term_1/FPGA
+: 1669142696:0;ls
+: 1669142699:0;cd FPGA\ -\ اختك�ارك�\ 4
+: 1669142700:0;ls
+: 1669142721:0;unzip Exams.zip
+: 1669142726:0;rm Exams.zip
+: 1669142728:0;ls
+: 1669142730:0;cd ..
+: 1669142730:0;ls
+: 1669142737:0;rm *.zip
+: 1669142738:0;ls
+: 1669142751:0;mv FPGA\ -\ اختك�ارك�\ 4 FPGA
+: 1669142754:0;ls
+: 1669343902:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1670954727:0;cd Documents
+: 1670954733:0;nvim test.txt
+: 1671284972:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1671404833:0;cd Videos
+: 1671404834:0;ls
+: 1671404838:0;cd OBS
+: 1671404839:0;ls
+: 1671404868:0;zip 2022-12-18_23-49-17.mkv
+: 1671404895:0;sudo pacman -S zip
+: 1671404915:0;zip 2022-12-18_23-49-17.mkv
+: 1671404948:0;zip nlp_video.zip 2022-12-18_23-49-17.mkv
+: 1671404968:0;ls -al
+: 1671404974:0;ls -alh
+: 1671467660:0;z /media/data/lectures/lvl_4/term_1/arch2
+: 1671467662:0;ls
+: 1671467727:0;yt-dlp --playlist-start 8 --format mp4 -o "lec_%(playlist_index)s.%(ext)s" 'https://www.youtube.com/playlist?list=PL1YWN9bMt3OCbor3HXRgQwooO0_8yZ5_7'
+: 1671632667:0;ls
+: 1671632695:0;cd /media/
+: 1671632696:0;ls
+: 1671632725:0;lsblk
+: 1671632751:0;lsblk -f
+: 1671733648:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1671733665:0;unzip Downloads/ml.zip
+: 1671733680:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1671977888:0;ls -al /
+: 1671977896:0;ls -al /root
+: 1671977899:0;sudo ls -al /root
+: 1671977915:0;sudo vnim /root/.config
+: 1671977922:0;sudo nvim /root/.config
+: 1671978014:0;sudo vnim /proc/config.gz
+: 1671978019:0;sudo nvim /proc/config.gz
+: 1672058953:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1672658847:0;z /media/data/lectures/lvl_4/term_1/FPGA
+: 1672658848:0;ls
+: 1672658937:0;yt-dlp --format mp4  'https://www.youtube.com/watch?v=XmNE02m88DA&list=PL1YWN9bMt3ODSO9n0xqlGai4sl5faMVTP&index=8&t=2s'
+: 1672658967:0;z /media/data/lectures/lvl_4/term_1/FPGA
+: 1672658968:0;ls
+: 1672658983:0;rm Lec\ 1\ \[7kbCkq1j678\].mp4.part
+: 1672658985:0;ls
+: 1672659023:0;yt-dlp --format mp4 'https://www.youtube.com/watch?v=XmNE02m88DA&list=PL1YWN9bMt3ODSO9n0xqlGai4sl5faMVTP&index=9&t=2s'
+: 1672659032:0;ls
+: 1672659035:0;rm Lec\ 1\ \[7kbCkq1j678\].mp4.part
+: 1672659089:0;yt-dlp --playlist-start 8 --playlist-end 12 --format mp4 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODSO9n0xqlGai4sl5faMVTP'
+: 1672743945:0;sudo pacman -Syu
+: 1672750598:0;yay -Syu
+: 1672767024:0;z /media/data/lectures/lvl_4/term_1/FPGA
+: 1672767027:0;ls
+: 1672767029:0;cd FPGA
+: 1672767030:0;ls
+: 1672767037:0;unzip Lectures-20230103T162050Z-001.zip
+: 1672767069:0;ls
+: 1672767073:0;cd Lectures
+: 1672767074:0;ls
+: 1672767082:0;cd ..
+: 1672767083:0;ls
+: 1672767088:0;rm Lectures-20230103T162050Z-001.zip
+: 1672767089:0;ls
+: 1672940311:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1673011511:0;z /media/data/lectures/lvl_4/term_1/FPGA
+: 1673011520:0;z /media/data/lectures/lvl_4/term_1/internetworking
+: 1673011521:0;ls
+: 1673011531:0;cd Internetworking
+: 1673011533:0;ls
+: 1673011535:0;cd Lectures
+: 1673011536:0;ls
+: 1673011555:0;cd ..
+: 1673011555:0;ls
+: 1673011559:0;rm Lectures
+: 1673011563:0;rm -rs Lectures
+: 1673011567:0;rm -r Lectures
+: 1673011568:0;ls
+: 1673011589:0;cd ..
+: 1673011589:0;ls
+: 1673011593:0;cd Internetworking
+: 1673011594:0;ls
+: 1673011727:0;unzip Lectures-20230106T132458Z-001.zip
+: 1673011729:0;ls
+: 1673099168:0;yay -S discord
+: 1673144654:0;yay -S qbittorrent
+: 1673145385:0;tldr yt-dlp
+: 1673145606:0;mkdir aws
+: 1673145610:0;tldr yt-dlp
+: 1673224090:0;cd Downloads
+: 1673224091:0;ls
+: 1673224097:0;unzip journal.zip
+: 1673224103:0;unzip moms_typewriter.zip
+: 1673224156:0;unzip webfontkit-20230108-192737.zip
+: 1673224165:0;ls -f
+: 1673224169:0;ls -al
+: 1673224246:0;mkdir webfont
+: 1673224256:0;mv webfontkit-20230108-192737.zip webfont
+: 1673224261:0;cd webfont
+: 1673224262:0;ls
+: 1673224265:0;unzip webfontkit-20230108-192737.zip
+: 1673224267:0;ls
+: 1673224273:0;less generator_config.txt
+: 1673224328:0;less stylesheet.css
+: 1673224361:0;ls specimen_files
+: 1673224365:0;cd ..
+: 1673224367:0;ls
+: 1673362600:0;z ml
+: 1673362603:0;ls
+: 1673362702:0;yt-dlp --playlist-start 4 --playlist-end 9 --format mp4 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODJnCNW1WqJ46tXVMCgdwTI'
+: 1673404678:0;z ml
+: 1673404680:0;ls
+: 1673404685:0;cd ML
+: 1673404686:0;ls
+: 1673404705:0;rm -r Lectures ك�ك�خصات
+: 1673404707:0;ك�س
+: 1673404709:0;ls
+: 1673404717:0;unzip Lectures-20230111T023519Z-001.zip
+: 1673404724:0;unzip ك�ك�خصات-20230111T023548Z-001.zip
+: 1673404726:0;ls
+: 1673404741:0;rm Lectures-20230111T023519Z-001.zip ك�ك�خصات-20230111T023548Z-001.zip
+: 1673404742:0;ls
+: 1673621947:0;z nlp
+: 1673621948:0;ls
+: 1673621952:0;cd NLP-optional3
+: 1673621953:0;ls
+: 1673621966:0;rm -r Lectures sec
+: 1673621968:0;ls
+: 1673621974:0;unzip Lectures-20230113T145511Z-001.zip
+: 1673621979:0;rm Lectures-20230113T145511Z-001.zip
+: 1673621980:0;ls
+: 1673621984:0;cd Lectures
+: 1673621984:0;ls
+: 1673622365:0;cd ..\\
+ls
+: 1673622369:0;cd ..
+: 1673622370:0;ls
+: 1673622374:0;unzip Sections-20230113T145711Z-001.zip
+: 1673622378:0;rm Sections-20230113T145711Z-001.zip
+: 1673622379:0;ls
+: 1673622382:0;cd sec
+: 1673622382:0;ls
+: 1673622390:0;cd ..
+: 1673739869:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1674004528:0;/bin/python /home/salah/Documents/NLP/we.py
+: 1674004898:0;python3
+: 1674005338:0;/bin/python /home/salah/Documents/NLP/we.py
+: 1674006534:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1674006564:0;/bin/python /home/salah/Documents/NLP/we.py
+: 1674006584:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1674006654:0;/bin/python /home/salah/Documents/NLP/we.py
+: 1674008378:0;/bin/python
+: 1674009001:0;/usr/bin/env /bin/python /home/salah/.vscode/extensions/ms-python.python-2022.20.2/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher 33251 -- /home/salah/Documents/NLP/test.py 
+: 1674182771:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1674193026:0;python -m pip install beautifulsoup4
+: 1674193294:0;ls /usr/lib/python3.10/si
+: 1674193338:0;cat /usr/lib/python3.10/site-packages/bs4/__init__.py
+: 1674216497:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1674279637:0;export 'BEARER_TOKEN'='AAAAAAAAAAAAAAAAAAAAAJpjlQEAAAAAjjpSz95eIet7WDQZilYs%2BR2JSvo%3D4knJu5FuvfAqPQiGxgKjdc8rytTiEaSLl8tzjQu8xYKW23q9oT'
+: 1674279650:0;python3 __main__.py
+: 1674281400:0;export 'CONSUMER_KEY'='5f5FGmQFHKiTKl8Or3nW8sHIH'
+: 1674281419:0;export 'CONSUMER_SECRET'='19tE7bDTPnhkUQi2etOPEJd8fIjQVdZyI4Fy4lBD6ORplpRFov'
+: 1674281422:0;python3 __main__.py
+: 1674281439:0;pip install requests_oauthlib
+: 1674281447:0;python3 __main__.py
+: 1674383228:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1674461039:0;cd geo
+: 1674461049:0;python3 geoload.py
+: 1674461433:0;python3 geodump.py
+: 1674473375:0;python3 --version
+: 1674475264:0;node -e 'require("fs").writeFileSync("/home/salah/.local/share/vscode-sqltools/.node-runtime", process.execPath)' && exit 0
+: 1674546275:0;quit
+: 1674903786:0;sudo pacman -S discord
+: 1674903833:0;sudo pacman -Syu discord
+: 1674903867:0;sudo pacman -Su discord
+: 1674903873:0;sudo pacman -Sy discord
+: 1675353431:0;files
+: 1675353462:0;ls
+: 1675353466:0;ls -al
+: 1675353503:0;nautilus
+: 1675353561:0;yay -Sy nautilus
+: 1675457975:0;yay -S ngrok
+: 1675458083:0;ngrok http 8000
+: 1675458168:0;yay -S ngrok
+: 1675458292:0;python3 --version
+: 1675458314:0;python -m django --version
+: 1675458466:0;git clone https://github.com/csev/dj4e-samples
+: 1675458477:0;cd dj4e-samples
+: 1675458479:0;pip install -r requirements4.txt
+: 1675458564:0;python -m django --version
+: 1675458581:0;python manage.py check
+: 1675458606:0;python manage.py runserver
+: 1675458635:0;ngrok http 8000
+: 1675458682:0;python manage.py runserver
+: 1675458690:0;ngrok http 8000
+: 1675458892:0;ngrok http 127.0.0.1:8080 -host-header="127.0.0.1:8080"\
+\
+
+: 1675458919:0;ngrok http 127.0.0.1:8080 --host-header="127.0.0.1:8080"
+: 1675458948:0;ngrok http 127.0.0.1:8000 -host-header="127.0.0.1:8000"
+: 1675458967:0;ngrok http 127.0.0.1:8000 --host-header="127.0.0.1:8000"
+: 1675459021:0;ngrok http 127.0.0.1:8000
+: 1675459100:0;ngrok config add-authtoken 2LFFVleB03CyumYy3eCmnGJu7gI_4jRaHoWz1nctgarim4P8U
+: 1675459148:0;ngrok http 127.0.0.1:8000
+: 1675459266:0;python manage.py migrate\
+python manage.py createsuperuser\
+python manage.py runscript gview_load\
+python manage.py runscript many_load
+: 1675459824:0;cd ..
+: 1675460567:0;ls
+: 1675460572:0;ls -al
+: 1675460596:0;ls *git*
+: 1675460600:0;ls *token*
+: 1675460611:0;vi githubtoken
+: 1675460615:0;sudo vi githubtoken
+: 1675460618:0;sudo vim githubtoken
+: 1675460656:0;nvim githubtoken
+: 1675460761:0;git clone git@github.com:ahmeducf/django_projects.git
+: 1675524598:0;z cs
+: 1675524600:0;ls
+: 1675524604:0;cd anees
+: 1675524608:0;unzip aness.rar
+: 1675524646:0;sudo pacman -S unrar
+: 1675524675:0;unrar anees.rar
+: 1675524714:0;unrar e aness.rar
+: 1675524717:0;ls
+: 1675898349:0;z data
+: 1675898353:0;cd ..
+: 1675898354:0;ls
+: 1675898361:0;cd ILETS
+: 1675898362:0;ls
+: 1675898364:0;cd level-1
+: 1675898365:0;ls
+: 1675898368:0;cd vocabulary
+: 1675898369:0;ls
+: 1675898394:0;rm 00\ How\ to\ Study\ \(1\).pdf rm 00\ How\ to\ Study\ .pdf
+: 1675898403:0;rm 00\ How\ to\ Study\ \(1\).pdf 00\ How\ to\ Study\ .pdf
+: 1675898409:0;rm 00\ How\ to\ Study\ \(1\).pdf
+: 1675898411:0;ls
+: 1675898426:0;unzip Cambridge\ Vocabulary\ for\ IELTS.zip
+: 1675898430:0;ls
+: 1675898586:0;unzip Cambridge\ Vocabulary\ for\ IELTS\ Advanced.zip
+: 1675969988:0;cd django_projects
+: 1675970010:0;cd mysite
+: 1675970012:0;ls
+: 1675970033:0;python manage.py runserver
+: 1675970073:0;ngrok http 127.0.0.1:8000
+: 1675970283:0;python manage.py runserver
+: 1675970312:0;ngrok http 127.0.0.1:8000
+: 1676029243:0;yay -Sy google-chrome
+: 1676029784:0;yay -S mysql
+: 1676029877:0;sudo pacman -S mysql
+: 1676029893:0;yay -S mysql
+: 1676030010:0;mysqld --version
+: 1676030046:0;sudo systemctl start mysqld
+: 1676030062:0;sudo systemctl start mysqld.service
+: 1676030078:0;sudo systemctl status mysqld
+: 1676030176:0;mysql
+: 1676030271:0;sudo systemctl start mysqld.service
+: 1676030281:0;sudo systemctl status mysqld
+: 1676030393:0;journalctl -xeu mariadb.service
+: 1676030559:0;sudo systemctl start mysqld.service
+: 1676030563:0;sudo systemctl status mysqld
+: 1676030625:0;yay -Syu 
+: 1676030725:0;time mysqldump -u root -p database > /var/backups/restore_backup.sql
+: 1676031205:0;ls -al
+: 1676031229:0;nvim ./data
+: 1676031378:0;sudo nvim /etc/passwd
+: 1676031445:0;chown -R mysql.mysql /var/lib/mysql
+: 1676031457:0;sudo chown -R mysql.mysql /var/lib/mysql
+: 1676031466:0;sudo chown -R mysql:mysql /var/lib/mysql
+: 1676031489:0;sudo mysql_install_db --user=mysql
+: 1676031967:0;yay -Syu 
+: 1676032205:0;sudo rm /etc/systemd/system
+: 1676032240:0;sudo systemctl daemon-reload
+: 1676032266:0;sudo systemctl start mysqld
+: 1676032279:0;sudo systemctl start mariadb
+: 1676032863:0;sudo mysql_install_db --user=mysql
+: 1676032901:0;ls -al ./data
+: 1676032905:0;sudo ls -al ./data
+: 1676032933:0;nvim ./data/mysql
+: 1676032949:0;sudo nvim ./data/mysql
+: 1676033018:0;/usr/bin/mysql_install_db --defaults-file=~/.my.cnf
+: 1676033031:0;sudo systemctl start mysqld
+: 1676033120:0;mariadb-install-db --user mysql
+: 1676033159:0;sudo mariadb-install-db --user mysql
+: 1676033251:0;sudo getenforce\
+\
+
+: 1676033273:0;shutdown -r
+: 1676033459:0;sudo systemctl start mysqld
+: 1676033470:0;sudo mariadb-install-db --user mysql
+: 1676033724:0;cat /var/log/mysql\
+\
+
+: 1676033728:0;sudo cat /var/log/mysql\
+\
+
+: 1676033747:0;ps -ef | grep mysqld\
+
+: 1676033782:0;lsof '/var/lib/mysql/aria_log_control'\
+\
+
+: 1676033785:0;sudo lsof '/var/lib/mysql/aria_log_control'\
+\
+
+: 1676033819:0;sudo kill -SIGTERM 11156
+: 1676033828:0;sudo kill -SIGTERM 962
+: 1676033840:0;ps -ef | grep mysqld\
+
+: 1676033867:0;chown -R mysql:mysql /var/lib/mysql\
+\
+
+: 1676033872:0;sudo chown -R mysql:mysql /var/lib/mysql\
+\
+
+: 1676033883:0;mariadb-install-db --user mysql
+: 1676033899:0;rm -r data
+: 1676033908:0;mariadb-install-db --user mysql
+: 1676033922:0;ls
+: 1676033926:0;rm -r data
+: 1676033930:0;sudo mariadb-install-db --user mysql
+: 1676034021:0;ls ./data
+: 1676034024:0;sudo ls ./data
+: 1676034039:0;sudo cat ./data/ibdata1
+: 1676034059:0;sudo cat ./data/ib_logfile0
+: 1676034186:0;sudo mariadb-install-db --user salah
+: 1676034323:0;sudo mariadb-install-db --user mysql
+: 1676034336:0;ls -al ./data
+: 1676034340:0;sudo ls -al ./data
+: 1676034420:0;chmod 777 /home/salah/data/aria_log_control\
+
+: 1676034424:0;sudo chmod 777 /home/salah/data/aria_log_control\
+
+: 1676034429:0;sudo chmod 777 /home/salah/data/\
+
+: 1676034439:0;ls -al ./data
+: 1676034451:0;ls -al
+: 1676034463:0;sudo mariadb-install-db --user mysql
+: 1676034495:0;sudo ls -al ./data
+: 1676034509:0;sudo mariadb-install-db --user mysql
+: 1676034567:0;/usr/bin/mariadb-install-db --defaults-file=~/.my.cnf
+: 1676034618:0;cat .my.cnf
+: 1676034619:0;sudo cat .my.cnf
+: 1676034741:0;mysql_install_db --user=mysql\
+
+: 1676034755:0;sudo mysql_install_db --user=mysql\
+
+: 1676034814:0;rm -r data
+: 1676034835:0;ls
+: 1676034840:0;ls -al data
+: 1676034851:0;sudo systemctl start mysqld
+: 1676034861:0;sudo rm -r data
+: 1676034863:0;ls
+: 1676034870:0;mysql_install_db --user=mysql\
+
+: 1676034940:0;chown -R mysql:mysql /var/lib/mysql\
+\
+
+: 1676034961:0;sudo chmod -v 0751 /var/lib/mysql
+: 1676034972:0;sudo chown -v mysql:mysql /var/lib/mysql
+: 1676034987:0;sudo ls -al /var/lib/mysql
+: 1676034996:0;mysql_install_db --user=mysql\
+
+: 1676035014:0;ls -al data
+: 1676035026:0;sudo rm -r data
+: 1676035028:0;mysql_install_db --user=mysql\
+
+: 1676035038:0;ls -al data
+: 1676035045:0;ls -al
+: 1676035055:0;rm -r data
+: 1676035059:0;mysql_install_db --user=mysql\
+
+: 1676035073:0;sudo chown -R mysql:mysql data
+: 1676035096:0;mysql_install_db --user=mysql\
+
+: 1676035132:0;chmod -v 0751 data
+: 1676035136:0;mysql_install_db --user=mysql\
+
+: 1676035251:0;groupadd mysql
+: 1676035260:0;useradd -r -g mysql -s /bin/false mysql
+: 1676035275:0;cd /usr/local/mysql\
+
+: 1676035282:0;sudo cd /usr/local/mysql\
+
+: 1676035344:0;cd /var/lib/mysql
+: 1676035345:0;ls
+: 1676035348:0;sudo ls
+: 1676035359:0;mariadb-install-db --user mysql
+: 1676035365:0;sudo mariadb-install-db --user mysql
+: 1676035381:0;ls -al
+: 1676035383:0;sudo ls -al
+: 1676035554:0;sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+: 1676035598:0;systemctl enable --now mariadb
+: 1676035614:0;sudo systemctl status mysqld
+: 1676036494:0;mysql --version
+: 1676036701:0;pip install mysqlclient==1.4.6
+: 1676037090:0;cp ~/dj4e-samples/dj4e-samples/settings.py ~/django_projects/mysite/mysite\
+cp ~/dj4e-samples/dj4e-samples/urls.py ~/django_projects/mysite/mysite\
+cp -r ~/dj4e-samples/home/* ~/django_projects/mysite/home
+: 1676037117:0;cp dj4e-samples/dj4e-samples/settings.py django_projects/mysite/mysite
+: 1676037132:0;cp dj4e-samples/dj4e-samples/urls.py django_projects/mysite/mysite
+: 1676037144:0;cp -r dj4e-samples/home/* django_projects/mysite/home
+: 1676037681:0;python manage.py check
+: 1676037688:0;cd django_projects
+: 1676037691:0;python manage.py check
+: 1676037694:0;ls
+: 1676037697:0;cd mysite
+: 1676037700:0;ls
+: 1676037703:0;python manage.py check
+: 1676038151:0;ls
+: 1676038154:0;mysql
+: 1676038270:0;mysql -u root -p
+: 1676038319:0;mysql -u salah -p
+: 1676038333:0;mysql -u salah
+: 1676038339:0;mysql -u root
+: 1676038347:0;mysql -u salah
+: 1676036932:2;yay -S python3-dev default-libmysqlclient-dev build-essentialmysql
+: 1676038441:0;sudo mysqladmin -u root password Aa18121999
+: 1676038453:0;mysql -u root -p
+: 1676038698:0;python manage.py check
+: 1676038706:0;python manage.py makemigrations
+: 1676038714:0;python manage.py migrate
+: 1676038739:0;mysql -u root -p
+: 1676038793:0;python manage.py runserver
+: 1676038857:0;ls
+: 1676039783:0;python manage.py startapp ads
+: 1676042142:0;python manage.py check
+: 1676042292:0;python manage.py makemigrations
+: 1676042301:0;python manage.py migrate
+: 1676049261:0;cd django_projects/mysite
+: 1676049263:0;ls
+: 1676049266:0;python manage.py migrate
+: 1676049274:0;python manage.py check
+: 1676049278:0;python manage.py runserver
+: 1676049361:0;ls
+: 1676049370:0;python manage.py createsuperuser
+: 1676050232:0;python manage.py runserver
+: 1676051528:0;ngrok http 127.0.0.1:8000
+: 1676051573:0;python manage.py runserver
+: 1676051617:0;ngrok http 127.0.0.1:8000
+: 1676051779:0;python manage.py runserver
+: 1676051784:0;ngrok http 127.0.0.1:8000
+: 1676051852:0;python manage.py runserver
+: 1676051856:0;ngrok http 127.0.0.1:8000
+: 1676051999:0;python manage.py runserver
+: 1676052056:0;python manage.py check
+: 1676052077:0;python manage.py runserver
+: 1676052435:0;ngrok http 127.0.0.1:8000
+: 1676341771:0;mkdir drf
+: 1676341773:0;cd drf
+: 1676341804:0;pip3 install virtualenv
+: 1676341886:0;virtualenv env
+: 1676341985:0;echo $PATH
+: 1676342170:0;nvim /etc/profile
+: 1676342232:0;nvim /etc/environment
+: 1676342328:0;nvim /etc/profile
+: 1676342481:0;sudo nvim /etc/profile
+: 1676342517:0;source /etc/profile
+: 1676342521:0;echo $PATH
+: 1676342542:0;virtualenv env
+: 1676342555:0;rm -r env
+: 1676342558:0;cd drf
+: 1676342559:0;ls
+: 1676342566:0;virtualenv env
+: 1676342601:0;source env
+: 1676342691:0;source env/bin/activate
+: 1676342714:0;pip3 install django
+: 1676342833:0;mkdir src
+: 1676342834:0;cd src
+: 1676342858:0;django-admin start-project drf_api .
+: 1676342894:0;django-admin startproject drf_api .
+: 1676343254:0;python3 manage.py startapp core
+: 1676343541:0;python3 manage.py migrate
+: 1676343556:0;python3 manage.py check
+: 1676343562:0;python3 manage.py runserver
+: 1676343591:0;curl http://localhost:8000
+: 1676343598:0;curl http://localhost:8000/core
+: 1676343667:0;curl http://localhost:8000/core/
+: 1676344301:0;pip3 install djangorestframework
+: 1676344546:0;python manage.py runserver
+: 1676344972:0;curl http://localhost:8000/core/
+: 1676345788:0;ls
+: 1676345797:0;python3 manage.py makemigrations
+: 1676345828:0;python manage.py makemigrations
+: 1676350403:0;yay -S postman
+: 1676350435:0;yay -S postman-bin
+: 1676350814:0;python manage.py makememigrations
+: 1676350827:0;python manage.py makemigrations
+: 1676350835:0;python manage.py migrate
+: 1676350873:0;python manage.py runserver
+: 1676352073:0;python manage.py createsuperuser
+: 1676416566:0;cd drf
+: 1676416567:0;ls
+: 1676416569:0;cd src
+: 1676416571:0;ls
+: 1676416574:0;workon env
+: 1676416583:0;source env/bin/activate
+: 1676416584:0;ls
+: 1676416592:0;source ../env/bin/activate
+: 1676416593:0;ls
+: 1676416605:0;python manage.py runserver
+: 1676416826:0;python manage.py migrate
+: 1676416841:0;ls
+: 1676416847:0;python manage.py runserver
+: 1676416950:0;python manage.py flush
+: 1676416960:0;python manage.py createsuperuser
+: 1676416983:0;python manage.py runserver
+: 1676417137:0;python manage.py migrate
+: 1676417152:0;python manage.py runserver
+: 1676418107:0;source env/bin/activate
+: 1676418109:0;ls
+: 1676418115:0;source ../env/bin/activate
+: 1676511309:0;cd src
+: 1676511310:0;ls
+: 1676511316:0;cd drf/
+: 1676511326:0;source env/bin/activate
+: 1676511328:0;cd src
+: 1676511329:0;ls
+: 1676511337:0;python manage.py check
+: 1676511372:0;python manage.py runserver
+: 1676524368:0;cd /
+: 1676524379:0;grep -ri ranger
+: 1676524488:0;cd ~
+: 1676602476:0;ls
+: 1676602494:0;mkdir drf-react
+: 1676602498:0;cd drf-react
+: 1676602499:0;ls
+: 1676602557:0;py -m venv venv
+: 1676602565:0;pip3 install py
+: 1676602572:0;py -m venv venv
+: 1676602587:0;python3 -m venv venv
+: 1676602629:0;source venv/bin/activate
+: 1676602785:0;pip install django
+: 1676602834:0;django-admin startproject core .
+: 1676602864:0;python3 manage.py startapp blog
+: 1676602867:0;python3 manage.py startapp blog_api
+: 1676602910:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1676603842:0;python manage.py check
+: 1676659192:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1676659198:0;python manage.py check
+: 1676659220:0;python manage.py makemigrations
+: 1676659255:0;python manage.py check
+: 1676659257:0;python manage.py makemigrations
+: 1676659281:0;python manage.py migrate
+: 1676659500:0;python manage.py makemigrations --dry-run --verbosity 3
+: 1676659531:0;python manage.py makemigrations --verbosity 3
+: 1676659545:0;python manage.py migrate
+: 1676659558:0;pip install djangorestframework
+: 1676659589:0;pip install --upgrade
+: 1676659601:0;pip install --upgrade pip
+: 1676662671:0;python manage.py createsuperuser
+: 1676662703:0;python manage.py runserver
+: 1676664548:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1676664564:0;cat ../drf/src/core/serializers.py
+: 1676664635:0;cat ../drf/src/drf_api/settings.py
+: 1676664860:0;python manage.py runserver
+: 1676665257:0;pip install coverage
+: 1676665327:0;coverage run --omit='*/venv/*' manage.py test
+: 1676665406:0;coverage html
+: 1676669286:0;coverage run --omit='*/venv/*' manage.py test
+: 1676669805:0;coverage html
+: 1676669867:0;coverage run --omit='*/venv/*' manage.py test
+: 1676684078:0;clear
+: 1676684087:0;fdf
+: 1676684270:0;npx browserslist@latest --update-db
+: 1676684316:0;npx create-react-app blogapi .
+: 1676684798:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1676684810:0;npm audit
+: 1676684838:0;npm audit fix --force
+: 1676684894:0;cd blogapi
+: 1676684912:0;npm start
+: 1676685055:0;cat /etc/hosts
+: 1676685193:0;sudo cat /etc/hosts
+: 1676685202:0;man hosts(5)
+: 1676685207:0;man hosts
+: 1676686794:0;npm install @material-ui/core
+: 1676686893:0;cd ..
+: 1676686896:0;npm install @material-ui/core
+: 1676686996:0;npm install react-router-dom
+: 1676687101:0;cd blogapi
+: 1676687106:0;npm start
+: 1676688398:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1676688412:0;cd blogapi
+: 1676688413:0;ls
+: 1676688429:0;npm install serviceWorker
+: 1676688454:0;npm install serviceworker
+: 1676689269:0;npm link <path_to_local_library>/node_modules/react
+: 1676689288:0;npm link ./node_modules/react
+: 1676689373:0;npm install
+: 1676689568:0;npm start
+: 1676691150:0;pip install django-cors-headers
+: 1676691170:0;cd ..
+: 1676691172:0;ls
+: 1676691176:0;pip install django-cors-headers
+: 1676771815:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1676771827:0;ls
+: 1676771834:0;python manage.py runserver
+: 1676775584:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1676775591:0;coverage run --omit='*/venv/*' manage.py test
+: 1676779523:0;clear
+: 1676793163:0;pip install djangorestframework-simplejwt
+: 1676793828:0;python manage.py runserver
+: 1676793857:0;curl \\
+  -X POST \\
+  -H "Content-Type: application/json" \\
+  -d '{"username": "admin", "password": "admin"}' \\
+  http://localhost:8000/api/token/
+: 1676797492:0;curl \\
+  -X POST \\
+  -H "Content-Type: application/json" \\
+  http://localhost:8000/api/token/
+: 1676809232:0;python manage.py startapp user_proxy
+: 1676898257:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1676898280:0;django-admin startproject user-profile
+: 1676898288:0;django-admin startproject user_profile
+: 1676898300:0;cd user_profile
+: 1676898301:0;ls
+: 1676898353:0;python manage.py startapp user_profile
+: 1676898368:0;python manage.py startapp profile
+: 1676898378:0;python manage.py startapp user
+: 1676898788:0;python manage.py makemigrations
+: 1676898797:0;python manage.py migrate
+: 1676899454:0;python manage.py createsuperuser
+: 1676954902:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1676954905:0;cd user_profile
+: 1676954907:0;ls
+: 1676954916:0;python manage.py makemigrations
+: 1676955205:0;python manage.py migrate
+: 1676955216:0;cd ..
+: 1676955231:0;django-admin startproject abstract_user
+: 1676955235:0;cd abstract_user
+: 1676955244:0;python manage.py startapp user
+: 1676955391:0;python manage.py makemigrations
+: 1676955484:0;python manage.py migrate
+: 1676955544:0;python manage.py createsuperuser
+: 1676959560:0;cd ..
+: 1676959586:0;python manage.py startapp users
+: 1676959967:0;python manage.py makemigrations
+: 1676960180:0;python manage.py migrate
+: 1676960209:0;python manage.py makemigrations
+: 1676960215:0;python manage.py migrate
+: 1676960303:0;python manage.py createsuperuser
+: 1676960342:0;python manage.py runserver
+: 1677060643:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1677060648:0;python manage.py migrate
+: 1677061071:0;python manage.py runserver
+: 1677061182:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1677061188:0;python manage.py createsuperuser
+: 1677087220:0;pip install pyyaml
+: 1677089221:0;pip install uritemplate
+: 1677089332:0;python manage.py generateschema --file openapi-schema.yml
+: 1677089563:0;python manage.py runserver
+: 1677090190:0;pip install coreapi
+: 1677090218:0;python manage.py runserver
+: 1677091903:0;unzip Downloads/go-server-server-generated.zip
+: 1677091907:0;ls
+: 1677091913:0;ls Downloads
+: 1677091975:0;cd Downloads
+: 1677091976:0;ls
+: 1677091987:0;mkdir go
+: 1677091996:0;mv -r go-server-server-generated.zip go
+: 1677092002:0;mv  go-server-server-generated.zip go
+: 1677092004:0;cd go
+: 1677092005:0;ls
+: 1677092009:0;unzip go-server-server-generated.zip
+: 1677092013:0;ls
+: 1677161419:0;cd anees/tessst
+: 1677161426:0;django-admin startproject test
+: 1677161439:0;django-admin startproject testproject
+: 1677161444:0;cd testproject
+: 1677161457:0;python manage.py startapp myapp
+: 1677161515:0;python manage.py migrate
+: 1677161585:0;python manage.py makemigrations
+: 1677161639:0;python manage.py migrate
+: 1677163405:0;python manage.py runserver
+: 1677163579:0;source venv/bin/activate
+: 1677163585:0;python manage.py runserver
+: 1677407729:0;z cs
+: 1677407732:0;ls
+: 1677407747:0;mkdir graduation-project
+: 1677407749:0;cd graduation-project
+: 1677407758:0;git clone git@github.com:AneesApp/anees-backend.git
+: 1677408299:0;cp ~/anees
+: 1677408383:0;cp ~/anees/Anees\ Database\ ER\ diagram.png ./anees-backend/docs/database
+: 1677437150:0;cp ~/anees/Anees\ Database\ ER\ diagram.png ./anees-backend/docs/database/database-ER-diagram.png
+: 1677498729:0;python manage.py runserver
+: 1677498740:0;source venv/bin/activate
+: 1677498742:0;python manage.py runserver
+: 1677502101:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1677502124:0;curl \\
+  -X POST \\
+  -H "Content-Type: application/json" \\
+  -d '{"email": "admin", "password": "admin"}' \\
+  http://localhost:8000/api/token/
+: 1677502142:0;curl \\
+  -X POST \\
+  -H "Content-Type: application/json" \\
+  -d '{"email": "ahmed@ahmed.com", "password": "ahmed"}' \\
+  http://localhost:8000/api/token/
+: 1677502623:0;python manage.py runserver
+: 1677502764:0;python manage.py makemigrations
+: 1677502772:0;python manage.py migrate
+: 1677502792:0;python manage.py createsuperuser
+: 1677502812:0;python manage.py runserver
+: 1677506217:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1677506222:0;git clone git@github.com:veryacademy/YT-Django-DRF-Simple-Blog-Series-Filters-Basic-Search-Part-6.git
+: 1677506233:0;cd YT-Django-DRF-Simple-Blog-Series-Filters-Basic-Search-Part-6
+: 1677506235:0;ls
+: 1677506237:0;cd django
+: 1677506239:0;ls
+: 1677506088:0;python manage.py shell
+: 1677506264:0;python manage.py runserver
+: 1677506282:0;python manage.py makemigrations
+: 1677506293:0;python manage.py migrate
+: 1677506311:0;python manage.py runserver
+: 1677506479:0;source /media/data/cs/Web/django/drf-react/venv/bin/activate
+: 1677506490:0;python manage.py createsuperuser
+: 1677506582:0;python manage.py runserver
+: 1677509349:0;python manage.py makemigrations
+: 1677512028:0;python manage.py migrate
+: 1677514494:0;python manage.py makemigrations
+: 1677514821:0;python manage.py migrate
+: 1677514856:0;python manage.py createsuperuser
+: 1677514902:0;python manage.py makemigrations
+: 1677514905:0;python manage.py migrate
+: 1677514909:0;python manage.py createsuperuser
+: 1677514936:0;python manage.py migrate
+: 1677514951:0;python manage.py createsuperuser
+: 1677515047:0;python manage.py runserver
+: 1677515184:0;python manage.py makemigrations
+: 1677515248:0;python manage.py migrate
+: 1677515273:0;python manage.py createsuperuser
+: 1677515286:0;python manage.py migrate
+: 1677515378:0;python manage.py makemigrations
+: 1677515385:0;python manage.py migrate
+: 1677515444:0;python manage.py makemigrations
+: 1677515465:0;python manage.py migrate
+: 1677515491:0;python manage.py createsuperuser
+: 1677515549:0;python manage.py makemigrations
+: 1677515586:0;python manage.py migrate
+: 1677515606:0;python manage.py createsuperuser
+: 1677515644:0;python manage.py makemigrations
+: 1677515771:0;python manage.py migrate
+: 1677695151:0;yay -Sy discord
+: 1677760319:0;z /media/data/cs/odin/repos
+: 1677760321:0;ls
+: 1677760330:0;git clone git@github.com:ahmeducf/sign-up-form.git
+: 1677760338:0;code .
+: 1677760360:0;cd sign-up-form
+: 1677760363:0;code .
+: 1677761667:0;git checkout -b development
+: 1677761674:0;git branch
+: 1677847200:0;git status
+: 1677847217:0;git add .
+: 1677847220:0;git status
+: 1677847274:0;git commit -m "Set up basic HTML layout and CSS styles"
+: 1677847277:0;git status
+: 1677847288:0;git branch main
+: 1677847295:0;git checkout main
+: 1677847309:0;git merge development
+: 1677847328:0;git log
+: 1677847350:0;git shortlog
+: 1677847366:0;git push
+: 1677847511:0;git branch -d development
+: 1677847523:0;git branch
+: 1677849547:0;git status
+: 1677849552:0;git add .
+: 1677849565:0;git commit -m "Set up fonts"
+: 1677849571:0;git push origin main
+: 1677852341:0;git add .
+: 1677852350:0;git commit -m "Style side bar"
+: 1677852354:0;git push origin main
+: 1677865026:0;git add .
+: 1677865037:0;git commit -m "Style form controls"
+: 1677865042:0;git push
+: 1677868628:0;git commit
+: 1677868632:0;git add .
+: 1677868634:0;git commit
+: 1677868768:0;git push
+: 1677870945:0;git add .
+: 1677870970:0;git commit -m "Add footer and image credits"
+: 1677870974:0;git push
+: 1677872110:0;git add .
+: 1677872135:0;git commit -m "Update README"
+: 1677872139:0;git push
+: 1677872264:0;git add .
+: 1677872317:0;git commit -m "Update README"
+: 1677872320:0;git push
+: 1677930799:0;git add .
+: 1677930808:0;git commit -m "Add email validation"
+: 1677930812:0;git push
+: 1677950937:0;z /media/data/cs/odin/repos/css-exercises
+: 1677950942:0;code .
+: 1677950959:0;git status
+: 1677951036:0;git commit -m "Save progress"
+: 1677951039:0;git add .
+: 1677951041:0;git commit -m "Save progress"
+: 1677951046:0;git status
+: 1677951894:0;git log
+: 1677951913:0;git add .
+: 1677951942:0;git commit -m "\
+Solve grid/01 exercise"
+: 1677951949:0;git status
+: 1677951955:0;git push
+: 1677952009:0;git remote -v
+: 1677952029:0;git push origin main
+: 1677952041:0;git remote -v
+: 1677952059:0;git push upstream main
+: 1678023119:0;git add .
+: 1678023137:0;git commit -m "Solve grid/02 exercise"
+: 1678023352:0;git add .
+: 1678023364:0;git commit -m "Fix README"
+: 1678023384:0;git add .
+: 1678023385:0;git commit -m "Fix README"
+: 1678034776:0;git add .
+: 1678034783:0;git commit -m "Solve grid/03 exercise"
+: 1678034787:0;git push origin main
+: 1678106915:0;z /media/data/cs/odin/repos/
+: 1678106936:0;git clone git@github.com:ahmeducf/admin-dashboard
+: 1678106943:0;ls
+: 1678118376:0;git status
+: 1678118380:0;git add .
+: 1678118397:0;git commit
+: 1678118454:0;git push
+: 1678128128:0;git add .
+: 1678128159:0;git commit -m "Set up Announcement and Trending sections"
+: 1678128163:0;git push
+: 1678134669:0;git add .
+: 1678134704:0;git commit -m "Set up Projects section and refactor CSS style rules"
+: 1678134707:0;git push
+: 1678213799:0;git add .
+: 1678213833:0;git commit -m "Add Sidebar Section styles"
+: 1678214452:0;git add .
+: 1678214454:0;git commit
+: 1678214512:0;git push
+: 1678274022:0;git add .
+: 1678274061:0;git commit -m "Style profile-info and welcome-message sections in Header"
+: 1678274064:0;git push
+: 1678275620:0;git add .
+: 1678275633:0;git commit
+: 1678275936:0;git push
+: 1678276514:0;git add .
+: 1678276571:0;git commit -m "Add padding right in profile-info section"
+: 1678276574:0;git push
+: 1678284721:0;git add .
+: 1678284746:0;git commit -m "Style search-bar section"
+: 1678284749:0;git push
+: 1678285645:0;git add .
+: 1678285658:0;git commit -m "Add box-shadow"
+: 1678287153:0;git add .
+: 1678287227:0;git commit -m "Make CSS code more maintainable"
+: 1678287230:0;git push
+: 1678288220:0;git add .
+: 1678288226:0;git commit -m "Update README"
+: 1678288284:0;git add .
+: 1678288305:0;git commit -m "Add placeholder to serach input controller"
+: 1678288308:0;git push
+: 1678367083:0;node -v
+: 1678367088:0;node script.js
+: 1678399749:0;z cs
+: 1678399758:0;git clone git@github.com:ahmeducf/problem-solving
+: 1678399772:0;cp -r pro
+: 1678399850:0;git add .
+: 1678400001:0;git commit -m "JavaScript 30 days challenge: `day 1`"
+: 1678400005:0;git log
+: 1678400029:0;git push
+: 1678400066:0;git commit -m "JavaScript 30 days challenge: day 1"
+: 1678400256:0;git status
+: 1678461280:0;command -v nvm
+: 1678461284:0;command -v curl
+: 1678461291:0;command -v go
+: 1678461296:0;command -v cd
+: 1678461399:0;node -v
+: 1678461431:0;node
+: 1678556008:0;git add .
+: 1678556026:0;git commit -m "JavaScript 30 days challenge: day 1"
+: 1678557023:0;node javascript-30days-challenge/1.\ Two\ Sum.js
+: 1678557374:0;git add .
+: 1678557384:0;git commit -m "JavaScript 30 days challenge: day 2"
+: 1678557387:0;git push
+: 1678638113:0;npm install -g eslint
+: 1678638169:0;eslint --init
+: 1678640408:0;npm init @eslint/config
+: 1678640439:0;npm init
+: 1678640491:0;npm init @eslint/config
+: 1678640769:0;npx eslint script.js
+: 1678641574:0;npm install eslint --global
+: 1678641605:0;npx eslint script.js
+: 1678641694:0;eslint --init
+: 1678641717:0;npm init
+: 1678641725:0;eslint --init
+: 1678641885:0;npm install eslint --global
+: 1678641915:0;npm init @eslint/config --global
+: 1678642089:0;npm init @eslint/config
+: 1678650072:0;npm init --yes
+: 1678650180:0;npm install eslint --save-dev
+: 1678650310:0;./node_modules/.bin/eslint --init
+: 1678650583:0;eslint --init
+: 1678651248:0;node script.js
+: 1678651365:0;npx eslint script.js
+: 1678653410:0;eslint -v
+: 1678653422:0;which eslint
+: 1678653777:0;ls -al 
+: 1678653795:0;which eslint
+: 1678654651:0;cp ./test/.eslintrc.json .
+: 1678654802:0;eslint --init
+: 1678654826:0;npm init --yes
+: 1678654847:0;eslint --init
+: 1678654888:0;ls
+: 1678655356:0;eslint --init
+: 1678655448:0;npm i eslint-config-airbnb-base@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^2.25.2 -g
+: 1678655490:0;sudo ls /usr/local/lib
+: 1678655514:0;ls
+: 1678655520:0;ls -al
+: 1678655657:0;$HOME
+: 1678657799:0;git add .
+: 1678657830:0;git commit -m "Apply Airbnb linting"
+: 1678657835:0;git push
+: 1678658026:0;npm init --yes
+: 1678658038:0;eslint --init
+: 1678658344:3;npm i eslint-config-airbnb@latest -g
+: 1678658845:0;npm info "eslint-config-airbnb@latest" peerDependencies
+: 1678658921:0;npm-peerdeb i eslint-config-airbnb@latest -g
+: 1678658949:0;eslint --init
+: 1678659099:0;npm i eslint-plugin-react@^7.28.0 eslint-config-airbnb@latest eslint@^7.32.0 || ^8.2.0 eslint-plugin-import@^2.25.3 eslint-plugin-jsx-a11y@^6.5.1 eslint-plugin-react-hooks@^4.3.0 -g
+: 1678659278:0;eslint --init
+: 1678712102:0;z data
+: 1678712115:0;cd csed
+: 1678712131:0;unrar e aness.rar
+: 1678712137:0;ls
+: 1678712148:0;unrar e Aness.rar
+: 1678712167:0;unrar e Anees.rar
+: 1678712207:0;ls
+: 1678712262:0;mkdir anees
+: 1678712273:0;cp Anees.rar anees
+: 1678712278:0;cd anees
+: 1678712280:0;ls
+: 1678712315:0;unrar -h
+: 1678712321:0;tldr unrar
+: 1678712355:0;unrar x Anees.rar
+: 1678712363:0;ls
+: 1678712367:0;cd Anees
+: 1678712368:0;ls
+: 1678712599:0;z cs
+: 1678712602:0;cd graduation-project
+: 1678712604:0;ls
+: 1678712610:0;cd anees-backend
+: 1678712612:0;ls
+: 1678712635:0;unrar x Anees.rar
+: 1678712829:0;cd src
+: 1678712831:0;ls
+: 1678712862:0;source venv/bin/activate
+: 1678712877:0;source env/bin/activate
+: 1678712952:0;source env/Scripts/activate
+: 1678712985:0;virtualenv env
+: 1678713023:0;cd src
+: 1678713041:0;virtualenv env
+: 1678713056:0;source env/bin/activate
+: 1678718461:0;pip install -r requirements.txt
+: 1678718637:0;ls
+: 1678718648:0;python manage.py makemigrations
+: 1678718842:0;sudo systemctl start postgresql.service
+: 1678718888:0;sudo -u postgres psql
+: 1678719210:0;pip install psycopg[binary]
+: 1678719231:0;python manage.py makemigrations
+: 1678719239:0;python manage.py migrate
+: 1678719301:0;python manage.py runserver
+: 1678733747:0;pip install -r requirements.txt
+: 1678733822:0;pip install python-dotenv
+: 1678734152:0;pip install python-decouple
+: 1678735096:0;pip uninstall decouple
+: 1678735376:0;pip --version
+: 1678735390:0;pip3 install python-decouple
+: 1678735435:0;pip install --upgrade pip
+: 1678736075:0;python manage.py runserver
+: 1678736436:0;gunicorn --bind 0.0.0.0:8000 project.wsgi
+: 1678736526:0;gunicorn --bind localhost:8000 project.wsgi
+: 1678736653:0;gunicorn --bind 0.0.0.0:8000 project.wsgi
+: 1678739902:0;git add .
+: 1678739915:0;git commit -m "Ready for production"
+: 1678739946:0;git status
+: 1678739959:0;cd ..
+: 1678739962:0;git add .
+: 1678739971:0;git commit -m "Ready for production"
+: 1678739974:0;git status
+: 1678740014:0;git push
+: 1678740430:0;cat ~/githubtoken
+: 1678815138:0;npm install --save-dev --save-exact prettier
+: 1678815174:0;ls node_modules
+: 1678815231:0;npm init --yes
+: 1678815236:0;npm install --save-dev --save-exact prettier
+: 1678815282:0;echo {}> .prettierrc.json
+: 1678815290:0;cat .prettierrc.json
+: 1678815317:0;echo {}> .prettierrc.json
+: 1678815419:0;npx prettier --write
+: 1678815455:0;npx prettier --write .
+: 1678815540:0;npx prettier --check .
+: 1678815752:0;npx prettier --write .
+: 1678815786:0;npx eslint script.js
+: 1678815904:0;touch .prettierignore
+: 1678816506:0;npm install prettier -D --save-exact\
+
+: 1678816528:0;npm -h
+: 1678816538:0;npm
+: 1678816557:0;npm install --help
+: 1678818316:0;npm install --save-dev eslint-config-prettier
+: 1678818324:0;npm install --save-dev eslint-config-prettier -g
+: 1678818356:0;nvim .eslintrc.json
+: 1678818744:0;npx eslint-config-prettier path/to/main.js
+: 1678818761:0;npx eslint-config-prettier script.js
+: 1678818966:0;nvim package.json
+: 1678819044:0;npm install --save-dev husky lint-staged\
+
+: 1678819058:0;npx husky install\
+
+: 1678819077:0;npm uninstall --save-dev husky lint-staged\
+
+: 1678819108:0;npm install --save-dev husky lint-staged\
+npx husky install\
+npm pkg set scripts.prepare="husky install"\
+npx husky add .husky/pre-commit "npx lint-staged"
+: 1678819155:0;git add .
+: 1678819183:0;git commit -m "Test prettier git hook"
+: 1678819257:0;npm install eslint --save-dev
+: 1678819289:0;eslint --init
+: 1678819367:0;npm install eslint-config-prettier --save-dev
+: 1678819454:0;git add .
+: 1678819458:0;git commit -m "Test prettier git hook"
+: 1678819924:0;nvim .eslintrc.json
+: 1678822147:0;npm init --yes
+: 1678822156:0;eslint --init
+: 1678822290:0;npm install eslint-config-airbnb-base  eslint-config-prettier --save-dev
+: 1678830443:0;git add .
+: 1678830456:0;git commit -m "JavaScript 30 days challenge: day 3"
+: 1678830459:0;git push
+: 1678883743:0;git add .
+: 1678883750:0;git commit -m "JavaScript 30 days challenge: day 4"
+: 1678885441:0;git add .
+: 1678885444:0;git commit
+: 1678885491:0;git push
+: 1678885644:0;git add .
+: 1678885651:0;git commit -m "Update README"
+: 1678885654:0;git push
+: 1678886099:0;git add .
+: 1678886101:0;git commit -m "Update README"
+: 1678886103:0;git push
+: 1678891448:0;node script.js
+: 1679000252:0;git add .
+: 1679000266:0;git commit -m "JavaScript 30 days challenge: day 5"
+: 1679000291:0;git push
+: 1679064180:0;z odin
+: 1679064184:0;cd repos
+: 1679064185:0;ls
+: 1679064202:0;git clone git@github.com:ahmeducf/library
+: 1679064390:0;git add .
+: 1679064433:0;git commit
+: 1679064457:0;git push
+: 1679064966:0;npm init
+: 1679065105:0;npm install eslint --save-dev
+: 1679065144:0;eslint --init
+: 1679065473:0;npm install eslint-config-prettier --save-dev
+: 1679065529:0;npm install prettier -D --save-exact
+: 1679065685:0;cat ~/.prettierrc.json
+: 1679065728:0;cat ~/.prettierignore
+: 1679065733:0;cat ~/.eslintrc.json
+: 1679066253:0;git add .
+: 1679066290:0;git commit -m "Set up Linter and Formatter"
+: 1679066294:0;git push
+: 1679070833:0;git add .
+: 1679070849:0;git commit -m "Update README"
+: 1679070853:0;git push
+: 1679085654:0;node javascript-30days-challenge/28.\ Find\ the\ Index\ of\ the\ First\ Occurrence\ in\ a\ String.js
+: 1679085713:0;git add .
+: 1679085721:0;git commit -m "JavaScript 30 days challenge: day 6"
+: 1679085727:0;git push
+: 1679087030:0;node javascript-30days-challenge/66.\ Plus\ One.js
+: 1679087359:0;git add .
+: 1679087362:0;git commit -m "JavaScript 30 days challenge: day 6"
+: 1679087365:0;git push
+: 1679087382:0;git add .
+: 1679087384:0;git commit -m "JavaScript 30 days challenge: day 6"
+: 1679087386:0;git push
+: 1679094267:0;unzip src/fonts/Marcellus_SC.zip
+: 1679094279:0;rm src/fonts/Marcellus_SC.zip
+: 1679094766:0;git add .
+: 1679094771:0;git commit
+: 1679094888:0;git push
+: 1679154942:0;git add .
+: 1679154963:0;git commit -m "Fix `font-face` url path"
+: 1679155052:0;git add .
+: 1679155075:0;git commit -m "Add favicon"
+: 1679155125:0;git add .
+: 1679155210:0;git commit -m "Reorder HTML elements"
+: 1679155213:0;git push
+: 1679156052:0;git add .
+: 1679156066:0;git commit -m "Add CSS variables"
+: 1679156069:0;git push
+: 1679156227:0;git add .
+: 1679156281:0;git commit -m "Apply code style"
+: 1679157688:0;git add src/index.html
+: 1679157722:0;git commit -m "change checkbox id in sidebar form"
+: 1679157909:0;git add .
+: 1679157911:0;git commit
+: 1679157928:0;git log
+: 1679161261:0;git diff
+: 1679161346:0;git add .
+: 1679161350:0;git commit
+: 1679161659:0;git push
+: 1679163412:0;git add .
+: 1679163452:0;git commit
+: 1679163948:0;git add .
+: 1679163950:0;git commit
+: 1679164096:0;git add .
+: 1679164114:0;git commit -m "Fix dangling comma"
+: 1679183967:0;git add .
+: 1679183976:0;git status
+: 1679183980:0;git commit
+: 1679184356:0;git push
+: 1679185219:0;git add .
+: 1679185222:0;git commit
+: 1679185608:0;git push
+: 1679184012:0;git log
+: 1679237025:0;git add .
+: 1679237055:0;git commit -m "Set up summary layout in main section"
+: 1679237059:0;git push
+: 1679243789:0;git reset
+: 1679243805:0;git reset -hard
+: 1679243810:0;git reset --hard
+: 1679248655:0;git add .
+: 1679248687:0;git commit -m "Set up books-list table layout in main section"
+: 1679248690:0;git push
+: 1679248901:0;git add .
+: 1679248985:0;git commit -m "Add hover effect to `status` and `remove` symbols"
+: 1679248989:0;git push
+: 1679255108:0;git add .
+: 1679255165:0;git commit
+: 1679255223:0;git push
+: 1679261448:0;node src/main.js
+: 1679266256:0;git add .
+: 1679266312:0;git commit -m "Create Library object Constructor"
+: 1679266949:0;git add .
+: 1679266975:0;git commit
+: 1679268050:0;git add .
+: 1679268085:0;git commit -m "Create Event Listener stubs"
+: 1679268088:0;git push
+: 1679334366:0;git add .
+: 1679334374:0;git commit -m "Refactor main.js"
+: 1679336758:0;git commit
+: 1679336761:0;git add .
+: 1679336764:0;git commit
+: 1679337518:0;git add .
+: 1679337519:0;git commit
+: 1679337547:0;git shortlog
+: 1679337587:0;git push
+: 1679345014:0;git add .
+: 1679345017:0;git commit
+: 1679345180:0;git push
+: 1679345210:0;git add .
+: 1679345225:0;git commit
+: 1679346974:0;git push
+: 1679351941:0;git add .
+: 1679351943:0;git commit
+: 1679352109:0;git push
+: 1679354442:0;git status
+: 1679354448:0;git add .
+: 1679354482:0;git commit -m "Remove stub table rows"
+: 1679354576:0;git add .
+: 1679354585:0;git commit
+: 1679354785:0;git add .
+: 1679354788:0;git commit
+: 1679354920:0;git add .
+: 1679354956:0;git commit
+: 1679355150:0;git add .
+: 1679355192:0;git commit
+: 1679355287:0;git add .
+: 1679355300:0;git commit 
+: 1679355384:0;git push
+: 1679356286:0;git add .
+: 1679356317:0;git commit -m "declrae min-width and max-width rules on table cells"
+: 1679356441:0;git push
+: 1679357366:0;git branch -d github-pages-deploy
+: 1679357377:0;git branch github-pages-deploy
+: 1679357422:0;git checkout -b github-pages-deploy
+: 1679357436:0;git checkout  github-pages-deploy
+: 1679357494:0;ls
+: 1679357497:0;git ststus
+: 1679357501:0;git status
+: 1679357534:0;git commit -m "Move files out of src directory to the root"
+: 1679357541:0;git add .
+: 1679357543:0;git commit -m "Move files out of src directory to the root"
+: 1679357550:0;git push
+: 1679357571:0;git push origin github-pages-deploy
+: 1679357620:0;git add .
+: 1679357627:0;git commit -m "Remove Readme"
+: 1679357630:0;git push origin github-pages-deploy
+: 1679358140:0;git branch main
+: 1679358166:0;git checkout main
+: 1679358272:0;git add .
+: 1679358286:0;git commit -m "Add box-shadow to books table"
+: 1679358288:0;git push
+: 1679358656:0;git checkout  github-pages-deploy
+: 1679358680:0;git add .
+: 1679358684:0;git commit -m "Add box-shadow to books table"
+: 1679358687:0;git push origin github-pages-deploy
+: 1679358886:0;git add .
+: 1679358888:0;git commit -m "Add box-shadow to books table"
+: 1679358889:0;git push origin github-pages-deploy
+: 1679359392:0;git add .
+: 1679359418:0;git commit -m "Increase gap space in form fieldset"
+: 1679359421:0;git push origin github-pages-deploy
+: 1679359431:0;git checkout main
+: 1679359501:0;git add .
+: 1679359506:0;git commit -m "Increase gap space in form fieldset"
+: 1679359510:0;git push
+: 1679367496:0;nvim .zshrc
+: 1679368077:0;z /media/data/cs/graduation-project/anees-backend/src
+: 1679368078:0;ls
+: 1679368089:0;cat .env
+: 1679368103:0;omz update
+: 1679368131:0;cat .env
+: 1679368156:0;nvim .env
+: 1679368176:0;cd .
+: 1679423099:0;ls .git
+: 1679423106:0;ls .git/hooks
+: 1679423119:0;cat .git/hooks/pre-commit.sample
+: 1679423766:0;npx mrm@2 lint-staged
+: 1679424492:0;eslint -v
+: 1679424508:0;eslint .
+: 1679424519:0;eslint src/main.js
+: 1679424567:0;eslint --cache --fix
+: 1679424586:0;prettier --write
+: 1679424606:0;npx prettier --write .
+: 1679424622:0;npx eslint .
+: 1679424674:0;ls node_modules
+: 1679424717:0;npx eslint src/main.js
+: 1679424728:0;cat .eslintrc.json
+: 1679424770:0;rm node_modules/eslint-plugin-react
+: 1679424781:0;rm -r node_modules/eslint-plugin-react
+: 1679424784:0;rm -r node_modules/eslint-plugin-react-hooks
+: 1679424789:0;npx eslint src/main.js
+: 1679424925:0;ls
+: 1679424939:0;npx eslint test/script.js
+: 1679424952:0;cat .eslintrc.json
+: 1679425001:0;npx eslint src/main.js
+: 1679425233:0;eslint src/main.js
+: 1679425246:0;eslint ~/test/script.js
+: 1679425278:0;npx eslint ~/test/script.js
+: 1679425281:0;eslint src/main.js
+: 1679425303:0;npx eslint src/main.js
+: 1679425357:0;prettier --write
+: 1679425372:0;npx prettier --write .
+: 1679425380:0;prettier --write .
+: 1679425383:0;npx prettier --write .
+: 1679426578:0;git add .husky/pre-commit
+: 1679426593:0;git commit -m "Keep calm and commit"
+: 1679426710:0;git status
+: 1679426763:0;git add .
+: 1679426777:0;git commit -m "Configure linting pre-commit hook" 
+: 1679427716:0;git add .
+: 1679427744:0;git commit -m "Refactor: add removeBook method to Library object"
+: 1679427763:0;npx eslint src/main.js
+: 1679427819:0;git add .
+: 1679427838:0;git commit -m "Test pre-commit hook"
+: 1679427894:0;git add .
+: 1679427932:0;git commit -m "Add name to anonymous function to ease debugging"
+: 1679427984:0;git push
+: 1679447308:0;node script.js
+: 1679450920:0;git add .
+: 1679450949:0;git commit -m "Refactor: add unreadBook  method to Library object"
+: 1679451012:0;git add .
+: 1679451024:0;git commit -m "Refactor: add readBook method to Library object"
+: 1679451069:0;git push
+: 1679452806:0;git add .
+: 1679452885:0;git commit -m "Add max limit for new book's number of pages"
+: 1679452893:0;git push
+: 1679452991:0;git branch -D github-pages-deploy
+: 1679453001:0;git branch github-pages-deploy
+: 1679453009:0;git checkout github-pages-deploy
+: 1679453133:0;git push origin github-pages-deploy
+: 1679453496:0;git branch -m github-pages-deploy gh-pages
+: 1679453510:0;git push origin gh-pages
+: 1679453729:0;git branch -D gh-pages
+: 1679453742:0;git branch main
+: 1679453760:0;git checkout main
+: 1679453765:0;git branch -D gh-pages
+: 1679453772:0;git branch gh-pages
+: 1679453779:0;git checkout gh-pages
+: 1679453813:0;ls
+: 1679453827:0;git checkout main
+: 1679453829:0;ls
+: 1679453882:0;git status
+: 1679453906:0;z repos
+: 1679453908:0;ls
+: 1679453915:0;cd ..
+: 1679453921:0;rm -r library
+: 1679453927:0;git clone git@github.com:ahmeducf/library
+: 1679453955:0;git checkout gh-pages
+: 1679453962:0;ls
+: 1679453982:0;mv -r images repo_images
+: 1679453991:0;mv images repo_images
+: 1679454003:0;mv src/* .
+: 1679454020:0;git add .
+: 1679454048:0;git commit -m "Deploy on github pages"
+: 1679454054:0;git push origin gh-pages
+: 1679454066:0;git checkout main
+: 1679454097:0;git checkout gh-pages
+: 1679454120:0;git add .
+: 1679454127:0;git commit -m "Fix image path"
+: 1679454147:0;git push
+: 1679519303:0;npm install
+: 1679519369:0;ls node_modules
+: 1679519441:0;git checkout manin
+: 1679519444:0;git checkout main
+: 1679519453:0;ls
+: 1679525393:0;git commit
+: 1679525397:0;git add .
+: 1679525400:0;git commit
+: 1679525813:0;git push
+: 1679526283:0;git checkout gh-pages
+: 1679526303:0;git add .
+: 1679526308:0;git commit
+: 1679526348:0;git push origin gh-pages
+: 1679526363:0;git checkout main
+: 1679528095:0;git log
+: 1679528125:0;git add .
+: 1679528128:0;git commit
+: 1679528481:0;git push
+: 1679528490:0;git checkout gh-pages
+: 1679528509:0;git log
+: 1679528527:0;git add .
+: 1679528529:0;git commit
+: 1679528565:0;git push origin gh-pages
+: 1679530065:0;npm install --save-dev @commitlint/{config-conventional,cli}
+: 1679530124:0;git branch commit-lint
+: 1679530137:0;git checkout commit-lint
+: 1679530222:0;echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
+: 1679530316:0;npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+: 1679530503:0;npx commitlint --from HEAD~1 --to HEAD --verbose
+: 1679530597:0;git commit -m "foo: this will fail"
+: 1679530614:0;git add .husky/commit-msg
+: 1679530616:0;git commit -m "foo: this will fail"
+: 1679530731:0;git add .husky/commit-msg
+: 1679530771:0;git commit -m "chore: lint on commitmsg"
+: 1679531136:0;git add .commitlintrc.json
+: 1679531140:0;git commit -m "chore: lint on commitmsg"
+: 1679533344:0;git add .
+: 1679533352:0;git commit -m "Chore: lint on commitmsg"
+: 1679533380:0;git commit -m "chore: Lint on commitmsg"
+: 1679537036:0;git status
+: 1679537041:0;git commit
+: 1679537154:0;git status
+: 1679537159:0;git add .
+: 1679537166:0;git commit
+: 1679537270:0;git log
+: 1679537363:0;git add .
+: 1679537365:0;git commit
+: 1679537419:0;git add .
+: 1679537422:0;git commit
+: 1679537592:0;git add .
+: 1679537593:0;git commit
+: 1679538204:0;git add .
+: 1679538205:0;git commit
+: 1679538281:0;git add .
+: 1679538283:0;git commit
+: 1679538317:0;git add .
+: 1679538319:0;git commit
+: 1679538854:0;git add .
+: 1679538856:0;git commit
+: 1679539003:0;git branch test
+: 1679539009:0;git checkout test
+: 1679539022:0;git log
+: 1679539041:0;git checkout main
+: 1679539064:0;git add .
+: 1679539065:0;git commit
+: 1679539101:0;git checkout main
+: 1679539112:0;git branch -D test
+: 1679539117:0;git branch  test
+: 1679539129:0;git checkout test
+: 1679539147:0;npm install --save-dev @commitlint/{config-conventional,cli}
+: 1679539258:0;npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+: 1679539271:0;git add .
+: 1679539273:0;git commit
+: 1679539441:0;git add .
+: 1679539443:0;git commit
+: 1679539480:0;git checkout main
+: 1679539504:0;npm install --save-dev @commitlint/{config-conventional,cli}
+: 1679539656:0;npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1} --verbose'
+: 1679539671:0;git checkout test
+: 1679539686:0;git add .
+: 1679540075:0;git commit
+: 1679540303:0;git add .
+: 1679540305:0;git commit
+: 1679540337:0;git checkout test
+: 1679540350:0;git checkout main
+: 1679540365:0;git add .
+: 1679540373:0;git commit
+: 1679540464:0;git branch
+: 1679540492:0;git branc -D test
+: 1679540507:0;git branch -D commit-lint test
+: 1679540541:0;git status
+: 1679540544:0;git push
+: 1679540595:0;git branch gh-pages
+: 1679540605:0;git checkout gh-pages
+: 1679540645:0;npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1} --verbose'
+: 1679540689:0;npm install --save-dev @commitlint/{config-conventional,cli}
+: 1679540730:0;git add .
+: 1679540732:0;git commit
+: 1679540955:0;git push origin gh-pages
+: 1679540967:0;git checkout main
+: 1679540970:0;git push
+: 1679540974:0;git log
+: 1679594152:0;yay -Syu
+: 1679594834:0;ps
+: 1679594843:0;ps -ef | grep chrome
+: 1679594860:0;ps -ef 
+: 1679594891:0;kill 22162
+: 1679594903:0;ps -ef 
+: 1679594940:0;kill 30258
+: 1679594957:0;ps -ef | grep google-chrome
+: 1679594972:0;kill 1654 1656
+: 1679594979:0;kill 1656
+: 1679594984:0;ps -ef | grep google-chrome
+: 1679594994:0;kill 35969
+: 1679595000:0;kill 27580
+: 1679595003:0;ps -ef | grep google-chrome
+: 1679595057:0;ps -f
+: 1679595062:0;ps 
+: 1679595071:0;ps -ef
+: 1679595102:0;grep -ef | grep /bin/goo
+: 1679595118:0;grep -ef | grep /bin/
+: 1679605313:0;git add .
+: 1679605317:0;git commit
+: 1679605696:0;git push
+: 1679636700:0;git branch stats-pubsub
+: 1679636705:0;git checkout stats-pubsub
+: 1679640407:0;git reset --hard
+: 1679681579:0;git add .
+: 1679681582:0;git commit
+: 1679690131:0;git add .
+: 1679690133:0;git commit
+: 1679690342:0;git checkout main
+: 1679690352:0;git merge stats-pubsub
+: 1679690370:0;git log
+: 1679690393:0;git push
+: 1679690401:0;git branch
+: 1679690411:0;git branch -D stats-pubsub
+: 1679690417:0;git branch
+: 1679690900:0;nvim .config/i3/config
+: 1679691347:0;kill 2399
+: 1679691359:0;kill 318810
+: 1679691367:0;kill 347409
+: 1679691375:0;kill 343713
+: 1679691382:0;kill 4709
+: 1679691386:0;kill 367377
+: 1679691400:0;kill 4463 4463 4463 4463 4463 4463
+: 1679698432:0;z /media/data/lectures/lvl_4/
+: 1679698434:0;ls
+: 1679698439:0;cd term_2
+: 1679698440:0;ls
+: 1679698462:0;mkdir multimedia
+: 1679698464:0;ls
+: 1679698467:0;cd multimedia
+: 1679698474:0;mkdir lecs
+: 1679698476:0;cd lecs
+: 1679698544:0;yt-dlp --playlist-start 1  --format mp4 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODgC7Mhf_kH6LXFOiM-C-ML'
+: 1679698630:0;z /media/data/lectures/lvl_4/term_2
+: 1679698631:0;ls
+: 1679698642:0;mkdir neural_networks
+: 1679698645:0;cd neural_networks
+: 1679698647:0;ls
+: 1679698650:0;mkdir lec
+: 1679698652:0;cd lec
+: 1679698663:0;yt-dlp --playlist-start 1  --format mp4 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODxIHlo6XKc3Es5b8u-aIi4'
+: 1679698695:0;ls
+: 1679698736:0;yt-dlp --playlist-start 1  --format mp4 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODxIHlo6XKc3Es5b8u-aIi4'
+: 1679700301:0;cd ..
+: 1679700324:0;mkdir -p distributed_systems/lec
+: 1679700330:0;cd distributed_systems/lec
+: 1679700341:0;yt-dlp --playlist-start 1  --format mp4 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODSSqTTR3bYpHi-7TM9FBMl'
+: 1679700348:0;cd ../..
+: 1679700361:0;mkdir -p embedded2/lec
+: 1679700363:0;cd embedded2/lec
+: 1679700385:0;yt-dlp --playlist-start 1  --format mp4 'https://www.youtube.com/playlist?list=PL1YWN9bMt3OAwyYdgKZR8GZAFvwOiyHvF'
+: 1679700415:0;z /media/data/lectures/lvl_4/term_2
+: 1679700423:0;ls
+: 1679700427:0;cd computer_mentainance
+: 1679700430:0;mkdir lec
+: 1679700431:0;cd lec
+: 1679700502:0;yt-dlp --playlist-start 1  --format mp4 'https://www.youtube.com/playlist?list=PL1YWN9bMt3OBDuWtZhTGVZfgVY8DK3ZzG'
+: 1679700968:0;z embededd2
+: 1679700981:0;z /media/data/lectures/lvl_4/term_2/embedded2/lec 
+: 1679700982:0;ls
+: 1679700984:0;cd ..
+: 1679700985:0;ls
+: 1679701009:0;mv section.zip neural_networks.zip
+: 1679701011:0;ls
+: 1679701023:0;mv neural_networks.zip ../neural_networks/
+: 1679701026:0;cd ../neural_networks
+: 1679701027:0;ls
+: 1679701045:0;unzip neural_networks.zip
+: 1679701053:0;ls
+: 1679701061:0;rm neural_networks.zip
+: 1679701062:0;ls
+: 1679701092:0;cd ../multimedia
+: 1679701094:0;ls
+: 1679701103:0;unzip Multimedia\ -\ اختك�ارك�\ 5.zip
+: 1679701108:0;ls
+: 1679701113:0;rm Multimedia\ -\ اختك�ارك�\ 5.zip
+: 1679701117:0;cd ../neural_networks
+: 1679701117:0;ls
+: 1679701125:0;-r rm Multimedia\ -\ اختك�ارك�\ 5/
+: 1679701131:0;rm -r  Multimedia\ -\ اختك�ارك�\ 5/
+: 1679701132:0;ls
+: 1679702338:0;cd ../../multimedia
+: 1679702352:0;cd Multimedia\ -\ اختك�ارك�\ 5/Lectures
+: 1679702357:0;ls
+: 1679702493:0;evince Lec\ 1.pdf
+: 1679706484:0;evince Lec\ 2.pdf
+: 1679717654:0;evince Lec\ 3.pdf
+: 1679721025:0;evince Lec\ 4.pdf
+: 1679721055:0;evince Lec\ 5.pdf
+: 1679721079:0;evince Lec\ 6.pdf Lec\ 6\ cont.pdf
+: 1679723378:0;git log
+: 1679723603:0;pwd
+: 1679723748:0;ls
+: 1679723749:0;cd ..
+: 1679723753:0;ls
+: 1679723756:0;cd lecs
+: 1679723757:0;ls
+: 1679723763:0;rm *
+: 1679723768:0;ls
+: 1679723776:0;yt-dlp --playlist-start 1  --format mp4 'https://www.youtube.com/playlist?list=PL1YWN9bMt3ODgC7Mhf_kH6LXFOiM-C-ML'
+: 1679770847:0;z /media/data/cs/
+: 1679770853:0;ls 
+: 1679770881:0;mv Markdown new-project
+: 1679770886:0;code new-project
+: 1679770956:0;mv new-project git-github
+: 1679770959:0;code git-github
+: 1679771244:0;git log
+: 1679773644:0;z repos
+: 1679773647:0;cd ..
+: 1679773667:0;git clone git@github.com:ahmeducf/tic-tac-toe
+: 1679773673:0;ls
+: 1679773679:0;cd tic-tac-toe
+: 1679773680:0;ls
+: 1679773682:0;branch
+: 1679773686:0;git branch
+: 1679773701:0;code .
+: 1679773750:0;echo "# Tic Tac Toe" >> README.md
+: 1679773790:0;git init
+: 1679773802:0;ls -al
+: 1679773806:0;ls .git
+: 1679773812:0;ls .git/branches
+: 1679773821:0;ls .git/HEAD
+: 1679773875:0;cp ../library/images/under-construction.png ./images
+: 1679773940:0;git add .
+: 1679773955:0;git commit
+: 1679774047:0;git branch -M main
+: 1679774129:0;git remote add origin git@github.com:ahmeducf/tic-tac-toe.git
+: 1679774164:0;git push -u origin main
+: 1679774177:0;git branch
+: 1679774242:0;git add .
+: 1679774245:0;git commit
+: 1679774312:0;npm init --yes
+: 1679774452:0;npm install eslint --save-dev
+: 1679775097:0;npm install --save-dev --save-exact eslint
+: 1679775192:0;eslint --init
+: 1679775380:0;git add .
+: 1679775383:0;git commit
+: 1679775432:0;npm install --save-dev --save-exact prettier
+: 1679775517:0;git add .
+: 1679775519:0;git commit
+: 1679775635:0;npm install --save-dev --save-exact eslint-config-prettier
+: 1679775782:0;git add .
+: 1679775785:0;git commit
+: 1679776053:0;npm install --save-dev @commitlint/{cli,config-conventional}
+: 1679776120:0;git add .
+: 1679776137:0;git commit
+: 1679776220:0;girt add .
+: 1679776222:0;git add .
+: 1679776225:0;git commit
+: 1679776368:0;npm install --save-dev husky lint-staged
+: 1679776418:0;npx husky install
+: 1679776488:0;npm pkg set scripts.prepare="husky install"
+: 1679776578:0;npx husky add .husky/pre-commit "npx lint-staged"
+: 1679776627:0;npx husky add .husky/commit-msg  'npx --no -- commitlint --verbose --edit ${1}'
+: 1679776641:0;git add .
+: 1679776646:0;git commit
+: 1679776714:0;npx eslint .
+: 1679776723:0;npx eslint .eslintrc.json
+: 1679776764:0;npx eslint test.js
+: 1679776822:0;git add .
+: 1679776826:0;git commit
+: 1679776891:0;git push
+: 1679776896:0;git log
+: 1679800801:0;z /media/data/lectures/lvl_4/term_2/multimedia/Multimedia\ -\ اختك�ارك�\ 5/Lectures
+: 1679800803:0;ls
+: 1679800814:0;evince Lec\ 4.pdf
+: 1679806689:0;evince Lec\ 5.pdf
+: 1679806742:0;cd ..
+: 1679806750:0;cd lecs
+: 1679806753:0;ls
+: 1679806802:0;mpv lec Multimedia\ Lec\ 4\ \[wqS-iwoVYNs\].mp4
+: 1679807502:0;ls
+: 1679807533:0;mpv Multimedia\ Lec\ 5\ \[ROuixdSqFVg\].mp4
+: 1679814069:0;mpv Multimedia\ Lec\ 6\ \[-ovjJ1mWC-0\].mp4
+: 1679816868:0;cd ../../neural_networks
+: 1679816869:0;ls
+: 1679816884:0;ls Neural\ networks\ -\ اختك�ارك�\ 6/Lectures\  
+: 1679816902:0;evince *
+: 1679816943:0;evince Neural\ networks\ -\ اختك�ارك�\ 6/Lectures\ /*
+: 1679817003:0;cd lec
+: 1679817004:0;ls
+: 1679817031:0;mpv Lec\ 1\ \[2C7wK00SM20\].mp4
+: 1679817056:0;mpv Neural\ Networks\ Lec\ 2\ \[HQkRJKmAxUU\].mp4
+: 1679817069:0;mpv Lec\ 3\ \[7OPpTYAFchI\].mp4
+: 1679817082:0;mpv Lec\ 4\ \[PfleXVELwBo\].mp4
+: 1679819668:0;mpv Lec\ 1\ \[2C7wK00SM20\].mp4
+: 1679827270:0;mpv Neural\ Networks\ Lec\ 2\ \[HQkRJKmAxUU\].mp4
+: 1679831675:0;yay -S unified-remote-server
+: 1679833288:0;which unified
+: 1679833294:0;which unified-remote
+: 1679833297:0;which unified-remote-server
+: 1679833313:0;grep unified
+: 1679833723:0;yay -S gcc-libs glibc
+: 1679886464:0;mpv Neural\ Networks\  
+: 1679886485:0;z /media/data/lectures/lvl_4/term_2/neural_networks/
+: 1679886490:0;cd Neural\ networks\ -\ اختك�ارك�\ 6
+: 1679886492:0;ls
+: 1679886496:0;cd Lectures\  
+: 1679886497:0;ls
+: 1679886509:0;cd ..
+: 1679886511:0;ls
+: 1679886512:0;cd ..
+: 1679886515:0;cd lec
+: 1679886516:0;ls
+: 1679886567:0;mpv Lec\ 3\ \[7OPpTYAFchI\].mp4
+: 1679890143:0;mpv Lec\ 4\ \[PfleXVELwBo\].mp4
+: 1679890545:0;z /media/data/lectures/lvl_4/term_2/neural_networks
+: 1679890546:0;ls
+: 1679890548:0;cd Neural\ networks\ -\ اختك�ارك�\ 6
+: 1679890549:0;ls
+: 1679890552:0;cd Lectures\  
+: 1679890553:0;ls
+: 1679890565:0;evince Lecture\ 1.pdf
+: 1679891614:0;evince Lecture\ 2.pdf
+: 1679892481:0;evince Lecture\ 3.pdf
+: 1679893436:0;evince Lecture\ 4.pdf
+: 1679893508:0;evince Lecture\ 3.pdf
+: 1679893541:0;evince Lecture\ 4.pdf
+: 1679893576:0;mpv Lec\ 3\ \[7OPpTYAFchI\].mp4
+: 1679918862:0;z /media/data/lectures/lvl_4/term_2/neural_networks
+: 1679918879:0;cd lec
+: 1679918904:0;mpv Lec\ 4\ \[PfleXVELwBo\].mp4
+: 1679941104:0;z /media/data/lectures/lvl_4/term_2/
+: 1679941143:0;cd computer_mentainance
+: 1679941143:0;ls
+: 1679941145:0;cd lec
+: 1679941146:0;ls
+: 1679941156:0;mpv Lec\ 1\ \[0WofbaD4uPc\].mp4
+: 1679942940:0;mpv Lec\ 2\ \[oSRso1ca4IM\].mp4
+: 1679943994:0;mpv Lec\ 3\ \[-MQdO1iBSKQ\].mp4
+: 1679979200:0;z /media/data/lectures/lvl_4/term_2
+: 1679979207:0;cd distributed_systems/lec
+: 1679979209:0;ls
+: 1679979241:0;cd ..
+: 1679979242:0;ls
+: 1679979246:0;unzip Distributed\ systems.zip
+: 1679979251:0;ls ../embedded2
+: 1679979262:0;mv Embedded\ systems\ 2.zip ../embedded2
+: 1679979263:0;ls
+: 1679979267:0;rm Distributed\ systems.zip
+: 1679979269:0;ls
+: 1679979275:0;ls Distributed\ systems/Lectures
+: 1679979283:0;cd lec
+: 1679979284:0;ls
+: 1679979287:0;mpv *
+: 1679979607:0;mpv Lec\ 1\ \[6K4E07ufYNk\].mp4
+: 1679980782:0;mpv Distributed\ Systems\ Lec\ 2\ \[KUJy4mzUbPA\].mp4
+: 1679982552:0;mpv Lec\ 3\ \[OFvqmf89cjY\].mp4
+: 1679983712:0;mpv Lec\ 4\ \[s0uMgTgYddk\].mp4
+: 1680013700:0;nvim /etc/profile
+: 1680013778:0;nvim /etc/profile.d/basex.sh
+: 1680013807:0;nvim /etc/profile.d/locale.sh
+: 1680013823:0;nvim /etc/profile
+: 1680013925:0;nvim /etc/environment
+: 1680013966:0;nvim /etc/zsh/zprofile
+: 1680013994:0;printenv
+: 1680014048:0;printenv | grep PATH
+: 1680014086:0;printenv | grep XDG
+: 1680014096:0;printenv | grep config
+: 1680014103:0;printenv | grep CONFIG
+: 1680014128:0;nvim .bash_profile
+: 1680014148:0;nvim .zshrc
+: 1680014266:0;nvim .bashrc
+: 1680014322:0;nvim .oh-my-zsh
+: 1680014364:0;nvim /etc/locale.conf
+: 1680014416:0;nvim /etc/bash.bashrc
+: 1680014436:0;nvim /etc/zsh/zprofile
+: 1680014447:0;nvim /etc/pro
+: 1680014471:0;nvim /etc/profile
+: 1680014614:0;$HOME
+: 1680014620:0;$PWD
+: 1680014625:0;$PATH
+: 1680014639:0;$TERM
+: 1680014657:0;echo $PATH
+: 1680014666:0;echo $TERM
+: 1680014688:0;echo $shell
+: 1680014693:0;echo $SHELL
+: 1680014705:0;echo $EDITOR
+: 1680014769:0;nvim /etc/environment
+: 1680014836:0;sudo nvim /etc/environment
+: 1680014861:0;echo $XDG_CONFIG_HOME
+: 1680014896:0;nvim .zshrc
+: 1680014935:0;nvim .env
+: 1680014953:0;nvim /etc/environment
+: 1680014988:0;sudo nvim /etc/environment
+: 1680015019:0;echo $XDG_CONFIG_HOME
+: 1680015056:0;nvim .env
+: 1680015090:0;echo $XDG_CONFIG_HOME
+: 1680015095:0;echo $EDITOR
+: 1680015182:0;nvim /etc/security/pam_env.conf
+: 1680015316:0;nvim /etc/passwd
+: 1680015611:0;nvim /etc/xdg/picom.conf
+: 1680015771:0;yay -S xdg-ninja
+: 1680015785:0;ls .
+: 1680015795:0;ls -al
+: 1680015896:0;xdg-ninga
+: 1680016058:0;xdgng
+: 1680016064:0;xdgnj
+: 1680016068:0;xdg-ninja
+: 1680016220:0;nvim .zshrc
+: 1680016228:0;nvim .env
+: 1680016255:0;nvim .zshrc
+: 1680016450:0;xdg-ninja
+: 1680016491:0;ls -al
+: 1680016778:0;xdg-ninja
+: 1680016883:0;tldr xng-ninja
+: 1680016893:0;tldr xdg-ninja
+: 1680017031:0;sudo nvim .zshrc
+: 1680017083:0;tldr xdg-ninja
+: 1680017094:0;xdg-ninja
+: 1680017118:0;sudo nvim .env
+: 1680017130:0;sudo nvim .zshrc
+: 1680017152:0;xdg-ninja go
+: 1680017178:0;export GOPATH="$XDG_DATA_HOME"/go
+: 1680017187:0;echo $GOPATH
+: 1680017199:0;xdg-ninja
+: 1680017704:0;xdg-ninja --no-skip-ok
+: 1680017785:0;sudo nvim .zshrc
+: 1680017903:0;xdg-ninja --no-skip-ok
+: 1680018113:0;sudo nvim /etc/zsh/zshenv
+: 1680018124:0;xdg-ninja
+: 1680018172:0;sudo nvim /etc/zsh/zshenv
+: 1680018183:0;xdg-ninja
+: 1680018219:0;sudo nvim .fehbg
+: 1680018286:0;ls ${XDG_DATA_HOME}/fonts
+: 1680018294:0;mv .fonts ${XDG_DATA_HOME}/fonts
+: 1680018329:0;echo $XDG_CONFIG_HOME/git/config
+: 1680018342:0;mv .gitconfig $XDG_CONFIG_HOME/git/config
+: 1680018374:0;mkdir -p $XDG_CONFIG_HOME/git/config
+: 1680018376:0;mv .gitconfig $XDG_CONFIG_HOME/git/config
+: 1680018395:0;sudo nvim /etc/zsh/zshenv
+: 1680018440:0;mkdir -p $XDG_DATA_HOME"/go
+: 1680018443:0;mkdir -p $XDG_DATA_HOME/go
+: 1680018476:0;sudo nvim /etc/zsh/zshenv
+: 1680018485:0;xdg-ninja
+: 1680018528:0;mv go $XDG_DATA_HOME
+: 1680018541:0;xdg-ninja
+: 1680018573:0;ls .config/git/config
+: 1680018576:0;ls .config/git/config -al
+: 1680018605:0;xdg-ninja
+: 1680018702:0;cat .config/git/config/.gitconfig
+: 1680018849:0;ls .config/git/config -al
+: 1680018870:0;mv .config/git/config/.gitconfig .
+: 1680018876:0;ls .gitconfig
+: 1680018891:0;rm .config/git/config/.gitconfig
+: 1680018904:0;rm -r .config/git/config/
+: 1680018926:0;mv .gitconfig .config/git/config/
+: 1680018968:0;mv .gitconfig .config/git/
+: 1680018984:0;mv .gitignore_global .config/git/
+: 1680018993:0;ls
+: 1680018998:0;git
+: 1680019003:0;git config
+: 1680019015:0;git config --get user.email
+: 1680019038:0;mv .config/git/.gitconfig .
+: 1680019040:0;git config --get user.email
+: 1680019053:0;mv .config/git/.gitignore_global .
+: 1680019067:0;rm -r .config/git
+: 1680019092:0;xdg-ninja
+: 1680019149:0;sudo nvim /etc/zsh/zshenv
+: 1680019173:0;mkdir -p $XDG_DATA_HOME/nvm
+: 1680019197:0;mv .nvm $XDG_DATA_HOME/nvm
+: 1680019201:0;xdg-ninja
+: 1680019232:0;sudo nvim /etc/zsh/zshenv
+: 1680019262:0;ls $XDG_DATA_HOME/oh-my-zsh 
+: 1680019269:0;mkdir -p $XDG_DATA_HOME/oh-my-zsh 
+: 1680019297:0;mv .oh-my-zsh $XDG_DATA_HOME/
+: 1680019302:0;xdg-ninja
+: 1680019537:0;sudo nvim .zshrc
+: 1680019764:0;sudo nvim /etc/zsh/zshenv
+: 1680019827:0;mkdir -p "$HOME"/.config/zsh/
+: 1680019840:0;mv .zshrc "$HOME"/.config/zsh/
+: 1680019854:0;sudo nvim /etc/zsh/zshenv
+: 1680019930:0;sudo nvim .config/zsh/.zshrc
+: 1680020097:0;code .config/zsh/.zshrc
+: 1680020179:0;sudo nvim /etc/zsh/zshenv
+: 1680022912:0;echo $ZSH
+: 1680023035:0;echo $HOME/oh-my-zsh
+: 1680023255:0;xdg-ninja
+: 1680023936:0;sudo nvim /etc/zsh/zshenv
+: 1680023959:0;xdg-ninja
+: 1680024000:0;alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+: 1680024005:0;xdg-ninja
+: 1680024290:0;printenv | sqlite
+: 1680024298:0;printenv | grep sql
+: 1680024301:0;printenv
+: 1680024306:0;printenv | grep sql
+: 1680024335:0;echo $XDG_CACHE_HOME
+: 1680024351:0;echo $SQLITE_HISTORY
+: 1680024359:0;sudo nvim /etc/zsh/zshenv
+: 1680024432:0;printenv | grep gtk
+: 1680024458:0;sudo nvim .env
+: 1680024485:0;cat /etc/zsh/zshenv
+: 1680024518:0;printenv | grep gtk
+: 1680024532:0;sudo nvim .env
+: 1680024539:0;xdg-ninja
+: 1680024830:0;touch .config/python/pythonrc
+: 1680024838:0;code .config/python/pythonrc
+: 1680024901:0;xdg-ninja
+: 1680025147:0;echo $XDG_STATE_HOME
+: 1680025208:0;sudo nvim .fehbg
+: 1680025415:0;git config --get user.email
+: 1680025592:0;sudo nvim .env
+: 1680025756:0;sudo rm data
+: 1680025760:0;sudo rm -r data
+: 1680025814:0;xdg-ninja
+: 1680026328:0;sudo nvim .env
+: 1680027220:0;find npmrc
+: 1680027224:0;find *npmrc*
+: 1680029745:0;xdg-ninja
+: 1680030841:0;sudo ls $HOME
+: 1680030849:0;sudo ls \$HOME/
+: 1680030855:0;sudo rm -r \$HOME
+: 1680030856:0;ls
+: 1680030929:0;xdg-ninja
+: 1680031410:0;sudo nvim /etc/X11/xinit/xinitrc.d/50-systemd-user.sh
+: 1680031798:0;sudo nvim /etc/zsh/zshenv
+: 1680032324:0;sudo nvim /etc/X11/Xsession
+: 1680032810:0;sqlite3 -init "$XDG_CONFIG_HOME"/sqlite3/sqliterc
+: 1680032906:0;touch "$XDG_CONFIG_HOME"/sqlite3/sqliterc
+: 1680032907:0;sqlite3 -init "$XDG_CONFIG_HOME"/sqlite3/sqliterc
+: 1680034357:0;sudo nvim $XDG_CONFIG_HOME/zsh/.zshrc
+: 1680034380:0;xdg-ninja
+: 1680034546:0;yay -S zsh-syntax-highlighting-git
+: 1680034663:0;cd $XDG_DATA_HOME/oh-my-zsh/plugins/
+: 1680034672:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+: 1680034710:0;xdg-ninja
+: 1680034990:0;sudo nvim $XDG_CONFIG_HOME/zsh/.zshrc
+: 1680035658:0;xdg-ninja
+: 1680035822:0;pacman -S glow
+: 1680035828:0;sudo pacman -S glow
+: 1680035846:0;xdg-ninja
+: 1680036080:0;git init --bare $HOME/.dotfiles
+: 1680036112:0;alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+: 1680036124:0;config config --local status.showUntrackedFiles no
+: 1680036170:0;echo "alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'" >> $XDG_CONFIG_HOME/zsh/.zshrc
+: 1680036197:0;less $XDG_CONFIG_HOME/zsh/.zshrc
+: 1680036260:0;cd /
+: 1680036272:0;/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=/home/salah status
+: 1680036308:0;sudo nvim $XDG_CONFIG_HOME/zsh/.zshrc
+: 1680036425:0;mkdir -p .dotfiles/\//etc
+: 1680036429:0;ls .dotfiles
+: 1680036441:0;rm .dotfiles/etc
+: 1680036444:0;rm -r .dotfiles/etc
+: 1680036459:0;mkdir -p .dotfiles/root/etc
+: 1680036462:0;ls .dotfiles
+: 1680036529:0;config add /etc/zsh/
+: 1680036631:0;mv /etc/zsh/ .dotfiles/root/etc
+: 1680036636:0;cp /etc/zsh/ .dotfiles/root/etc
+: 1680036642:0;cp -r  /etc/zsh/ .dotfiles/root/etc
+: 1680036658:0;git status
+: 1680036661:0;config status
+: 1680036708:0;config add .dotfiles/root
+: 1680036712:0;config status
+: 1680036778:0;config commit -m "Add zsh global environment variables"
+: 1680036820:0;config branch -M main
+: 1680036838:0;config remote add origin git@github.com:ahmeducf/dotfiles.git
+: 1680036846:0;config push
+: 1680036865:0;config push -u origin main
+: 1680036941:0;sudo mv /etc/zsh/ .dotfiles/root/etc
+: 1680036953:0;sudo cp /etc/zsh/ .dotfiles/root/etc
+: 1680036957:0;sudo cp -r /etc/zsh/ .dotfiles/root/etc
+: 1680036968:0;cat .dotfiles/root/etc/zsh/zshenv
+: 1680036977:0;cat /etc/zsh/zshenv
+: 1680036980:0;sudo cat /etc/zsh/zshenv
+: 1680036996:0;sudo nvim /etc/zsh/zshenv
+: 1680037043:0;config status
+: 1680057393:0;z /media/data/lectures/lvl_4/term_2
+: 1680057397:0;cd embedded2
+: 1680057397:0;ls
+: 1680057404:0;unzip Embedded\ systems\ 2.zip
+: 1680057418:0;unzip Sections.zip
+: 1680057430:0;cd lec
+: 1680057431:0;ls
+: 1680057451:0;mpv ك�ك�خص\ أك�ك�\ ك�حاضرة\ \[yQSoy6fA-Bc\].mp4
+: 1680058344:0;mpv Lec\ 2\ \[Z94zIvH4K1w\].mp4
+: 1680064915:0;z /media/data/lectures/lvl_4/term_2/multimedia/lecs
+: 1680064932:0;yt-dlp --format mp4  https://www.youtube.com/watch\?v\=yVSvMtRnXXg\&list\=PL1YWN9bMt3ODgC7Mhf_kH6LXFOiM-C-ML\&index\=5
+: 1680065158:0;cd ../../distributed_systems
+: 1680065159:0;cd lec
+: 1680065178:0;yt-dlp --playlist-start 1  --format mp4 https://www.youtube.com/playlist\?list\=PL1YWN9bMt3ODSSqTTR3bYpHi-7TM9FBMl
+: 1680066162:0;cd ../../neural_networks
+: 1680066170:0;yt-dlp --playlist-start 1  --format mp4 https://www.youtube.com/playlist\?list\=PL1YWN9bMt3ODxIHlo6XKc3Es5b8u-aIi4
+: 1680066192:0;ls
+: 1680066198:0;rm Lec\ 1\ \[2C7wK00SM20\].mp4.part
+: 1680066201:0;cd lec
+: 1680066204:0;yt-dlp --playlist-start 1  --format mp4 https://www.youtube.com/playlist\?list\=PL1YWN9bMt3ODxIHlo6XKc3Es5b8u-aIi4
+: 1680066273:0;z /media/data/lectures/lvl_4/term_2/computer_mentainance/lec
+: 1680066281:0;yt-dlp --playlist-start 1  --format mp4 https://www.youtube.com/playlist\?list\=PL1YWN9bMt3OBDuWtZhTGVZfgVY8DK3ZzG
+: 1680079631:0;cd ~
+: 1680079633:0;ls
+: 1680079663:0;mkdir -p dotdrop/.dotfiles
+: 1680079668:0;cd dotdrop/.dotfiles
+: 1680079669:0;ls
+: 1680079671:0;code .
+: 1680079740:0;yay -S dotdrop
+: 1680079915:0;yay -Syu dotdrop
+: 1680079935:0;code .dotfiles
+: 1680079969:0;code dotdrop/.dotfiles
+: 1680080156:0;lsblk -f
+: 1680080712:0;yay -Syu dotdrop
+: 1680080742:0;yay -S dotdrop
+: 1680081892:0;echo ${fpath}
+: 1680081916:0;echo $fpath
+: 1680081951:0;cd ~
+: 1680082148:0;echo $fpath
+: 1680083159:0;dotdrop --help
+: 1680083396:0;sudo ls /etc/zsh
+: 1680083409:0;sudo dotdrop import -c config-root.yaml /etc/zsh
+: 1680084112:0;sudo cat /etc/X11/Xsession
+: 1680084126:0;sudo dotdrop import -c config-root.yaml /etc/X11/Xsession
+: 1680084258:0;sudo dotdrop import -c config-root.yaml /etc/X11/Xsession -p salah,omar
+: 1680084271:0;sudo dotdrop import -c config-root.yaml /etc/X11/Xsession -p salah omar
+: 1680084352:0;sudo dotdrop import -c config-root.yaml /etc/X11/Xsession -p os_arch
+: 1680084519:0;sudo dotdrop import -c config-root.yaml -p meta_base /etc/zsh meta_base
+: 1680084546:0;sudo dotdrop import -c config-root.yaml /etc/zsh meta_base -p meta_base
+: 1680084570:0;sudo dotdrop import -c config-root.yaml -p meta_base /etc/zsh meta_base
+: 1680084604:0;sudo dotdrop import -c config-root.yaml -p meta_base /etc/zsh
+: 1680084654:0;git init
+: 1680084662:0;touch .gitignore
+: 1680084679:0;git add .
+: 1680084695:0;git commit -m "Init dotfiles"
+: 1680085312:0;ls ~/.config/zsh
+: 1680085325:0;sudo ls ~/.config/zsh
+: 1680085437:0;sudo nvim .env
+: 1680085512:0;dotdrop import -c config-user.yaml -p meta_base ~/.XDG_CONFIG_HOME/zsh ~/$XDG_STATE_HOME/zsh
+: 1680085531:0;dotdrop import -c config-user.yaml -p meta_base ~/$XDG_CONFIG_HOME/zsh ~/$XDG_STATE_HOME/zsh
+: 1680085554:0;dotdrop import -c config-user.yaml -p meta_base $XDG_CONFIG_HOME/zsh $XDG_STATE_HOME/zsh
+: 1680085580:0;git add .
+: 1680085592:0;git commit -m "Add zsh"
+: 1680085814:0;dotdrop import -c config-user.yaml -p meta_base  $XDG_DATA_HOME/oh-my-zsh
+: 1680085875:0;git add .
+: 1680086057:0;ls
+: 1680086177:0;dotdrop import -c config-user.yaml -p meta_base  $XDG_DATA_HOME/oh-my-zsh
+: 1680086246:0;config status
+: 1680086254:0;git add .
+: 1680086259:0;git status
+: 1680086264:0;config status
+: 1680086274:0;config add .
+: 1680086320:0;dotdrop import -c config-user.yaml -p meta_base  $XDG_DATA_HOME/oh-my-zsh
+: 1680086333:0;git status
+: 1680086345:0;git add .
+: 1680086348:0;git status
+: 1680086442:0;git log
+: 1680086468:0;dotdrop import -c config-user.yaml -p meta_base  $XDG_DATA_HOME/oh-my-zsh
+: 1680086492:0;git add .
+: 1680086614:0;git status
+: 1680086690:0;git restore --staged config-user.yaml user-dotfiles/local/share/oh-my-zsh
+: 1680086696:0;git status
+: 1680086718:0;git add user-dotfiles/local/share/
+: 1680087065:0;git commit -m "Add oh-my-zsh"
+: 1680087164:0;ls
+: 1680087178:0;git status
+: 1680087184:0;git add .
+: 1680087186:0;git status
+: 1680087202:0;git add user-dotfiles/local/share/
+: 1680087449:0;git reset --hard
+: 1680087542:0;git branch -M main
+: 1680087567:0;git remote add origin git@github.com:ahmeducf/dotfiles.git
+: 1680087571:0;git push -u origin main
+: 1680087623:0;dotdrop import -c config-user.yaml -p meta_base  $XDG_DATA_HOME/oh-my-zsh
+: 1680087642:0;git add .
+: 1680087651:0;git commit -m "Remove oh-my-zsh"
+: 1680087656:0;dotdrop import -c config-user.yaml -p meta_base  $XDG_DATA_HOME/oh-my-zsh
+: 1680087659:0;git add .
+: 1680087671:0;git rm --cached user-dotfiles/local/share/oh-my-zsh
+: 1680087695:0;git rm --cached user-dotfiles/local/share/oh-my-zsh -f
+: 1680087702:0;git add .
+: 1680087738:0;git reset --hard
+: 1680087753:0;config add .
+: 1680087974:0;dotdrop import -c config-user.yaml -p meta_base  $XDG_DATA_HOME/oh-my-zsh
+: 1680087979:0;git add .
+: 1680087993:0;git rm --cached user-dotfiles/local/share/oh-my-zsh
+: 1680087999:0;git rm --cached user-dotfiles/local/share/oh-my-zsh -f
+: 1680088010:0;git commit -m "remove cached repo"
+: 1680088040:0;git push
+: 1680088064:0;git commit -m "remove cached repo"
+: 1680088069:0;git add .
+: 1680088266:0;rm -r user-dotfiles/local/share/oh-my-zsh/.git
+: 1680088302:0;git rm --cached user-dotfiles/local/share/oh-my-zsh
+: 1680088305:0;git rm --cached user-dotfiles/local/share/oh-my-zsh -f
+: 1680088314:0;git ststus
+: 1680088320:0;git status
+: 1680088325:0;git add .
+: 1680088327:0;git status
+: 1680088335:0;git commit -m "Add oh-my-zsh"
+: 1680088338:0;git push
+: 1680089091:0;z /media/data/lectures/lvl_4/term_2/computer_mentainance/lec
+: 1680089198:0;cd ~
+: 1680089211:0;sudo nvim /etc/zsh/zshenv
+: 1680089221:0;sudo nvim /etc/zsh/zprofile
+: 1680089793:0;ls .dotfiles
+: 1680089797:0;rm .dotfiles
+: 1680089803:0;rm -r .dotfiles
+: 1680089816:0;rm -rf .dotfiles
+: 1680089836:0;git clone git@github.com:ahmeducf/dotfiles
+: 1680089892:0;rm -rf dotfiles/user-dotfiles/local/share/
+: 1680089900:0;code dotfiles
+: 1680090091:0;mkdir .dotfiles
+: 1680090100:0;code .dotfiles
+: 1680090137:0;git init 
+: 1680090152:0;git branch -M main
+: 1680090267:0;git add .
+: 1680090280:0;git commit -m "Init dotfiles"
+: 1680090290:0;sudo dotdrop import -c config-root.yaml -p meta_base /etc/zsh
+: 1680090356:0;dotdrop import -c config-user.yaml -p meta_base $XDG_CONFIG_HOME/zsh $XDG_STATE_HOME/zsh

@@ -7,21 +7,19 @@ config:
   dotpath: root-dotfiles
   workdir: ~/.config/dotdrop
 dotfiles:
-  
+  d_etc_zsh:
+    src: etc/zsh
+    dst: /etc/zsh
 profiles:
   meta_base:
     dotfiles:
-
+    - d_etc_zsh
   os_arch:
     include:
     - meta_base
-    dotfiles:
   os_ubuntu:
     include:
     - meta_base
-    dotfiles:
   salah:
     include:
     - os_arch
-    dotfiles:
-    
