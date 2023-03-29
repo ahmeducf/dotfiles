@@ -1,0 +1,27 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  longkey: true
+  showdiff: true
+  dotpath: root-dotfiles
+  workdir: ~/.config/dotdrop
+dotfiles:
+  
+profiles:
+  meta_base:
+    dotfiles:
+
+  os_arch:
+    include:
+    - meta_base
+    dotfiles:
+  os_ubuntu:
+    include:
+    - meta_base
+    dotfiles:
+  salah:
+    include:
+    - os_arch
+    dotfiles:
+    
