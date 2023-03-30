@@ -39,6 +39,9 @@ dotfiles:
   d_config_kitty:
     src: config/kitty
     dst: ~/.config/kitty
+  d_config_i3:
+    src: config/i3
+    dst: ~/.config/i3
 profiles:
   meta_base:
     dotfiles:
@@ -60,6 +63,7 @@ profiles:
     - d_config_ranger
     - d_config_picom
     - d_config_kitty
+    - d_config_i3
   os_ubuntu:
     include:
     - meta_base
