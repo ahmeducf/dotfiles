@@ -21,6 +21,9 @@ dotfiles:
   d_config_rofi:
     src: config/rofi
     dst: ~/.config/rofi
+  d_config_ranger:
+    src: config/ranger
+    dst: ~/.config/ranger
 profiles:
   meta_base:
     dotfiles:
@@ -32,6 +35,7 @@ profiles:
     - meta_base
     dotfiles:
     - d_config_rofi
+    - d_config_ranger
   os_ubuntu:
     include:
     - meta_base
