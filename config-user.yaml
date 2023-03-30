@@ -18,6 +18,9 @@ dotfiles:
   d_local_share_oh-my-zsh:
     src: local/share/oh-my-zsh
     dst: ~/.local/share/oh-my-zsh
+  d_config_rofi:
+    src: config/rofi
+    dst: ~/.config/rofi
 profiles:
   meta_base:
     dotfiles:
@@ -27,6 +30,8 @@ profiles:
   os_arch:
     include:
     - meta_base
+    dotfiles:
+    - d_config_rofi
   os_ubuntu:
     include:
     - meta_base
