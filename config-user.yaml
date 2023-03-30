@@ -30,6 +30,9 @@ dotfiles:
   d_config_python:
     src: config/python
     dst: ~/.config/python
+  d_config_picom:
+    src: config/picom
+    dst: ~/.config/picom
 profiles:
   meta_base:
     dotfiles:
@@ -44,6 +47,7 @@ profiles:
     - d_config_ranger
     - d_config_qbittorrent
     - d_config_python
+    - d_config_picom
   os_ubuntu:
     include:
     - meta_base
