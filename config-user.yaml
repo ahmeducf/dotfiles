@@ -15,9 +15,6 @@ dotfiles:
     src: local/state/zsh
     dst: ~/.local/state/zsh
     chmod: '755'
-  d_local_share_oh-my-zsh:
-    src: local/share/oh-my-zsh
-    dst: ~/.local/share/oh-my-zsh
   d_config_rofi:
     src: config/rofi
     dst: ~/.config/rofi
@@ -33,24 +30,39 @@ dotfiles:
   d_config_picom:
     src: config/picom
     dst: ~/.config/picom
+  d_config_obs-studio:
+    src: config/obs-studio
+    dst: ~/.config/obs-studio
+  d_config_mpv:
+    src: config/mpv
+    dst: ~/.config/mpv
 profiles:
   meta_base:
     dotfiles:
     - d_config_zsh
     - d_local_state_zsh
-    - d_local_share_oh-my-zsh
-  os_arch:
+  # Dotfiles for every OS
+  meta_os:
     include:
     - meta_base
     dotfiles:
-    - d_config_rofi
-    - d_config_ranger
     - d_config_qbittorrent
     - d_config_python
+    - d_config_obs-studio
+  # Dotfiles for Arch Linux
+  os_arch:
+    include:
+    - meta_os
+    dotfiles:
+    - d_config_rofi
+    - d_config_ranger
     - d_config_picom
+  # Dotfiles for Ubuntu
+    - d_config_mpv
   os_ubuntu:
     include:
     - meta_base
+  # Dotfiles for local system
   salah:
     include:
     - os_arch

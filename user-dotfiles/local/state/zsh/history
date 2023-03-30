@@ -4408,3 +4408,46 @@ repeat 0 {\
 : 1680190364:0;dotdrop update -c config-root.yaml
 : 1680190408:0;sudo dotdrop update -c config-root.yaml
 : 1680190465:0;dotdrop update -c config-user.yaml
+: 1680190506:0;git add .
+: 1680190534:0;git commit -m "refactor: move environment vars into zshenv"
+: 1680190582:0;dotdrop import -c config-user.yaml -p meta_base $XDG_DATA_HOME/oh-my-zsh
+: 1680190725:0;git status
+: 1680190763:0;git add .
+: 1680190829:0;git submodule add https://github.com/ohmyzsh/ohmyzsh.git user-dotfiles/local/share/oh-my-zsh
+: 1680190879:0;git restore --staged user-dotfiles/local/share/
+: 1680190885:0;git submodule add https://github.com/ohmyzsh/ohmyzsh.git user-dotfiles/local/share/oh-my-zsh
+: 1680190910:0;git status
+: 1680191116:0;git submodule add https://github.com/deadc0de6/dotdrop/blob/7358101f6a98097041bcd8af2c5a4b7e33a67c77/completion/_dotdrop-completion.zsh user-dotfiles/local/share/oh-my-zsh/plugins/dotdrop-completion
+: 1680191199:0;git submodule add https://github.com/deadc0de6/dotdrop/blob/7358101f6a98097041bcd8af2c5a4b7e33a67c77/completion/_dotdrop-completion.zsh user-dotfiles/local/share/oh-my-zsh/plugins/dotdrop-completion/_dotdrop-completion.zsh
+: 1680191236:0;git commit -m "chore: Add oh-my-zsh"
+: 1680191238:0;git push
+: 1680191359:0;mkdir temp
+: 1680191361:0;cd temp
+: 1680191385:0;git clone git@github.com:ahmeducf/dotfiles .dotfiles
+: 1680191397:0;code .dotfiles
+: 1680191598:0;git submodule update --init --recursive
+: 1680191713:0;dotdrop update -c config-user.yaml 
+: 1680191780:0;git submodule add https://github.com/deadc0de6/dotdrop/blob/7358101f6a98097041bcd8af2c5a4b7e33a67c77/completion/_dotdrop-completion.zsh user-dotfiles/local/share/oh-my-zsh/plugins/dotdrop-completion/
+: 1680191803:0;git add user-dotfiles/local/share/oh-my-zsh/plugins/dotdrop-completion/
+: 1680191969:0;git status
+: 1680192062:0;git push
+: 1680192116:0;git submodule add https://github.com/ohmyzsh/ohmyzsh.git user-dotfiles/local/share/oh-my-zsh
+: 1680192238:0;git add .
+: 1680192253:0;git commit -m "fix: Remove submodules"
+: 1680192306:0;pwd
+: 1680192463:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/rofi
+: 1680192500:0;git add .
+: 1680192504:0;git status
+: 1680192515:0;git commit -m "chore: Add rofi"
+: 1680192535:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/ranger
+: 1680192542:0;git add .
+: 1680192547:0;git commit -m "chore: Add ranger"
+: 1680192625:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/qBittorrent
+: 1680192631:0;git add .
+: 1680192640:0;git commit -m "chore: Add qBitorrent"
+: 1680192679:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/python
+: 1680192703:0;git add . && git commit -m "chore: Add python"
+: 1680192772:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/picom
+: 1680192778:0;git add . && git commit -m "chore: Add picom"
+: 1680192855:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/obs-studio
+: 1680193266:0;dotdrop update -c config-user.yaml 
