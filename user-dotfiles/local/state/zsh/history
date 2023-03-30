@@ -4150,3 +4150,261 @@ npx husky add .husky/pre-commit "npx lint-staged"
 : 1680161475:0;git clone git@github.com:ahmeducf/dotfiles .dotfiles
 : 1680161480:0;code .dotfiles
 : 1680161518:0;dotdrop update -c config-user.yaml
+: 1680161541:0;git add .
+: 1680161550:0;git commit -m "Update zsh configs"
+: 1680161770:0;code $XDG_CONFIG_HOME/zsh/.zshrc
+: 1680162963:0;fzf
+: 1680162971:0;cd .dotfiles
+: 1680162978:0;fzf
+: 1680162991:0;code $XDG_CONFIG_HOME/zsh/.zshrc
+: 1680163122:0;lss
+: 1680163125:0;l
+: 1680163141:0;lss
+: 1680163331:0;ls
+: 1680163545:0;ls -al
+: 1680163553:0;ls -a
+: 1680163600:0;git 
+: 1680163603:0;git status
+: 1680163608:0;cd .dotfiles
+: 1680163610:0;git status
+: 1680164162:0;git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git \\
+  ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+: 1680164442:0;fast-theme -l
+: 1680164569:0;fast-theme -t spa
+: 1680164653:0;\
+# Subshell, assignments, math-mode\
+echo $(cat /etc/hosts |& grep -i "hello337")\
+local param1="text ${+variable[test]} text ${var} text"; typeset param2='other $variable'\
+math=$(( 10 + HISTSIZ + HISTSIZE + $SAVEHIST )) size=$(( 0 ))\
+\
+# Programming-like usage, bracket matching - through distinct colors; note the backslash quoting\
+for (( ii = 1; ii <= size; ++ ii )); do\
+    if [[ "${cmds[ii]} string" = "| string" ]]\
+    then\
+        sidx=${buffer[(in:ii:)\$\(?#[^\\\\]\)]} # find opening cmd-subst\
+        (( sidx <= len + 100 )) && {\
+            eidx=${buffer[(b:sidx:ii)[^\\\\]\)]} # find closing cmd-subst\
+        }\
+    fi\
+done\
+\
+# Regular command-line usage\
+repeat 0 {\
+    zsh -i -c "cat /etc/shells* | grep -x --line-buffered -i '/bin/zsh'"\
+    builtin exit $return_value\
+    fast-theme -tq default\
+    fsh-alias -tq default-X # alias 'fsh-alias=fast-theme' works just like the previous line\
+    command -v git | grep ".+git" && echo $'Git is installed'\
+    git checkout -m --ours /etc/shells && git status-X\
+    gem
+: 1680164662:0;fast-theme -t spa
+: 1680164675:0;\
+# Subshell, assignments, math-mode\
+echo $(cat /etc/hosts |& grep -i "hello337")\
+local param1="text ${+variable[test]} text ${var} text"; typeset param2='other $variable'\
+math=$(( 10 + HISTSIZ + HISTSIZE + $SAVEHIST )) size=$(( 0 ))\
+\
+# Programming-like usage, bracket matching - through distinct colors; note the backslash quoting\
+for (( ii = 1; ii <= size; ++ ii )); do\
+    if [[ "${cmds[ii]} string" = "| string" ]]\
+    then\
+        sidx=${buffer[(in:ii:)\$\(?#[^\\\\]\)]} # find opening cmd-subst\
+        (( sidx <= len + 100 )) && {\
+            eidx=${buffer[(b:sidx:ii)[^\\\\]\)]} # find closing cmd-subst\
+        }\
+    fi\
+done\
+\
+# Regular command-line usage\
+repeat 0 {\
+    zsh -i -c "cat /etc/shells* | grep -x --line-buffered -i '/bin/zsh'"\
+    builtin exit $return_value\
+    fast-theme -tq default\
+    fsh-alias -tq default-X # alias 'fsh-alias=fast-theme' works just like the previous line\
+    command -v git | grep ".+git" && echo $'Git is installed'\
+    git checkout -m --ours /etc/shells && git status-X\
+    gem
+: 1680164707:0;fast-theme -s
+: 1680164718:0;fast-theme -list
+: 1680164737:0;fast-theme -t free
+: 1680164748:0;\
+# Subshell, assignments, math-mode\
+echo $(cat /etc/hosts |& grep -i "hello337")\
+local param1="text ${+variable[test]} text ${var} text"; typeset param2='other $variable'\
+math=$(( 10 + HISTSIZ + HISTSIZE + $SAVEHIST )) size=$(( 0 ))\
+\
+# Programming-like usage, bracket matching - through distinct colors; note the backslash quoting\
+for (( ii = 1; ii <= size; ++ ii )); do\
+    if [[ "${cmds[ii]} string" = "| string" ]]\
+    then\
+        sidx=${buffer[(in:ii:)\$\(?#[^\\\\]\)]} # find opening cmd-subst\
+        (( sidx <= len + 100 )) && {\
+            eidx=${buffer[(b:sidx:ii)[^\\\\]\)]} # find closing cmd-subst\
+        }\
+    fi\
+done\
+\
+# Regular command-line usage\
+repeat 0 {\
+    zsh -i -c "cat /etc/shells* | grep -x --line-buffered -i '/bin/zsh'"\
+    builtin exit $return_value\
+    fast-theme -tq default\
+    fsh-alias -tq default-X # alias 'fsh-alias=fast-theme' works just like the previous line\
+    command -v git | grep ".+git" && echo $'Git is installed'\
+    git checkout -m --ours /etc/shells && git status-X\
+    gem
+: 1680164772:0;fast-theme -t default
+: 1680164804:0;fast-theme -t free
+: 1680164824:0;fast-theme -l
+: 1680164830:0;fast-theme -t clean
+: 1680164843:0;fast-theme -l
+: 1680164848:0;fast-theme -t safari
+: 1680164860:0;fast-theme -l
+: 1680164868:0;fast-theme -t sv-orple
+: 1680164883:0;fast-theme -l
+: 1680164905:0;fast-theme -t default
+: 1680165039:0;git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
+: 1680165491:0;ls -al
+: 0:0;
+: 0:0;
+: 1680165550:0;yay -S exa
+: 1680165859:0;( cd $ZSH_CUSTOM/plugins && git clone https://github.com/chrissicool/zsh-256color )
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 1680166205:0;echo $TERM
+: 1680166243:0;echo $COLORTERM\
+
+: 1680166354:0;set -g default-terminal "screen-256color"
+: 1680166362:0;set-option -sa terminal-overrides ",xterm-kitty:RGB"\
+
+: 1680166404:0;cd .dotfiles
+: 1680166522:0;echo $TERM
+: 1680166646:0;dotdrop profiles
+: 1680166653:0;dotdrop --help
+: 1680166686:0;dotdrop update -c config-root.yaml
+: 1680166843:0;dotdrop --help
+: 1680166854:0;dotdrop update -c config-root.yaml
+: 1680166867:0;echo $TERM
+: 1680166881:0;echo $COLORTERM\
+
+: 1680166894:0;echo $XDG_STATE_HOME
+: 1680167089:0;ls
+: 1680167093:0;echo $XDG_STATE_HOME
+: 1680167099:0;echo $TERM
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 1680167500:0;echo $TERM
+: 1680167560:0;ls
+: 1680167566:0;xdg-ninja
+: 1680167968:0;ls -al
+: 1680168006:0;echo $TERM
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 1680168052:0;ls
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 1680168253:0;ls -al 
+: 1680168671:0;git clone https://github.com/redxtech/zsh-kitty ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
+: 1680168690:0;git clone https://github.com/redxtech/zsh-kitty ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-kitty
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 1680168801:0;rm -rf ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-kitty
+: 1680180011:0;fast-theme -l
+: 1680180018:0;fast-theme -t clean
+: 1680180058:0;fast-theme -l
+: 1680180065:0;fast-theme -t base16
+: 1680180115:0;fast-theme -l
+: 1680180126:0;fast-theme -t forest
+: 1680180152:0;fast-theme -l
+: 1680180161:0;fast-theme -t zdharma
+: 1680180199:0;fast-theme -t base16
+: 1680180223:0;fast-theme -t default
+: 1680180253:0;fast-theme -l
+: 1680180258:0;fast-theme -t sv-plant
+: 1680180298:0;fast-theme -l
+: 1680180309:0;fast-theme -t q-jmnemonic
+: 1680180319:0;fast-theme -l
+: 1680180340:0;fast-theme -t base16
+: 1680180374:0;fast-theme -t clean
+: 1680180381:0;fast-theme -t base16
+: 1680180403:0;echo $TERM
+: 1680180410:0;echo "ahmed"
+: 1680180415:0;echo $TERM
+: 1680180425:0;fast-theme -t default
+: 1680180501:0;\
+# Subshell, assignments, math-mode\
+echo $(cat /etc/hosts |& grep -i "hello337")\
+local param1="text ${+variable[test]} text ${var} text"; typeset param2='other $variable'\
+math=$(( 10 + HISTSIZ + HISTSIZE + $SAVEHIST )) size=$(( 0 ))\
+\
+# Programming-like usage, bracket matching - through distinct colors; note the backslash quoting\
+for (( ii = 1; ii <= size; ++ ii )); do\
+    if [[ "${cmds[ii]} string" = "| string" ]]\
+    then\
+        sidx=${buffer[(in:ii:)\$\(?#[^\\\\]\)]} # find opening cmd-subst\
+        (( sidx <= len + 100 )) && {\
+            eidx=${buffer[(b:sidx:ii)[^\\\\]\)]} # find closing cmd-subst\
+        }\
+    fi\
+done\
+\
+# Regular command-line usage\
+repeat 0 {\
+    zsh -i -c "cat /etc/shells* | grep -x --line-buffered -i '/bin/zsh'"\
+    builtin exit $return_value\
+    fast-theme -tq default\
+    fsh-alias -tq default-X # alias 'fsh-alias=fast-theme' works just like the previous line\
+    command -v git | grep ".+git" && echo $'Git is installed'\
+    git checkout -m --ours /etc/shells && git status-X\
+    gem
+: 1680180731:0;theme sporty_256
+: 0:0;
+: 0:0;
+: 1680180866:0;theme sporty_256
+: 1680181107:0;echo ${%F{81}}
+: 1680181119:0;echo %F{81}
+: 1680181137:0;env turquoise="%F{81}"
+: 1680181154:0;{$turquoise}something
+: 1680181157:0;echo {$turquoise}something
+: 1680181168:0;echo ${%F{81}}
+: 1680181174:0;fast-theme -t base16
+: 1680181198:0;fast-theme -t default
+: 1680183829:0;sudo code /etc/zsh/zshenv 
+: 1680183834:0;code /etc/zsh/zshenv 
+: 1680183951:0;sudo nvim /etc/zsh/zshenv
+: 1680184003:0;cat .env
+: 1680184030:0;code /etc/zsh/zshenv 
+: 1680184108:0;sudo nvim .env
+: 1680184142:0;code .env
+: 1680184643:0;echo $PATH
+: 1680184787:0;ls $GOPATH
+: 1680184795:0;echo $PATH
+: 1680184799:0;echo $GOPATH
+: 1680185704:0;sudo nvim /etc/zsh/zshenv
+: 1680186147:0;echo $PATH
+: 1680186177:0;sudo nvim /etc/zsh/zshenv
+: 1680186292:0;echo $PATH
+: 1680186334:0;sudo nvim /etc/zsh/zshenv
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 1680190364:0;dotdrop update -c config-root.yaml
+: 1680190408:0;sudo dotdrop update -c config-root.yaml
+: 1680190465:0;dotdrop update -c config-user.yaml

@@ -1,1 +1,43 @@
-export ZDOTDIR=$HOME/.config/zsh
+# XDG Base Directory Specification
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_STATE_HOME="$HOME/.local/state"
+export XDG_CACHE_HOME="$HOME/.cache"
+
+# ZSH
+export ZDOTDIR="$HOME/.config/zsh"
+export HISTFILE="$XDG_STATE_HOME/zsh/history"
+
+# Go
+export GOPATH="$XDG_DATA_HOME/go"
+export GOMODCACHE="$GOPATH/mod"
+export GOBIN="$GOPATH/bin"
+
+# Python
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
+
+# Node
+export NODE_REPL_HISTORY="$XDG_DATA_HOME/node_repl_history"
+
+# Docker
+export DOCKER_CONFIG="$XDG_CONFIG_HOME/docker"
+
+### Databases ###
+# MySQL
+export MYSQL_HISTFILE="$XDG_DATA_HOME/mysql_history"
+# SQLite
+export SQLITE_HISTORY="$XDG_CACHE_HOME/sqlite_history"
+
+# Juptyer
+export JUPYTER_CONFIG_DIR="$XDG_CONFIG_HOME/jupyter"
+
+# GTK
+export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
+
+# Binaries
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
+export PATH="$PATH:$GOBIN"
+
+# Default Programs
+export EDITOR="code"
+export TERM="xterm-256color"

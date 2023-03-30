@@ -1,22 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-export $(envsubst < $HOME/.env)
 
 # Path to your oh-my-zsh installation.
 export ZSH="$XDG_DATA_HOME/oh-my-zsh"
-
-export _Z_DATA="$XDG_DATA_HOME/z"
-export HISTFILE="$XDG_STATE_HOME/zsh/history"
-
-export GOPATH=$XDG_DATA_HOME/go
-export GOMODCACHE=$XDG_CACHE_HOME/go/mod
-export DOCKER_CONFIG=$XDG_CONFIG_HOME/docker
-export JUPYTER_CONFIG_DIR=$XDG_CONFIG_HOME/jupyter
-export MYSQL_HISTFILE=$XDG_DATA_HOME/mysql_history
-export NODE_REPL_HISTORY=$XDG_DATA_HOME/node_repl_history
-export GTK2_RC_FILES=$XDG_CONFIG_HOME/gtk-2.0/gtkrc
-export SQLITE_HISTORY=$XDG_CACHE_HOME/sqlite_history
-export PYTHONSTARTUP=$XDG_CONFIG_HOME/python/pythonrc
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -28,7 +14,7 @@ ZSH_THEME="robbyrussell"
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
-ZSH_THEME_RANDOM_CANDIDATES=("robbyrussell" "angoster")
+ZSH_THEME_RANDOM_CANDIDATES=("robbyrussell" "angoster", "half-life")
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -55,7 +41,7 @@ ZSH_THEME_RANDOM_CANDIDATES=("robbyrussell" "angoster")
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -91,20 +77,54 @@ plugins=(
 	archlinux
 	history
 	zsh-autosuggestions
-	zsh-syntax-highlighting
+	# zsh-syntax-highlighting
+	fast-syntax-highlighting
 	z
 	sudo
 	vscode
 	node
 	dotenv
 	fzf
+	fzf-tab
+	zsh-256color
 )
+
+# oh-my-zsh plugins configurations
+export _Z_DATA=$XDG_DATA_HOME/z
 
 source $ZSH/oh-my-zsh.sh
 
-compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 
 # User configuration
+
+### ZSH Completion ###
+autoload -U compinit
+compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
+_comp_options+=(globdots)		# Include hidden files.
+# zstyle ':completion:*' menu select
+
+### fzf-tab ###
+# disable sort when completing `git checkout`
+zstyle ':completion:*:git-checkout:*' sort false
+# set list-colors to enable filename colorizing
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+# preview directory's content with exa when completing cd
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --color=always $realpath'
+
+### ZSH-AUTOSUGGESTIONS ###
+# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
+# ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=30
+# ZSH_AUTOSUGGEST_HISTORY_IGNORE=()
+# ZSH_AUTOSUGGEST_COMPLETION_IGNORE=()
+bindkey '^ ' 	autosuggest-execute	# Ctrl+Space: 	Accepts and executes the current suggestion.
+bindkey '^t'	autosuggest-toggle	# Ctrl+t:	Toggles between enabled/disabled suggestions.
+bindkey '^[c'	autosuggest-clear	# Ctrl+c:	Clears the current suggestion.
+
+### NVM ###
+export NVM_DIR="$XDG_DATA_HOME/nvm/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -147,20 +167,3 @@ compinit -d "$XDG_CACHE_HOME"/zsh/zcompdump-"$ZSH_VERSION"
 # set DEFAULT_USER to your regular username to hide the “user@hostname” info when you’re logged in as yourself on your local machine.
 #DEFAULT_USER="salah"
 #prompt_context(){}
-
-# zsh-autosuggestions plugin configurations
-source /usr/share/zsh/share/antigen.zsh
-antigen bundle zsh-users/zsh-autosuggestions > /dev/null
-
-# ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
-# ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=30
-# ZSH_AUTOSUGGEST_HISTORY_IGNORE=()
-# ZSH_AUTOSUGGEST_COMPLETION_IGNORE=()
-bindkey '^ ' 	autosuggest-execute	# Ctrl+Space: 	Accepts and executes the current suggestion.
-bindkey '^t'	autosuggest-toggle	# Ctrl+t:	Toggles between enabled/disabled suggestions.
-bindkey '^[c'	autosuggest-clear	# Ctrl+c:	Clears the current suggestion.
-
-export NVM_DIR="$XDG_DATA_HOME/nvm/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
