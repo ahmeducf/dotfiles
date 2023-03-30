@@ -49,6 +49,9 @@ dotfiles:
   d_config_gtk-2.0:
     src: config/gtk-2.0
     dst: ~/.config/gtk-2.0
+  d_config_git:
+    src: config/git
+    dst: ~/.config/git
 profiles:
   meta_base:
     dotfiles:
@@ -73,6 +76,7 @@ profiles:
     - d_config_i3
     - d_config_gtk-3.0
     - d_config_gtk-2.0
+    - d_config_git
   os_ubuntu:
     include:
     - meta_base

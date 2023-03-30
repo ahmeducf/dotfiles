@@ -1,0 +1,12 @@
+[safe]
+	directory = *
+[user]
+	email = ahmedsalah.yousuf@gmail.com
+	name = Ahmed Salah
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[core]
+	excludesfile = /home/salah/.gitignore_global
+	editor = code --wait
