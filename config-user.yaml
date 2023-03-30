@@ -24,6 +24,9 @@ dotfiles:
   d_config_ranger:
     src: config/ranger
     dst: ~/.config/ranger
+  d_config_qbittorrent:
+    src: config/qBittorrent
+    dst: ~/.config/qBittorrent
 profiles:
   meta_base:
     dotfiles:
@@ -36,6 +39,7 @@ profiles:
     dotfiles:
     - d_config_rofi
     - d_config_ranger
+    - d_config_qbittorrent
   os_ubuntu:
     include:
     - meta_base
