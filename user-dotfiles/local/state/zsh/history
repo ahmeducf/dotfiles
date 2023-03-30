@@ -4451,3 +4451,91 @@ repeat 0 {\
 : 1680192778:0;git add . && git commit -m "chore: Add picom"
 : 1680192855:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/obs-studio
 : 1680193266:0;dotdrop update -c config-user.yaml 
+: 1680198247:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/mpv
+: 1680198404:0;git add . && git commit -m "chore: Add mpv"
+: 1680198928:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/kitty
+: 1680198994:0;dotdrop update -c config-user.yaml 
+: 1680199025:0;dotdrop import -c config-user.yaml -p meta_os $XDG_CONFIG_HOME/obs-studio
+: 1680199067:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/kitty
+: 1680199075:0;git add . && git commit -m "chore: Add kitty"
+: 1680199325:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/i3
+: 1680199330:0;git add . && git commit -m "chore: Add i3"
+: 1680199364:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/gtk-3.0
+: 1680199391:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/gtk-2.0
+: 1680199409:0;git add . && git commit -m "chore: Add gtk"
+: 1680199460:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/git
+: 1680199467:0;git add . && git commit -m "chore: Add git"
+: 1680199499:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/feh
+: 1680199502:0;git add . && git commit -m "chore: Add feh"
+: 1680199574:0;man hosts(5)
+: 1680199580:0;man dunst 5
+: 1680199591:0;man 5 dunst
+: 1680199598:0;man 5 hosts
+: 1680199604:0;man hosts 5
+: 1680200342:0;fc-list ':' file
+: 1680200408:0;xset q
+: 1680200860:0;sudo pacman -S ttf-dejavu ttf-liberation noto-fonts
+: 1680200912:0;sudo ln -s /etc/fonts/conf.avail/70-no-bitmaps.conf /etc/fonts/conf.d
+: 1680200918:0;sudo ln -s /etc/fonts/conf.avail/10-sub-pixel-rgb.conf /etc/fonts/conf.d\
+
+: 1680200929:0;sudo ln -s /etc/fonts/conf.avail/11-lcdfilter-default.conf /etc/fonts/conf.d\
+\
+
+: 1680200942:0;/etc/profile.d/freetype2.sh
+: 1680200946:0;sudo /etc/profile.d/freetype2.sh
+: 1680201115:0;code $XDG_CONFIG_HOME/fontconfig/fonts.conf
+: 1680201363:0;yay -S fontconfig
+: 1680201406:0;code $XDG_CONFIG_HOME/fontconfig/fonts.conf
+: 1680201417:0;yay -S fontconfig
+: 1680201653:0;yay -S font-manager-git
+: 1680201860:0;eselect
+: 1680201876:0;yay -S font-manager-git
+: 1680201915:0;yay -Syu font-manager-git
+: 1680202046:0;fc-match
+: 1680202070:0;fc-cat
+: 1680202082:0;fc-query
+: 1680202096:0;fc-query -f
+: 1680202103:0;fc-query 
+: 1680202106:0;fc-query  -i
+: 1680202118:0;fc-scan
+: 1680202130:0;fc-scan .local/share/fonts
+: 1680202144:0;fc-cat .local/share/fonts
+: 1680202151:0;fc-query .local/share/fonts
+: 1680202594:0;yay -S webkit2gtk-4.1
+: 1680202634:0;yay -S font-manager-git
+: 1680202779:0;yay -S webkitgtk4-devel
+: 1680202789:0;sudo pacman -S webkitgtk4-devel
+: 1680202992:0;yay -S webkit2gtk-4.0
+: 1680203037:0;sudo pacman -S webkit2gtk-4.0
+: 1680203047:0;yay -S font-manager
+: 1680205442:0;fc-cache
+: 1680205558:0;sudo pacman -S fc-cache
+: 1680205571:0;sudo pacman -S ttf-arabeyes-fonts
+: 1680205580:0;yay -S ttf-arabeyes-fonts
+: 1680205809:0;yay -S noto-fonts-emoji
+: 1680205825:0;yay -S ttf-twemoji-color
+: 1680205953:0;fc-cache
+: 1680206199:0;yay -S 	otf-latinmodern-math
+: 1680206214:0;yay -S noto-fonts-sc
+: 1680206942:0;code $XDG_CONFIG_HOME/fontconfig/fonts.conf
+: 1680207382:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680208258:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.confðƒ¿ƒ¸‚
+: 1680208273:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680208276:0;code $XDG_CONFIG_HOME/fontconfig/fonts.conf
+: 1680208290:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680208368:0;kitty --debug-font-fallback
+: 1680208866:0;ls
+: 1680208905:0;rm /usr/share/fonts/TTF/DejaVuSansMono-Bold.ttf
+: 1680208947:0;sudo rm /usr/share/fonts/TTF/DejaVuSansMono-Bold.ttf
+: 1680208957:0;sudo rm /usr/share/fonts/TTF/DejaVuSansMono.ttf
+: 1680208969:0;kitty --debug-font-fallback
+: 1680209027:0;sudo rm /home/salah/.local/share/fonts/DejaV*
+: 1680209036:0;kitty --debug-font-fallback
+: 1680209102:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680209141:0;ls
+: 1680209220:0;kitty --debug-font-fallback
+: 1680209069:0;sudo rm /usr/share/fonts/TTF/DejaVuSans-Bold.ttf
+: 1680209695:0;kitty --debug-font-fallback
+: 1680210304:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680210355:0;sudo nvim $XDG_CONFIG_HOME/i3/config
+: 1680211594:0;dotdrop update -c config-user.yaml 

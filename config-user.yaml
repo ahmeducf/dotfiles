@@ -55,6 +55,9 @@ dotfiles:
   d_config_feh:
     src: config/feh
     dst: ~/.config/feh
+  d_config_fontconfig:
+    src: config/fontconfig
+    dst: ~/.config/fontconfig
 profiles:
   meta_base:
     dotfiles:
@@ -81,6 +84,7 @@ profiles:
     - d_config_gtk-2.0
     - d_config_git
     - d_config_feh
+    - d_config_fontconfig
   os_ubuntu:
     include:
     - meta_base
