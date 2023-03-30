@@ -52,6 +52,9 @@ dotfiles:
   d_config_git:
     src: config/git
     dst: ~/.config/git
+  d_config_feh:
+    src: config/feh
+    dst: ~/.config/feh
 profiles:
   meta_base:
     dotfiles:
@@ -77,6 +80,7 @@ profiles:
     - d_config_gtk-3.0
     - d_config_gtk-2.0
     - d_config_git
+    - d_config_feh
   os_ubuntu:
     include:
     - meta_base
