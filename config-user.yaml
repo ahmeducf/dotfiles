@@ -42,6 +42,13 @@ dotfiles:
   d_config_i3:
     src: config/i3
     dst: ~/.config/i3
+  d_config_gtk-3.0:
+    src: config/gtk-3.0
+    dst: ~/.config/gtk-3.0
+    chmod: '700'
+  d_config_gtk-2.0:
+    src: config/gtk-2.0
+    dst: ~/.config/gtk-2.0
 profiles:
   meta_base:
     dotfiles:
@@ -64,6 +71,8 @@ profiles:
     - d_config_picom
     - d_config_kitty
     - d_config_i3
+    - d_config_gtk-3.0
+    - d_config_gtk-2.0
   os_ubuntu:
     include:
     - meta_base
