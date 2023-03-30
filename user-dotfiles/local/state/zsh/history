@@ -4539,3 +4539,75 @@ repeat 0 {\
 : 1680210304:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
 : 1680210355:0;sudo nvim $XDG_CONFIG_HOME/i3/config
 : 1680211594:0;dotdrop update -c config-user.yaml 
+: 1680211661:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/fontconfig
+: 1680211717:0;git add . && git commit -m "chore: Add fontconfig"
+: 1680211725:0;git push
+: 1680211851:0;ls
+: 1680212040:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 0:0;
+: 0:0;
+: 1680212080:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 0:0;
+: 0:0;
+: 1680212103:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 0:0;
+: 0:0;
+: 1680212169:0;kitty --debug-font-fallback
+: 1680212208:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680212228:0;kitty --debug-font-fallback
+: 1680212338:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680212555:0;sudo nvim .scripts/battery.sh
+: 1680212577:0;sudo nvim $XDG_CONFIG_HOME/i3/config
+: 1680212620:0;sudo nvim $XDG_CONFIG_HOME/rofi/config.rasi
+: 1680212666:0;sudo nvim $XDG_CONFIG_HOME/i3/config
+: 1680212988:0;sudo nvim $XDG_CONFIG_HOME/rofi/config.rasi
+: 1680213025:0;sudo nvim $XDG_CONFIG_HOME/i3/config
+: 1680213144:0;sudo nvim $XDG_CONFIG_HOME/rofi/config.rasi
+: 1680213238:0;sudo nvim $XDG_CONFIG_HOME/rofi/themes/dt-dmenu.rasi
+: 1680213274:0;sudo nvim $XDG_CONFIG_HOME/rofi/config.rasi
+: 1680213282:0;sudo nvim $XDG_CONFIG_HOME/rofi/themes/dt-center.rasi
+: 1680213288:0;sudo nvim $XDG_CONFIG_HOME/rofi/themes/dt-dmenu.rasi
+: 1680213411:0;sudo nvim $XDG_CONFIG_HOME/rofi/themes/dt-center.rasi
+: 1680213434:0;sudo nvim $XDG_CONFIG_HOME/rofi/themes/dt-dmenu.rasi
+: 1680213445:0;sudo nvim $XDG_CONFIG_HOME/rofi/themes/dt-center.rasi
+: 1680213658:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680213699:0;ls
+: 1680213736:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680213753:0;ls
+: 1680213771:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680213805:0;ls
+: 1680213866:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680213882:0;ls
+: 1680213960:0;code $XDG_CONFIG_HOME/fontconfig/fonts.conf
+: 0:0;
+: 0:0;
+: 1680213979:0;ls
+: 1680214009:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680214034:0;ls
+: 0:0;
+: 0:0;
+: 1680214064:0;ls 
+: 0:0;
+: 0:0;
+: 1680214099:0;ls 
+: 1680214114:0;ls
+: 0:0;
+: 0:0;
+: 1680214205:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680214217:0;ls
+: 0:0;
+: 0:0;
+: 1680214237:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680214265:0;ls
+: 1680214315:0;kitty --debug-font-fallback
+: 1680214415:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680214751:0;ls
+: 1680214837:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
+: 1680214881:0;ls
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 0:0;
+: 1680214978:0;dotdrop update -c config-user.yaml 
