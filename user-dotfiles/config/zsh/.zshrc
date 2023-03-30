@@ -5,6 +5,19 @@ export $(envsubst < $HOME/.env)
 # Path to your oh-my-zsh installation.
 export ZSH="$XDG_DATA_HOME/oh-my-zsh"
 
+export _Z_DATA="$XDG_DATA_HOME/z"
+export HISTFILE="$XDG_STATE_HOME/zsh/history"
+
+export GOPATH=$XDG_DATA_HOME/go
+export GOMODCACHE=$XDG_CACHE_HOME/go/mod
+export DOCKER_CONFIG=$XDG_CONFIG_HOME/docker
+export JUPYTER_CONFIG_DIR=$XDG_CONFIG_HOME/jupyter
+export MYSQL_HISTFILE=$XDG_DATA_HOME/mysql_history
+export NODE_REPL_HISTORY=$XDG_DATA_HOME/node_repl_history
+export GTK2_RC_FILES=$XDG_CONFIG_HOME/gtk-2.0/gtkrc
+export SQLITE_HISTORY=$XDG_CACHE_HOME/sqlite_history
+export PYTHONSTARTUP=$XDG_CONFIG_HOME/python/pythonrc
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

@@ -4119,3 +4119,34 @@ npx husky add .husky/pre-commit "npx lint-staged"
 : 1680114557:0;code .dotfiles
 : 1680114585:0;dotdrop update config-user.yaml
 : 1680114627:0;dotdrop update -c config-user.yaml
+: 1680114649:0;sudo dotdrop update -c config-root.yaml 
+: 1680114658:0;git add .
+: 1680114677:0;git commit -m "Update zsh configs"
+: 1680120911:0;mpv Lec\ 4\ \[ct7mkEr9PhY\].mp4
+: 1680146680:0;z /media/data/lectures/lvl_4/term_2/embedded2/lec
+: 1680146690:0;mpv Lec\ 4\ \[ct7mkEr9PhY\].mp4
+: 1680157917:0;/usr/bin/zsh
+: 1680158676:0;sudo touch /z
+: 1680158680:0;sudo ls /z
+: 1680158685:0;sudo ls
+: 1680158689:0;sudo ls /
+: 1680158721:0;sudo ls /z
+: 1680158726:0;sudo ls /z/
+: 1680158740:0;sudo rm z
+: 1680158750:0;sudo rm -f /z
+: 1680159542:0;ls $XDG_DATA_HOME/oh-my-zsh/plugins/z
+: 1680160150:0;sudo rm -rf /media/data/.dotfiles
+: 1680160414:0;xdg-ninja
+: 1680160476:0;sudo nvim .env
+: 1680160533:0;code $XDG_CONFIG_HOME/zsh/.zshrc
+: 1680160605:0;cat /etc/zsh/zshenv
+: 1680160641:0;cat /etc/zsh/zprofile
+: 1680160706:0;cp $XDG_CONFIG_HOME/zsh/.zshrc .
+: 1680160769:0;cat .env
+: 1680160897:0;sudo nvim .env
+: 1680161078:0;code $XDG_CONFIG_HOME/zsh/.zshrc
+: 1680161118:0;cat .env
+: 1680161377:0;cat /etc/zsh/zshenv
+: 1680161475:0;git clone git@github.com:ahmeducf/dotfiles .dotfiles
+: 1680161480:0;code .dotfiles
+: 1680161518:0;dotdrop update -c config-user.yaml
