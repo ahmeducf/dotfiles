@@ -15,11 +15,15 @@ dotfiles:
     src: local/state/zsh
     dst: ~/.local/state/zsh
     chmod: '755'
+  d_local_share_oh-my-zsh:
+    src: local/share/oh-my-zsh
+    dst: ~/.local/share/oh-my-zsh
 profiles:
   meta_base:
     dotfiles:
     - d_config_zsh
     - d_local_state_zsh
+    - d_local_share_oh-my-zsh
   os_arch:
     include:
     - meta_base
