@@ -61,11 +61,19 @@ dotfiles:
   d_scripts:
     src: scripts
     dst: ~/.scripts
+  f_eslintrc.json:
+    src: eslintrc.json
+    dst: ~/.eslintrc.json
+  f_prettierrc.json:
+    src: prettierrc.json
+    dst: ~/.prettierrc.json
 profiles:
   meta_base:
     dotfiles:
     - d_config_zsh
     - d_local_state_zsh
+    - f_eslintrc.json
+    - f_prettierrc.json
   meta_os:
     include:
     - meta_base
