@@ -1,0 +1,8 @@
+#!/bin/bash
+
+info=$(amixer -D pulse get Capture | grep "%" | cut -d ' ' -f 7- | tr -d '[]')
+percentage=$(echo $info | cut -d ' ' -f 1)
+stat=$(echo $info | cut -d ' ' -f 2)
+
+[[ $stat = "on"  ]] && echo "🎙️ $percentage"
+[[ $stat = "off" ]] && echo "  muted"
