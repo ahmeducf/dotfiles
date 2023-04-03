@@ -4265,18 +4265,18 @@ repeat 0 {\
 : 1680164905:0;fast-theme -t default
 : 1680165039:0;git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
 : 1680165491:0;ls -al
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680165550:0;yay -S exa
 : 1680165859:0;( cd $ZSH_CUSTOM/plugins && git clone https://github.com/chrissicool/zsh-256color )
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680166205:0;echo $TERM
 : 1680166243:0;echo $COLORTERM\
 
@@ -4297,33 +4297,33 @@ repeat 0 {\
 : 1680167089:0;ls
 : 1680167093:0;echo $XDG_STATE_HOME
 : 1680167099:0;echo $TERM
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680167500:0;echo $TERM
 : 1680167560:0;ls
 : 1680167566:0;xdg-ninja
 : 1680167968:0;ls -al
 : 1680168006:0;echo $TERM
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680168052:0;ls
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680168253:0;ls -al 
 : 1680168671:0;git clone https://github.com/redxtech/zsh-kitty ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
 : 1680168690:0;git clone https://github.com/redxtech/zsh-kitty ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-kitty
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680168801:0;rm -rf ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-kitty
 : 1680180011:0;fast-theme -l
 : 1680180018:0;fast-theme -t clean
@@ -4374,8 +4374,8 @@ repeat 0 {\
     git checkout -m --ours /etc/shells && git status-X\
     gem
 : 1680180731:0;theme sporty_256
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680180866:0;theme sporty_256
 : 1680181107:0;echo ${%F{81}}
 : 1680181119:0;echo %F{81}
@@ -4401,10 +4401,10 @@ repeat 0 {\
 : 1680186177:0;sudo nvim /etc/zsh/zshenv
 : 1680186292:0;echo $PATH
 : 1680186334:0;sudo nvim /etc/zsh/zshenv
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680190364:0;dotdrop update -c config-root.yaml
 : 1680190408:0;sudo dotdrop update -c config-root.yaml
 : 1680190465:0;dotdrop update -c config-user.yaml
@@ -4544,14 +4544,14 @@ repeat 0 {\
 : 1680211725:0;git push
 : 1680211851:0;ls
 : 1680212040:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680212080:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680212103:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680212169:0;kitty --debug-font-fallback
 : 1680212208:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
 : 1680212228:0;kitty --debug-font-fallback
@@ -4579,24 +4579,24 @@ repeat 0 {\
 : 1680213866:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
 : 1680213882:0;ls
 : 1680213960:0;code $XDG_CONFIG_HOME/fontconfig/fonts.conf
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680213979:0;ls
 : 1680214009:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
 : 1680214034:0;ls
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680214064:0;ls 
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680214099:0;ls 
 : 1680214114:0;ls
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680214205:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
 : 1680214217:0;ls
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680214237:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
 : 1680214265:0;ls
 : 1680214315:0;kitty --debug-font-fallback
@@ -4604,12 +4604,12 @@ repeat 0 {\
 : 1680214751:0;ls
 : 1680214837:0;sudo nvim $XDG_CONFIG_HOME/kitty/kitty.conf
 : 1680214881:0;ls
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
-: 0:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
+: 1680489038:0;
 : 1680214978:0;dotdrop update -c config-user.yaml 
 : 1680215058:0;git add . && git commit -m "fix: configure bold and italic fonts in terminal"
 : 1680215064:0;git push
@@ -4755,3 +4755,65 @@ repeat 0 {\
 : 1680431796:0;git add .
 : 1680431809:0;git commit -m "chore: Update dotfiles"
 : 1680431825:0;dotdrop update -c config-user.yaml 
+: 1680431842:0;git add .
+: 1680431844:0;git commit -m "chore: Update dotfiles"
+: 1680431944:0;dotdrop import -c config-user.yaml -p os_arch $HOME/.eslintrc $HOME/.prettierrc
+: 1680432051:0;dotdrop import -c config-user.yaml -p meta_base $HOME/.eslintrc.json $HOME/.prettierrc.json
+: 1680432307:0;git add .
+: 1680432333:0;git commit -m "chore: Add eslint and prettier config files"
+: 1680432432:0;git push
+: 1680432553:0;hwclock --show
+: 1680432561:0;sudo hwclock --show
+: 1680432621:0;timedatectl
+: 1680432929:0;timedatectl | grep local
+: 1680433079:0;sudo timedatectl | grep RTC
+: 1680433110:0;sudo hwclock --show
+: 1680433175:0;timedatectl
+: 1680489034:0;omz update
+: 1680489092:0;git add .
+: 1680489116:0;git commit -m "docs: Add README"
+: 1680489119:0;git push
+: 1680490207:0;dotdrop --help
+: 1680490266:0;dotdrop install -t -p meta_base -c .
+: 1680490278:0;dotdrop install -t -p meta_base
+: 1680490307:0;dotdrop install -t -p meta_base -c config-user-yaml
+: 1680490325:0;dotdrop install -t -p meta_base -c config-user.yaml
+: 1680490370:0;ls /tmp/dotdrop-lkw694lt
+: 1680490379:0;ls /tmp/dotdrop-lkw694lt/home
+: 1680490395:0;tree /tmp/dotdrop-lkw694lt/home/salah/
+: 1680490427:0;ls /tmp/dotdrop-lkw694lt/home/salah/.config/zsh/.
+: 1680490430:0;sudo ls /tmp/dotdrop-lkw694lt/home/salah/.config/zsh/.
+: 1680490432:0;sudo ls /tmp/dotdrop-lkw694lt/home/salah/.config/zsh
+: 1680491256:0;dotdrop --help
+: 1680492598:0;sudo dotdrop install -t -p os_arch -c config-root.yaml
+: 1680493240:0;rm -rf /tmp/dotdrop-*
+: 1680493243:0;sudo rm -rf /tmp/dotdrop-*
+: 1680493284:0;sudo dotdrop install -t -p os_arch -c config-root.yaml
+: 1680493382:0;sudo ls /tmp/dotdrop-dlo4xhwi
+: 1680493389:0;sudo ls /tmp/dotdrop-dlo4xhwi/etc
+: 1680493392:0;sudo ls /tmp/dotdrop-dlo4xhwi/etc/zsh
+: 1680493479:0;sudo dotdrop install -t -p os_arch -c config-root.yaml
+: 1680493754:0;sudo dotdrop install -t -p os_arch -c config-root.yaml d_etc_zsh
+: 1680493803:0;sudo dotdrop install -t -p salah -c config-root.yaml d_etc_zsh
+: 1680493814:0;tree .
+: 1680493821:0;sudo dotdrop install -t -p salah -c config-root.yaml d_etc_zsh
+: 1680493834:0;tree /tmp/dotdrop-5x1iw9ue
+: 1680493838:0;sudo tree /tmp/dotdrop-5x1iw9ue
+: 1680493878:0;sudo dotdrop install -t -p salah -c config-root.yaml d_etc_zsh
+: 1680493967:0;dotdrop --help
+: 1680494080:0;sudo dotdrop install -t -p salah -c config-root.yaml
+: 1680494136:0;sudo dotdrop install -t -p os_ubuntu -c config-root.yaml
+: 1680495144:0;git add .
+: 1680495168:0;git commit -m "chore: Add zsh pre and post install actions"
+: 1680495179:0;git add .
+: 1680495192:0;git commit -m "chore: Add ubuntu actions"
+: 1680495215:0;git add .
+: 1680495225:0;git commit -m "chore: Add arch actions"
+: 1680495241:0;git status
+: 1680495285:0;sudo dotdrop install -t -p os_arch -c config-root.yaml
+: 1680495317:0;git add .
+: 1680495340:0;git commit -m "fix: prefix `echo` for testing purposes"
+: 1680495343:0;git push
+: 1680495495:0;git add .
+: 1680495507:0;git commit -m "fix: remove `chmod`"
+: 1680495512:0;dotdrop update -c config-user.yaml 
