@@ -8,7 +8,7 @@ actions:
     arch-yay: sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git
       && cd yay && makepkg -si
     arch-yay-gendb: yay -Y --gendb --noconfirm
-    arch-yay-syu-devel: 'yay -Syu --devel --noconfirm'
+    arch-yay-syu-devel: yay -Syu --devel --noconfirm
     arch-yay-devel-perm: yay -Y --devel --save --noconfirm
     arch-install: echo sudo pacman -S --noconfirm {0}
   post:
@@ -31,6 +31,9 @@ dotfiles:
   f_etc_pacman.conf:
     src: etc/pacman.conf
     dst: /etc/pacman.conf
+  f_etc_profile:
+    src: etc/profile
+    dst: /etc/profile
 profiles:
   meta_base:
     dotfiles:
@@ -48,6 +51,7 @@ profiles:
     - arch-install 'zsh'
     dotfiles:
     - f_etc_pacman.conf
+    - f_etc_profile
   os_ubuntu:
     include:
     - meta_base
