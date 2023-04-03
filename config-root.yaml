@@ -1,13 +1,18 @@
 actions:
   pre:
-    ubuntu-update: 'echo sudo apt-get  update -y'
-    ubuntu-upgrade: 'echo sudo apt-get upgrade -y'
-    ubuntu-sync: 'echo sudo apt update'
-    ubuntu-install: 'echo sudo apt install -y {0}'
-    arch-syu: 'echo sudo pacman -Syu --noconfirm'
-    arch-install: 'echo sudo pacman -S --noconfirm {0}'
+    ubuntu-update: sudo apt-get  update -y
+    ubuntu-upgrade: sudo apt-get upgrade -y
+    ubuntu-sync: sudo apt update
+    ubuntu-install: sudo apt install -y {0}
+    arch-syu: sudo pacman -Syu --noconfirm
+    arch-yay: sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git
+      && cd yay && makepkg -si
+    arch-yay-gendb: yay -Y --gendb --noconfirm
+    arch-yay-syu-devel: 'yay -Syu --devel --noconfirm'
+    arch-yay-devel-perm: yay -Y --devel --save --noconfirm
+    arch-install: echo sudo pacman -S --noconfirm {0}
   post:
-    zsh-default: 'echo chsh -s $(which zsh)'
+    zsh-default: echo chsh -s $(which zsh)
 config:
   backup: true
   banner: true
@@ -22,25 +27,35 @@ dotfiles:
     dst: /etc/zsh
     chmod: '755'
     actions:
-      - zsh-default
+    - zsh-default
+  f_etc_pacman.conf:
+    src: etc/pacman.conf
+    dst: /etc/pacman.conf
 profiles:
   meta_base:
     dotfiles:
-      - d_etc_zsh
+    - d_etc_zsh
   os_arch:
     include:
-      - meta_base
+    - meta_base
     actions:
-      - arch-syu
-      - arch-install 'zsh'
+    - arch-syu
+    - arch-install 'go'
+    - arch-yay
+    - arch-yay-gendb
+    - arch-yay-syu-devel
+    - arch-yay-devel-perm
+    - arch-install 'zsh'
+    dotfiles:
+    - f_etc_pacman.conf
   os_ubuntu:
     include:
-      - meta_base
+    - meta_base
     actions:
-      - ubuntu-update
-      - ubuntu-upgrade
-      - ubuntu-sync
-      - ubuntu-install 'zsh'
+    - ubuntu-update
+    - ubuntu-upgrade
+    - ubuntu-sync
+    - ubuntu-install 'zsh'
   salah:
     include:
-      - os_arch
+    - os_arch
