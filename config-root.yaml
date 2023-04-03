@@ -33,6 +33,11 @@ profiles:
   os_ubuntu:
     include:
       - meta_base
+    actions:
+      - ubuntu-update
+      - ubuntu-upgrade
+      - ubuntu-sync
+      - ubuntu-install 'zsh'
   salah:
     include:
       - os_arch
