@@ -1,3 +1,13 @@
+actions:
+  pre:
+    ubuntu-update: 'sudo apt-get  update -y'
+    ubuntu-upgrade: 'sudo apt-get upgrade -y'
+    ubuntu-sync: 'sudo apt update'
+    ubuntu-install: 'sudo apt install -y {0}'
+    arch-syu: 'sudo pacman -Syu --noconfirm'
+    arch-install: 'sudo pacman -S --noconfirm {0}'
+  post:
+    zsh-default: 'echo chsh -s $(which zsh)'
 config:
   backup: true
   banner: true
@@ -11,16 +21,18 @@ dotfiles:
     src: etc/zsh
     dst: /etc/zsh
     chmod: '755'
+    actions:
+      - zsh-default
 profiles:
   meta_base:
     dotfiles:
-    - d_etc_zsh
+      - d_etc_zsh
   os_arch:
     include:
-    - meta_base
+      - meta_base
   os_ubuntu:
     include:
-    - meta_base
+      - meta_base
   salah:
     include:
-    - os_arch
+      - os_arch
