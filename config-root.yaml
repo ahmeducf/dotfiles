@@ -30,6 +30,9 @@ profiles:
   os_arch:
     include:
       - meta_base
+    actions:
+      - arch-syu
+      - arch-install 'zsh'
   os_ubuntu:
     include:
       - meta_base
