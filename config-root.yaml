@@ -10,7 +10,9 @@ actions:
     arch-yay-gendb: yay -Y --gendb --noconfirm
     arch-yay-syu-devel: yay -Syu --devel --noconfirm
     arch-yay-devel-perm: yay -Y --devel --save --noconfirm
-    arch-install: echo sudo pacman -S --noconfirm {0}
+    arch-install: sudo pacman -S --noconfirm {0}
+    arch-yay-install: yay -S --noconfirm {0}
+    systemctl-enable: sudo systemctl enable {0}
   post:
     zsh-default: echo chsh -s $(which zsh)
 config:
@@ -34,6 +36,9 @@ dotfiles:
   f_etc_profile:
     src: etc/profile
     dst: /etc/profile
+  d_etc_lightdm:
+    src: etc/lightdm
+    dst: /etc/lightdm
 profiles:
   meta_base:
     dotfiles:
@@ -49,9 +54,19 @@ profiles:
     - arch-yay-syu-devel
     - arch-yay-devel-perm
     - arch-install 'zsh'
+    - arch-install 'i3-wm'
+    - arch-install 'i3status'
+    - arch-install 'i3blocks'
+    - arch-install 'i3lock'
+    - arch-install 'lightdm'
+    - arch-yay-install 'lightdm-settings'
+    - arch-install 'lightdm-gtk-greeter'
+    - arch-install 'lightdm-gtk-greeter-settings'
+    - systemctl-enable 'lightdm'
     dotfiles:
     - f_etc_pacman.conf
     - f_etc_profile
+    - d_etc_lightdm
   os_ubuntu:
     include:
     - meta_base

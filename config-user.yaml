@@ -67,6 +67,9 @@ dotfiles:
   d_pictures_wallpapers_jpg:
     src: Pictures/wallpapers/jpg
     dst: ~/Pictures/wallpapers/jpg
+  d_config_i3blocks:
+    src: config/i3blocks
+    dst: ~/.config/i3blocks
 profiles:
   meta_base:
     dotfiles:
@@ -86,11 +89,12 @@ profiles:
     include:
     - meta_os
     dotfiles:
-    - d_config_rofi
-    - d_config_ranger
-    - d_config_picom
-    - d_config_kitty
     - d_config_i3
+    - d_config_i3blocks
+    - d_config_kitty
+    - d_config_ranger
+    - d_config_rofi
+    - d_config_picom
     - d_config_gtk-3.0
     - d_config_gtk-2.0
     - d_config_git
