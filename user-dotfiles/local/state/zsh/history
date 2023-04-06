@@ -4817,3 +4817,104 @@ repeat 0 {\
 : 1680495495:0;git add .
 : 1680495507:0;git commit -m "fix: remove `chmod`"
 : 1680495512:0;dotdrop update -c config-user.yaml 
+: 1680495535:0;git add .
+: 1680495548:0;git commit -m "chore: update user-dotfiles"
+: 1680495552:0;git push
+: 1680500097:0;$(which zsh)
+: 1680500102:0;echo $(which zsh)
+: 1680500546:0;nvim /etc/pacman.conf
+: 1680500553:0;sudo nvim /etc/pacman.conf
+: 1680500681:0;yay -Syu
+: 1680501469:0;sudo dotdrop import -c config-root.yaml -p os_arch /etc/pacman.conf
+: 1680501800:0;git add .
+: 1680501824:0;git commit -m "chore: Add yay actions"
+: 1680501828:0;git push
+: 1680502497:0;sudo dotdrop import -c config-root.yaml -p os_arch /etc/profile
+: 1680502584:0;git add .
+: 1680502602:0;git commit -m "chore: Add /etc/profile"
+: 1680502607:0;git push
+: 1680502762:0;sudo dotdrop import -c config-root.yaml -p os_arch ~/Pictures/wallpapers/jpg/
+: 1680502799:0;dotdrop --help
+: 1680502898:0;dotdrop remove -c config-root.yaml -p os_arch d_home_salah_pictures_wallpapers_jpg
+: 1680503122:0;dotdrop import -c config-user.yaml -p os_arch ~/Pictures/wallpapers/jpg/
+: 1680503150:0;sudo rm -rf root-dotfiles/home
+: 1680503159:0;git add .
+: 1680503174:0;git commit -m "chore: Add system wallpapers"
+: 1680503180:0;git push
+: 1680600648:0;git add .
+: 1680600682:0;git commit -m "JavaScript 30 days challenge: day 8"
+: 1680666243:0;git push
+: 1680666556:0;nvim /etc/i3/config
+: 1680666603:0;nvim /etc/i3/config.keycodes
+: 1680666620:0;nvim /etc/i3blocks.conf
+: 1680666636:0;nvim /etc/i3status.conf
+: 1680666681:0;nvim ~/.config/i3/config
+: 1680666881:0;mkdir -p $XDG_CONFIG_HOME/i3blocks/config
+: 1680666900:0;cp /etc/i3blocks.conf $XDG_CONFIG_HOME/i3blocks/config
+: 1680666921:0;nvim $XDG_CONFIG_HOME/i3blocks/config/i3blocks.conf
+: 1680667201:0;sudo pacman -S i3-wm
+: 1680667234:0;sudo pacman -S i3-gaps
+: 1680667654:0;ps -ef
+: 1680667663:0;ps -ef | grep light
+: 1680667698:0;lightdm-settings
+: 1680667702:0;sudo lightdm-settings
+: 1680667743:0;sudo lightdm-gtk-greeter-settings
+: 1680667769:0;sudo lightdm-gtk-greeter
+: 1680667859:0;sudo pacman -S lightdm
+: 1680667956:0;sudo pacman -S lightdm-webkit2-greeter 
+: 1680667978:0;sudo pacman -S light-locker
+: 1680667989:0;yay -S light-locker
+: 1680668129:0;which lightdm
+: 1680668135:0;tldr which
+: 1680668157:0;tldr where
+: 1680668177:0;where l
+: 1680668184:0;where c
+: 1680668241:0;find light
+: 1680668247:0;find i3
+: 1680668269:0;find / i3
+: 1680668282:0;find / i3 | head
+: 1680668299:0;find / -name i3 | head
+: 1680668325:0;find -name i3 | head
+: 1680668427:0;find / -name "*light*"
+: 1680668443:0;find /etc -name "*light*"
+: 1680668450:0;sudo find /etc -name "*light*"
+: 1680668485:0;sudo find /etc -name "*light*" | sort
+: 1680671751:0;sudo pacman -S xfce4 xfce4-goodies
+: 1680671815:0;sudo find /etc -name "*light*" | sort
+: 1680671866:0;nvim /etc/apparmor.d/abstractions/lightdm
+: 1680671931:0;nvim /etc/pam.d/lightdm-greeter
+: 1680671994:0;nvim /etc/lightdm/users.conf
+: 1680672077:0;sudo dotdrop import -c config-root.yaml -p os_arch /etc/lightdm
+: 1680672100:0;sudo find /etc -name "*lock*" | sort
+: 1680672136:0;sudo find /etc -name "*i3*" | sort
+: 1680672162:0;sudo find /etc -name "*loc*" | sort
+: 1680672184:0;sudo nvim /etc/pam.d/i3lock
+: 1680672284:0;dotdrop import -c config-user.yaml -p os_arch $XDG_CONFIG_HOME/i3blocks/
+: 1680672327:0;sudo find /etc -name "*i3*" | sort
+: 1680672339:0;sudo find /home -name "*i3*" | sort
+: 1680672449:0;sudo find $XDG_CONFIG_HOME -name "*i3*" | sort
+: 1680672476:0;sudo find $XDG_CONFIG_HOME -name "*loc*" | sort
+: 1680672732:0;sudo pacman -S lightdm-gtk-greeter-settings
+: 1680672756:0;sudo pacman -S lightdm-settings
+: 1680672766:0;yay -S lightdm-settings\
+
+: 1680673013:0;git add .
+: 1680673036:0;git commit -m "chore: Add i3 configs and i3 pre actions"
+: 1680673039:0;git push
+: 1680673127:0;git add .
+: 1680673167:0;git commit -m "perf: Remove unnecessary pics"
+: 1680673171:0;git push
+: 1680673265:0;sudo cp ~/Pictures/wallpapers /media/data
+: 1680673274:0;sudo cp -r ~/Pictures/wallpapers /media/data
+: 1680673280:0;z data
+: 1680673281:0;ls
+: 1680673318:0;mkdir Pictures
+: 1680673326:0;mv wallpapers Pictures
+: 1680673334:0;ls Pictures
+: 1680678188:0;sudo nvim /etc/host.conf
+: 1680678195:0;sudo nvim /etc/hostname
+: 1680678202:0;sudo nvim /etc/hosts
+: 1680678302:0;sudo nvim /etc/resolv.conf
+: 0:0;
+: 1680744280:0;sudo nvim $XDG_CONFIG_HOME/i3/config
+: 1680744499:0;dotdrop update -c config-user.yaml 

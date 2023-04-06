@@ -64,9 +64,9 @@ dotfiles:
   f_prettierrc.json:
     src: prettierrc.json
     dst: ~/.prettierrc.json
-  d_pictures_wallpapers_jpg:
-    src: Pictures/wallpapers/jpg
-    dst: ~/Pictures/wallpapers/jpg
+  f_pictures_wallpapers_jpg_mountains.jpg:
+    src: Pictures/wallpapers/jpg/mountains.jpg
+    dst: ~/Pictures/wallpapers/jpg/mountains.jpg
   d_config_i3blocks:
     src: config/i3blocks
     dst: ~/.config/i3blocks
@@ -101,7 +101,7 @@ profiles:
     - d_config_feh
     - d_config_fontconfig
     - d_scripts
-    - d_pictures_wallpapers_jpg
+    - f_pictures_wallpapers_jpg_mountains.jpg
   os_ubuntu:
     include:
     - meta_base
