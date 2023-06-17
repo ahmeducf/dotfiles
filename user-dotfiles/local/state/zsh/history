@@ -669,3 +669,31 @@ exit
 : 1687034343:0;dotdrop files --profile=os_ubuntu --cfg=config-user.yaml
 : 1687034397:0;dotdrop update --cfg=config-user.yaml
 : 1687034464:0;dotdrop update --cfg=config-user.yaml --force
+: 1687034478:0;sudo dotdrop update --cfg=config-root.yaml --force
+: 1687034492:0;git log
+: 1687034587:0;git add .; git commit -m "Backup chron job $(date)"
+: 1687034593:0;git push
+: 1687034754:0;dotdrop update --cfg=config-user.yaml --force; sudo dotdrop update --cfg=config-root.yaml --force
+: 1687034778:0;dotdrop update --cfg=config-user.yaml --force; \sudo dotdrop update --cfg=config-root.yaml --force
+: 1687034795:0;dotdrop update --cfg=config-user.yaml --force; \\
+hi
+: 1687035338:0;crontab crontab
+: 1687035342:0;crontab -l
+: 1687035347:0;which dotdrop
+: 1687035367:0;vim crontab
+: 1687035420:0;crontab crontab
+: 1687035422:0;crontab -l
+: 1687035451:0;vim crontab
+: 1687035489:0;crontab crontab
+: 1687035490:0;crontab -l
+: 1687035436:0;dotdrop update --cfg=$HOME/.dotdrop/config-user.yaml --force
+: 1687035497:0;dotdrop update --cfg=$HOME/.dotfiles/config-user.yaml --force
+: 1687035517:0;crontab -l
+: 1687035621:0;sudo less /var/log/cron
+: 1687035647:0;systemctl status -l cronie.service
+: 1687035717:0;journalctl -xeu cronie.service
+: 1687035789:0;cd ..
+: 1687035837:0;vim crontab
+: 1687035922:0;crontab crontab
+: 1687035927:0;crontab -l
+: 1687035994:0;journalctl -xeu cronie.service
