@@ -697,3 +697,6 @@ hi
 : 1687035922:0;crontab crontab
 : 1687035927:0;crontab -l
 : 1687035994:0;journalctl -xeu cronie.service
+: 1687036081:0;vim crontab
+: 1687036171:0;crontab crontab
+: 1687036175:0;crontab -l
