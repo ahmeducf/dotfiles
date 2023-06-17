@@ -39,6 +39,10 @@ dotfiles:
   d_etc_lightdm:
     src: etc/lightdm
     dst: /etc/lightdm
+  f_var_spool_cron_salah:
+    src: var/spool/cron/salah
+    dst: /var/spool/cron/salah
+    chmod: '600'
 profiles:
   meta_base:
     dotfiles:
@@ -78,3 +82,5 @@ profiles:
   salah:
     include:
     - os_arch
+    dotfiles:
+    - f_var_spool_cron_salah
