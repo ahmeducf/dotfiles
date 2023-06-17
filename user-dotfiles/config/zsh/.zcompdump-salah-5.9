@@ -1268,6 +1268,7 @@ _comps=(
 'showmount' '_showmount'
 'showoff' '_showoff'
 'shred' '_shred'
+'shtab' '_shtab'
 'shuf' '_shuf'
 'shutdown' '_shutdown'
 'sisu' '_sisu'
@@ -1401,7 +1402,6 @@ _comps=(
 'tload' '_tload'
 'tmux' '_tmux'
 'tmuxinator' '_tmuxinator'
-'tmuxp' '_tmuxp'
 'todo' '_devtodo'
 'todo.sh' '_todo.sh'
 'toilet' '_toilet'
@@ -1862,11 +1862,11 @@ autoload -Uz _z _fast-theme _ag _afew _android \
             _rsvm _rubocop _sbt _scala _scrub \
             _sdd _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes _sd_unit_files \
             _setcap _setup.py _sfdx _shellcheck _showoff \
-            _srm _stack _subl _subliminal _supervisorctl \
-            _svm _systemctl _systemd _systemd-analyze _systemd-delta \
-            _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run _systemd-tmpfiles \
-            _tarsnap _teamocil _the_silver_searcher _thor _timedatectl \
-            _tldr _tmuxinator _tmuxp _tox _udevadm \
+            _shtab _srm _stack _subl _subliminal \
+            _supervisorctl _svm _systemctl _systemd _systemd-analyze \
+            _systemd-delta _systemd-inhibit _systemd-nspawn _systemd-path _systemd-run \
+            _systemd-tmpfiles _tarsnap _teamocil _the_silver_searcher _thor \
+            _timedatectl _tldr _tmuxinator _tox _udevadm \
             _udisksctl _ufw _updpkgsums _virtualbox _vnstat \
             _wemux _wg-quick _xinput _xsel _yaourt \
             _yarn _yay _yt-dlp _zcash-cli _cdr \
@@ -2028,5 +2028,5 @@ autoload -Uz +X _call_program
 typeset -gUa _comp_assocs
 _comp_assocs=( '' )
 
-#omz revision: d47e1d65f66f9bb2e7a96ba58797b33f0e91a623
+#omz revision: 50c678687e73d1433f278b7bb7f168e8fa817670
 #omz fpath: /home/salah/.local/share/oh-my-zsh/custom/plugins/zsh-256color /home/salah/.local/share/oh-my-zsh/custom/plugins/fzf-tab /home/salah/.local/share/oh-my-zsh/plugins/fzf /home/salah/.local/share/oh-my-zsh/plugins/dotenv /home/salah/.local/share/oh-my-zsh/plugins/node /home/salah/.local/share/oh-my-zsh/plugins/vscode /home/salah/.local/share/oh-my-zsh/plugins/sudo /home/salah/.local/share/oh-my-zsh/plugins/z /home/salah/.local/share/oh-my-zsh/custom/plugins/fast-syntax-highlighting /home/salah/.local/share/oh-my-zsh/custom/plugins/zsh-autosuggestions /home/salah/.local/share/oh-my-zsh/plugins/history /home/salah/.local/share/oh-my-zsh/plugins/archlinux /home/salah/.local/share/oh-my-zsh/plugins/ag /home/salah/.local/share/oh-my-zsh/plugins/themes /home/salah/.local/share/oh-my-zsh/plugins/git /home/salah/.local/share/oh-my-zsh/functions /home/salah/.local/share/oh-my-zsh/completions /home/salah/.local/share/oh-my-zsh/cache/completions /usr/local/share/zsh/site-functions /usr/share/zsh/site-functions /usr/share/zsh/functions/Calendar /usr/share/zsh/functions/Chpwd /usr/share/zsh/functions/Completion /usr/share/zsh/functions/Completion/Base /usr/share/zsh/functions/Completion/Linux /usr/share/zsh/functions/Completion/Unix /usr/share/zsh/functions/Completion/X /usr/share/zsh/functions/Completion/Zsh /usr/share/zsh/functions/Exceptions /usr/share/zsh/functions/MIME /usr/share/zsh/functions/Math /usr/share/zsh/functions/Misc /usr/share/zsh/functions/Newuser /usr/share/zsh/functions/Prompts /usr/share/zsh/functions/TCP /usr/share/zsh/functions/VCS_Info /usr/share/zsh/functions/VCS_Info/Backends /usr/share/zsh/functions/Zftp /usr/share/zsh/functions/Zle

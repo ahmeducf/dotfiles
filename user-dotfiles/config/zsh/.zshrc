@@ -153,6 +153,9 @@ export NVM_DIR="$XDG_DATA_HOME/nvm/.nvm"
 #
 #
 
+# Run Vim with its enhanced behavior
+alias "vi=vim"
+
 # create an alias for several commands at once
 #function acp() {
 #  git add .
@@ -167,3 +170,4 @@ export NVM_DIR="$XDG_DATA_HOME/nvm/.nvm"
 # set DEFAULT_USER to your regular username to hide the “user@hostname” info when you’re logged in as yourself on your local machine.
 #DEFAULT_USER="salah"
 #prompt_context(){}
+#

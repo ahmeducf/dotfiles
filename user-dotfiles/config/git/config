@@ -10,3 +10,5 @@
 [core]
 	excludesfile = /home/salah/.gitignore_global
 	editor = code --wait
+[credential]
+	helper = cache
